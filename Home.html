@@ -2,6 +2,13 @@
 
 <html lang="cs">
 
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+
 <head><meta charset="UTF-8">
     <title>Simons Website</title>
     <meta name="description" content="webova stranka do skoly">
@@ -9,41 +16,44 @@
     <link rel='stylesheet' href="./css/Home.css">
 </head>
 
+
 <body>
     <header>
         <img src="./jpg/logo.png" alt="Logo EduPlus" height="50" width='223'> 
         <nav>
-            <ul><!-- Zacatek seznamu, navigace--> 
+            <ul class = "main-navigation"><!-- Zacatek seznamu, navigace--> 
                 <li>
-                    <a id="HomeNavButton" href="./Home.html" rel="next" title="Navigation to the Home site">Home</a>   
+                    <a class = "main-navigation__item" id="HomeNavButton" href="./Home.html" rel="next" title="Navigation to the Home site">Home</a>   
                 </li>
                 <li>
-                    <a id="CourseNavButton" href="./Courses.html" rel="next" title="Navigation to the Courses site">Next</a>   
+                    <a class = "main-navigation__item"  id="CourseNavButton" href="./Courses.html" rel="next" title="Navigation to the Courses site">Courses</a>   
                 </li>
                 <li>
-                    <a id="EventsNavButton" href="./Events.html" rel="next" title="Navigation to the Events site">Events</a>   
+                    <a class = "main-navigation__item"  id="EventsNavButton" href="./Events.html" rel="next" title="Navigation to the Events site">Events</a>   
                 </li>
                 <li>
-                    <a id="PagesNavButton" href="./Pages.html" rel="next" title="Navigation to the Pages site">Pages</a>   
+                    <a class = "main-navigation__item"  id="PagesNavButton" href="./Pages.html" rel="next" title="Navigation to the Pages site">Pages</a>   
                 </li>
                 <li>
-                    <a id="BlogNavButton" href="./Blog.html" rel="next" title="Navigation to the Blog site">Blog</a>   
+                    <a class = "main-navigation__item"  id="BlogNavButton" href="./Blog.html" rel="next" title="Navigation to the Blog site">Blog</a>   
                 </li>
                 <li>
-                    <a id="ContacNavButton" href="./Contact.html" rel="next" title="Navigation to the Contact site">Contact</a>   
+                    <a class = "main-navigation__item"  id="ContacNavButton" href="./Contact.html" rel="next" title="Navigation to the Contact site">Contact</a>   
                 </li>
             </ul>
         </nav>
-        <img src="./jpg/FacebookIcon53x53.png" alt="Facebook Icon" width="53" height="53" >
-        <img src="./jpg/YoutubeIcon53x53.png" alt="Youtube Icon" width="53" height="53" >
-        <img src="./jpg/SignInIcon123x53.png" alt="Sign In Icon" width="123" height="53" >
-        <img src="./jpg/MenuIcon9Dots.png" alt="Menu Icon" height="32" width="32"> 
+        <div class ="header-icons">
+            <img src="./jpg/FacebookIcon53x53.png" alt="Facebook Icon" width="53" height="53" >
+            <img src="./jpg/YoutubeIcon53x53.png" alt="Youtube Icon" width="53" height="53" >
+            <img src="./jpg/SignInIcon123x53.png" alt="Sign In Icon" width="123" height="53" >
+            <img class="header-icons__menu" src="./jpg/MenuIcon9Dots.png" alt="Menu Icon" height="52" width="52"> 
+        </div>      
+    </header>
+        
 
-    
 
-
-        <section><!-- Welcome to EduPlus START -->
-            <img src="./jpg/BackgroundWithGirl1922x952.png" alt="Backgroud Picute with student" width="1922" height="952" >
+    <section><!-- Welcome to EduPlus START -->
+            <img class ="background-girl"src="./jpg/BackgroundWithGirl1922x952.png" alt="Backgroud Picute with student" width="1922" height="952" >
 
 
             
@@ -72,8 +82,8 @@
             <img src="./jpg/IconOfLaptop.png" alt="Laptop Icon" height="37" width="50"> 
             8963+
 
-        </section><!-- Welcome to EduPlus END -->
-    </header>
+    </section><!-- Welcome to EduPlus END -->
+    
     <section><!-- Welcome to Popular Categories END-->
         <img src="./jpg/3DotsIcon.png" alt="3 Dots Icon" height="12" width="27">
     <h2>Popular Categories</h2>
