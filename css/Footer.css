@@ -3,60 +3,163 @@
     padding: 0;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, a {
     font-family: Hind;
 }
 
 body {
     background-color: #eefbff;
 }
+
 a, a:visited, a:active {
     color: inherit;
     text-decoration: none;
+    font-family: Hind;
   }
-
 a:hover {
     color: coral;
 }
 
-header{
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.8em 4em 0 4em;
+.main-grid{
+    display: grid;
+    grid-template-columns: 23em auto 23em;
+    grid-template-rows: 10em 15em 37.5em;
 }
 
-.main-navigation {
-    display: flex;
-    list-style-type: none;
-    overflow: hidden;
-    padding-right: 30em;
-    padding-left: 0em;
-}
 
-a.main-navigation__item {
+/* nastaveni celeho footeru */
+footer{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: whitesmoke;
     font-family: Hind;
-    font-weight: bold;
-    font-size: 18px;
-    float: left;
-    display: block;
-    padding: 0.5em 1.5em 0 1.5em;
 }
 
-.header-icons {
+footer ul{
+    list-style-type: none;
+}
+
+
+
+
+/* Zacatek velkych log pred footerem */
+
+.footer-big-logos {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-top: 5em;
+    padding-bottom: 0em;
+}
+
+.footer-big-logos__color{
+    background-color: rgb(255, 122, 45);
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.footer-big-logos__logo {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+/* Konec velkych log pred footerem */
+
+
+
+/* Background pro footer (nevim jestli je to takhle spravne) */
+.footer-background {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: rgb(0, 23, 49);
+}
+
+
+
+/* footer Edu logo a socials*/
+
+
+.footer-social-logos {
+    margin-left: 2em;
+    margin-top: 4em;
+}
+
+#footer-edu-logo {
+    margin-right: 14.5em;
+}
+
+.footer-social-logos__logo{
+    margin-bottom: 0.3em;
+    margin-right: 3.8em;
+}
+
+
+
+/* footer info a odkazy */
+
+.footer-info {
+    margin-top: 8.5em;
+    margin-left: 5em;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+
+.footer-info a, p, small {
+    color: gray;
+}
+
+.footer-info a:hover {
+    color: coral;
+}
+
+.footer-info__our-courses__section {
+    display: flex;
+}
+
+.footer-info__our-courses__section>div{
+    margin-right: 1.5em;
 }
 
 
-.header-icons>img {
-    padding-left: 0.5em;
+
+
+/* START News Letter*/
+
+.footer-info__newsletter p {
+    display: block;
+    width: 30em;
+
 }
 
-img.header-icons__menu {
-    padding-left: 2em; 
+.footer-info__newsletter__button{
+    padding-top: 2em;
+
 }
 
+.footer-info__newsletter__button input{
+    border: none;
+    padding: 1.5em;
+    width: 70%;
+    height: 100%;
+    background-color: #0c3542;
+}
+
+.footer-info__newsletter__button button{
+    border: none;
+    padding: 1.5em;
+    position: relative;
+    right: 4px;
+    background-color: rgb(252, 115, 36);
+    
+    
+}
+
+.footer-info__newsletter__button button:hover{
+    background-color: rgb(214, 57, 0);
+}
+/* copyright */
+
+.footer-copyright {
+    position: relative;
+    left: 470px;
+    top: 78px;
+}
 
