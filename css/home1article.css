@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: Roboto;
+}
+
+p {
+    font-family: Hind;
+}
+
+body {
+    background-color: #eefbff;
+}
+
+
+/* START Welcome to Edu ... More Than 1200 Online Courses */
+
+.welcome-wrapper {
+    width: 29em;
+}
+
+.welcome-wrapper__small-headline h1{
+    color: #e46334;
+    display: inline-block;
+    margin-left: 0.8em;
+    font-size: 1em;
+}
+.welcome-wrapper h2{
+    color:rgb(23, 34, 34);
+    display: inline-block;
+    font-size: 4em;
+}
+
+.welcome-wrapper__search-bar {
+    margin-top: 2em;
+    background-color:white;
+    padding: 0.5em ;
+    display: flex;
+}
+
+.welcome-wrapper__search-bar button{
+    border: none;
+    background-color: tomato;
+    padding: 1.7em;
+}
+
+.welcome-wrapper__search-bar button:hover{
+    background-color: rgb(230, 41, 8);
+
+}
+
+.welcome-wrapper__search-bar__input {
+    border: none;
+    font-family: Hind;
+    font-size: 1.2em;
+    color:  gray;
+    padding-right: 6.5em;
+    margin-left: 2em;
+}
+
+.welcome-wrapper__info {
+
+    display: flex;
+    margin-top: 4em;
+}
+
+.welcome-wrapper__info p{
+    display: inline-block;
+    width: 15em;
+    padding-right: 1em;
+    font-size: 0.9em;
+    color:  rgb(155, 155, 155);
+    font-weight: bold;
+
+}
+
+.welcome-wrapper__info__contacts {
+    padding-left: 2em;
+}
+
+/* END Welcom to Edu ... More Than 1200 Online Courses */
+
+ 
+
+/* welcome to edu ... statistic */
+
+.welcome-courses{
+    display: flex;
+}
+.welcome-courses__cell{
+    background-color: white;
+    display: block;
+    padding: 1.5em;
+    width: 11em;
+    margin-right: 2em;
+}
+.welcome-courses__cell small{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Hind;
+    color: tomato;
+}
+
+
+
+.welcome-courses__cell h3{
+    color: gray;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.welcome-courses__cell img {
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+.welcome-courses__cell__text {
+    display: inline-block;
+}

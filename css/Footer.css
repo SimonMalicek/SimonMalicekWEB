@@ -24,7 +24,7 @@ a:hover {
 .main-grid{
     display: grid;
     grid-template-columns: 23em auto 23em;
-    grid-template-rows: 10em 15em 37.5em;
+    grid-template-rows: 100em 15em 37.5em;
 }
 
 
@@ -165,10 +165,10 @@ footer ul{
 }
 
 #footer-button {
-    position: absolute;
-    top: 665px;
-    left: 1700px;
+    position: relative;
     padding: 1.5em;
+    left: 100em;
+    top: -15em;
     background-color: rgb(40, 126, 255);
     border: none;
 }

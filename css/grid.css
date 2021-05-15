@@ -2,14 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.main-grid__section {
-    background-color: rgb(104, 104, 104);
-    text-align: center;
-}
 
-.main-grid > div:nth-child(odd){
-    background-color: rgb(185, 185, 185);
-}
 
 body {
     margin: 0;
@@ -17,7 +10,9 @@ body {
 
 
 
+/* GRID*/
 /* Tady zacina grid*/
+
 
 .main-grid{
     display: grid;
@@ -36,5 +31,14 @@ body {
 .main-grid__footer{
     grid-column: 1/4;
 
+}
+
+.main-grid__section {
+    background-color: rgb(104, 104, 104);
+    text-align: center;
+}
+
+.main-grid > div:nth-child(odd){
+    background-color: rgb(185, 185, 185);
 }
 
