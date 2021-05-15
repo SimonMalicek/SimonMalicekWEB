@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, p, a {
@@ -163,3 +164,15 @@ footer ul{
     top: 78px;
 }
 
+#footer-button {
+    position: absolute;
+    top: 665px;
+    left: 1700px;
+    padding: 1.5em;
+    background-color: rgb(40, 126, 255);
+    border: none;
+}
+
+#footer-button:hover{
+    background-color: rgb(28, 86, 173);
+}

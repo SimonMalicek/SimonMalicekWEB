@@ -51,7 +51,7 @@ a.main-navigation__text {
 }
 
 .header-icons__menu {
-    padding-left: 2em;
+    margin-left: 2em;
 }
 
 .main-navigation__item__sub-menu{
@@ -65,6 +65,9 @@ a.main-navigation__text {
 .main-navigation__item:hover .main-navigation__item__sub-menu{
     display: block;
     position: absolute;
-    margin-left: 2em;
-    margin-top: 0.5em;
+
+    padding-left: 2em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+
 }
