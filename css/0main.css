@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4 {
+    font-family: Roboto;
+}
+
+
+p {
+    font-family: Hind;
+}
+
+input, select, textarea{
+    color: darkgray;
+}
+
+a, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+    font-family: Hind;
+  }
+
+a:hover {
+    color: coral;
+}
+
+
+
+
+
+/* GRID*/
+/* Tady zacina grid*/
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 23.5em auto 23.5em;
+    grid-template-rows: 5.5em 57em 72em 65em 65em 45em 65em 55em 45em 55em 15em 32.5em;
+}
+
+.main-grid__header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+/* HEADER Start*/
+
+
+header{  
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5em;
+    margin-left: 2.3em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.main-navigation__item > img{
+    margin-top: 12px;
+    margin-left: 5px;
+
+}
+.main-navigation {
+    display: flex;
+    margin-right: 31.5em;
+    margin-left: 3em;
+    list-style-type: none;
+}
+
+a.main-navigation__text {
+    float: left;
+    display: block;
+    padding-left: 1.5em;
+}
+
+.header-icons__menu {
+    margin-left: 2em;
+}
+
+.main-navigation__item__sub-menu{
+    display: none;
+}
+
+.main-navigation__item__sub-menu>ul{
+    list-style-type: none;
+}
+
+.main-navigation__item:hover .main-navigation__item__sub-menu{
+    display: block;
+    position: absolute;
+
+    padding-left: 2em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+
+}
+
+/* HEADER End */
+
+
+/* START Welcome to Edu ... More Than 1200 Online Courses */
+
+/* background */
+
+.welcome-background {
+    grid-row: 1/3;
+    grid-column: 1/4;
+}
+
+
+.welcome-wrapper {
+    margin-top: 10em;
+    width: 29em;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.welcome-wrapper__small-headline h1{
+    color: #e46334;
+    display: inline-block;
+    margin-left: 0.8em;
+    font-size: 1em;
+}
+.welcome-wrapper h2{
+    color:rgb(23, 34, 34);
+    display: inline-block;
+    font-size: 4em;
+}
+
+.welcome-wrapper__search-bar {
+    margin-top: 2em;
+    background-color:white;
+    padding: 0.5em ;
+    display: flex;
+}
+
+.welcome-wrapper__search-bar button{
+    border: none;
+    background-color: tomato;
+    padding: 1.5em;
+    padding-right: 1.7em;
+}
+
+.welcome-wrapper__search-bar button:hover{
+    background-color: rgb(230, 41, 8);
+
+}
+
+.welcome-wrapper__search-bar__input {
+    border: none;
+    font-family: Hind;
+    font-size: 1.2em;
+    color:  gray;
+    padding-right: 6.5em;
+    margin-left: 2em;
+}
+
+.welcome-wrapper__info {
+
+    display: flex;
+    margin-top: 4em;
+}
+
+.welcome-wrapper__info p{
+    display: inline-block;
+    width: 15em;
+    padding-right: 1em;
+    font-size: 0.9em;
+    color:  rgb(155, 155, 155);
+    font-weight: bold;
+
+}
+
+.welcome-wrapper__info__contacts {
+    padding-left: 2em;
+}
+
+/* END Welcom to Edu ... More Than 1200 Online Courses */
+
+
+/*  Box statistics Start */
+
+.welcome-courses{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50em;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.welcome-courses__cell{
+    background-color: white;
+    display: block;
+    padding: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    box-shadow:0px 10px 20px rgba(128, 128, 128, 0.37);}
+.welcome-courses__cell small{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Hind;
+    color: tomato;
+}
+
+.welcome-courses__cell h3{
+    color: gray;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.welcome-courses__cell img {
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.welcome-courses__cell__text {
+    display: inline-block;
+    padding-left: 2em;
+}
+
+/* Box statistics  END */
+
+
+/* Courses Categories START */
+.popular-wrapper {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-top: 9em;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.popular-wrapper h2 {
+    font-weight: 600;
+    font-size: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    display: inline;
+    color: rgb(253, 77, 23);
+}
+
+.popular-wrapper h3 {
+    font-size: 2.8em;
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+}
+
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+/* cards Start */
+.card-small {
+    margin-top: 1.3em;
+    width: 272px;
+    border: 1px solid rgb(212, 212, 212);
+
+}
+.card-small:nth-child(4n){
+    margin-right: 0;
+}
+
+.card-small__img{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.card-small__content {
+    padding: 2em 1em 3em 3em;
+    color: rgb(134, 134, 134);
+}
+
+.card-small__icon {
+    vertical-align: middle;
+}
+.card-small__title{
+    color: black;
+    font-size: 1.3em;
+    margin: 0;
+    position: relative;
+}
+
+/* Courses Categories END */
+
+
+
+/* Available Courses START */
+
+.availabe-courses__background {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background-color: #062a36 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Start */
+
+.main-grid__footer{
+    grid-column: 1/4;
+
+}
+
+
+footer{
+    grid-column: 2/3;
+    grid-row: 12/13;
+    color: whitesmoke;
+    font-family: Hind;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+
+
+
+/* Zacatek velkych log pred footerem */
+
+.footer-big-logos {
+    grid-column: 2/3;
+    grid-row: 11/12;
+    padding-top: 5em;
+    padding-bottom: 0em;
+}
+
+.footer-big-logos__color{
+    background-color: rgb(255, 122, 45);
+    grid-column: 1/4;
+    grid-row: 11/12;
+}
+
+.footer-big-logos__logo {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+/* Konec velkych log pred footerem */
+
+
+
+/* Background pro footer (nevim jestli je to takhle spravne) */
+.footer-background {
+    grid-column: 1/4;
+    grid-row: 12/13;
+    background-color: rgb(0, 23, 49);
+}
+
+
+
+/* footer Edu logo a socials*/
+
+
+.footer-social-logos {
+    margin-left: 2em;
+    margin-top: 4em;
+}
+
+#footer-edu-logo {
+    margin-right: 14.5em;
+}
+
+.footer-social-logos__logo{
+    margin-bottom: 0.3em;
+    margin-right: 3.6em;
+}
+
+
+
+/* footer info a odkazy */
+
+.footer-info {
+    margin-top: 8.5em;
+    margin-left: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info a, p, small {
+    color: gray;
+}
+
+.footer-info a:hover {
+    color: coral;
+}
+
+.footer-info__our-courses__section {
+    display: flex;
+}
+
+.footer-info__our-courses__section>div{
+    margin-right: 1.5em;
+}
+
+
+
+
+/* START News Letter*/
+
+.footer-info__newsletter p {
+    display: block;
+    width: 30em;
+
+}
+
+.footer-info__newsletter__button{
+    padding-top: 2em;
+
+}
+
+.footer-info__newsletter__button input{
+    border: none;
+    padding: 1.5em;
+    width: 70%;
+    height: 100%;
+    background-color: #0c3542;
+}
+
+.footer-info__newsletter__button button{
+    border: none;
+    padding: 1.5em;
+    position: relative;
+    right: 4px;
+    background-color: rgb(252, 115, 36);
+    
+    
+}
+
+.footer-info__newsletter__button button:hover{
+    background-color: rgb(214, 57, 0);
+}
+/* copyright */
+
+.footer-copyright {
+    position: relative;
+    left: 470px;
+    top: 78px;
+}
+
+#footer-button {
+    position: relative;
+    padding: 1.5em;
+    left: 100em;
+    top: -15em;
+    background-color: rgb(40, 126, 255);
+    border: none;
+}
+
+#footer-button:hover{
+    background-color: rgb(28, 86, 173);
+}

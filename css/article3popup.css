@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4 {
+    font-family: Roboto;
+}
+
+
+p {
+    font-family: Hind;
+}
+
+input, select, textarea{
+    color: darkgray;
+}
+
+a, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+    font-family: Hind;
+  }
+
+a:hover {
+    color: coral;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 23.5em auto 23.5em;
+}
+
+
+/* Available Courses START */ 
+
+
+.pop-up-course__wrapper {
+    background-color: wheat;
+}
+
+
+.pop-up-course__picture__name {
+    display: flex;
+    align-items: center;
+    background: #062a3600;
+    justify-content: space-evenly;
+    position: absolute;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    top: 12.5em;
+    left: 1em;
+
+}
+
+.pop-up-course__picture__name__price{
+    display: inline-block;
+    background: #e46334;
+    color:white;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 25px;
+    margin-left: 2em;
+
+}
+
+.pop-up-course__picture__name__name{
+    display: inline-block;
+    color:white;
+    font-weight: 600;
+    margin-right: 6em;
+    padding-left: 0.5em;
+
+}
+
+.pop-upcourse__info__tag {
+    display: inline-block;
+    border-radius: 25px;
+    background: rgb(0, 110, 255);
+    color: white;
+    padding: 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+.pop-upcourse__info__ratings img + p{
+    display: inline-block;
+}
