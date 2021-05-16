@@ -8,558 +8,589 @@
 </style>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
 <head><meta charset="UTF-8">
-    <title>Footoer</title>
+    <title>Home</title>
     <meta name="description" content="webova stranka do skoly">
     <meta name="Authos" content="Simon Malicek IT">
-    <link rel='stylesheet' href="./css/Footer.css">
+    <link rel='stylesheet' href="./css/0main.css">
     <script src="JS/script.js"></script>
 </head>
 
 
+
 <body>
-    <header>
-        <img src="./jpg/logo.png" alt="Logo EduPlus" height="50" width='223'> 
-        <nav>
-            <ul class = "main-navigation"><!-- Zacatek seznamu, navigace--> 
-                <li>
-                    <div class = "main-navigation__item" >
-                        <a  id="HomeNavButton" href="./Home.html" rel="next" title="Navigation to the Home site">Home</a> 
-                        <img src="./jpg/NavArrowIcon.png"> 
-                    </div> 
-                </li>
-                <li>
-                    <a class = "main-navigation__item"  id="CourseNavButton" href="./Courses.html" rel="next" title="Navigation to the Courses site">Courses</a>   
-                </li>
-                <li>
-                    <a class = "main-navigation__item"  id="EventsNavButton" href="./Events.html" rel="next" title="Navigation to the Events site">Events</a>   
-                </li>
-                <li>
-                    <a class = "main-navigation__item"  id="PagesNavButton" href="./Pages.html" rel="next" title="Navigation to the Pages site">Pages</a>   
-                </li>
-                <li>
-                    <a class = "main-navigation__item"  id="BlogNavButton" href="./Blog.html" rel="next" title="Navigation to the Blog site">Blog</a>   
-                </li>
-                <li>
-                    <a class = "main-navigation__item"  id="ContacNavButton" href="./Contact.html" rel="next" title="Navigation to the Contact site">Contact</a>   
-                </li>
-            </ul>
-        </nav>
-        <div class ="header-icons">
-            <img src="./jpg/FacebookIcon53x53.png" alt="Facebook Icon" width="53" height="53" >
-            <img src="./jpg/YoutubeIcon53x53.png" alt="Youtube Icon" width="53" height="53" >
-            <img src="./jpg/SignInIcon123x53.png" alt="Sign In Icon" width="123" height="53" >
-            <img class="header-icons__menu" src="./jpg/MenuIcon9Dots.png" alt="Menu Icon" height="52" width="52"> 
-        </div>      
-    </header>
+    <div class="main-grid">
+
+        <!-- Header start -->
+        <div class="main-grid__header">
+            <header>
+                <img src="./jpg/logo.png" alt="Logo EduPlus" height="50" width='223'> 
+                <nav>
+                    <ul class = "main-navigation"><!-- Zacatek seznamu, navigace--> 
+                        <li>
+                            <div class = "main-navigation__item" id="HomeNavButton">
+                                <a class = "main-navigation__text"  href="./Home.html" rel="next" title="Navigation to the Home site">Home</a>   
+                                <img src="./jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Home-sub-menu">
+                                    <ul>
+                                        <li><a a href="#">Link</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div> 
+                            </div>    
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="CoursesNavButton">
+                            <a class = "main-navigation__text"   href="./Courses.html" rel="next" title="Navigation to the Courses site">Courses</a>   
+                            <img src="./jpg/NavArrowIcon.png">
+                            <div class = "main-navigation__item__sub-menu" id="Courses-sub-menu">
+                                <ul>
+                                    <li><a a href="#">Link</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                </ul>
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item"  id="EventsNavButton">
+                            <a class = "main-navigation__text"  href="./Events.html" rel="next" title="Navigation to the Events site">Events</a>   
+                            <img src="./jpg/NavArrowIcon.png">
+                            <div class = "main-navigation__item__sub-menu" id="Events-sub-menu">
+                                <ul>
+                                    <li><a a href="#">Link</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                </ul>
+                            </div>  
+                        </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="PagesNavButton">
+                                <a class = "main-navigation__text"   href="./Pages.html" rel="next" title="Navigation to the Pages site">Pages</a>   
+                                <img src="./jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Pages-sub-menu">
+                                    <ul>
+                                        <li><a a href="#">Link</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div>  
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="BlogNavButton">
+                                <a class = "main-navigation__text"   href="./Blog.html" rel="next" title="Navigation to the Blog site"> Blog</a>   
+                                <img src="./jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Blog-sub-menu">
+                                    <ul>
+                                        <li><a a href="#">Link</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div>  
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="ContacNavButton">
+                                <a class = "main-navigation__text"   href="./Contact.html" rel="next" title="Navigation to the Contact site">Contact</a>   
+                            </div>  
+                        </li>
+                    </ul>
+                </nav>
+                <div class ="header-icons">
+                    <a href="https://www.facebook.com/"> <img src="./jpg/FacebookIcon53x53.png" alt="Facebook Icon" width="53" height="53" ></a>
+                    <a href="https://www.YOUTUBE.com/"><img src="./jpg/YoutubeIcon53x53.png" alt="Youtube Icon" width="53" height="53" ></a>
+                    <a href="#"><img src="./jpg/SignInIcon123x53.png" alt="Sign In Icon" width="123" height="53" ></a>
+                    <a href="#"><img class="header-icons__menu" src="./jpg/MenuIcon9Dots.png" alt="Menu Icon" height="48" width="48"></a>
+                </div>      
+            </header>
+        </div>
+        <!-- Header end -->
         
 
+        <!-- Welcom to edu Start-->
+        <img class="welcome-background" src="jpg/BackgroundWithGirl1922x952.png">
+        <div class="welcome-wrapper">
+            <section>
+                
+                    <div class="welcome-wrapper__small-headline">
+                        <img src="./jpg/3DotsIcon.png" alt="Laptop Icon" height="12" width="27">
+                        <h1>Welcom to EduPlus</h1>
+                    </div>
+        
+                    <h2>More than 1200 Online Courses</h2>
+        
+                    <!-- Search window -->
+                    <div class="welcome-wrapper__search-bar">
+                        <input class="welcome-wrapper__search-bar__input" type="text" id="fname" value="Search courses">
+                        <button type="button"><img src="./jpg/ZoomIcon.png" alt="Search Icon" width="20" height="20" ></button>
+                    </div>
+                    
+        
+        
+                    <div class="welcome-wrapper__info">
+                        <p>Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                        <img src="./jpg/SplitingLine6x43.png" alt="spliting line" width="6" height="43">
+                        <img class="welcome-wrapper__info__contacts"src="./jpg/PhoneContactInfo.png" alt="Contact Phone +012(345)6789">
+                    </div>
+            </section>
+        </div>
+        <section class="welcome-courses">
+            <div class="welcome-courses__cell">
+                <img src="./jpg/GroupIcon.png" alt="Icon of a group of Students" height="36" width="50"> 
+                <div class="welcome-courses__cell__text">
+                    <small>3045+</small>
+                    <h3>Satisfied Students</h3>
+                </div>
+            </div>
 
-    <section><!-- Welcome to EduPlus START -->
-            <img class ="background-girl"src="./jpg/BackgroundWithGirl1922x952.png" alt="Backgroud Picute with student" width="1922" height="952" >
-
-
-            
-            <img src="./jpg/3DotsIcon.png" alt="Laptop Icon" height="12" width="27">
-            <h1>Welcom to EduPlus More than 1200 Online Courses</h1>
-
-            <!-- Search window -->
-
-            <img src="./jpg/searchIcon68x68.png" alt="Search Icon"  width="68" height="68">
-            <input type="text" id="fname" value="Search courses">
-            <p>Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
-            <img src="./jpg/SplitingLine6x43.png" alt="spliting line" width="6" height="43">
-            <img src="./jpg/PhoneContactInfo.png" alt="Contact Phone +012(345)6789">
-            
-
-            <h3>Satisfied Students</h3>
-            <img src="./jpg/GroupIcon.png" alt="Icon of a group of Students" height="36" width="50"> 
-            3045+
-            <h3>Available Courses</h3>
+            <div class="welcome-courses__cell">
             <img src="./jpg/BooksLogo.png" alt="Icon of a books" height="40" width="45"> 
-            7852+
-            <h3>Graduate Students</h3>
-            <img src="./jpg/IconOfGraduation.png" alt="Icon of a graduation" height="30" width="50"> 
-            9862+
-            <h3>Active courses</h3>
-            <img src="./jpg/IconOfLaptop.png" alt="Laptop Icon" height="37" width="50"> 
-            8963+
+                <div class="welcome-courses__cell__text">
+                    <small>7852+</small>
+                    <h3>Available Courses</h3>
+                </div>
+            </div>
 
-    </section><!-- Welcome to EduPlus END -->
-    
-    <section><!-- Welcome to Popular Categories END-->
-        <img src="./jpg/3DotsIcon.png" alt="3 Dots Icon" height="12" width="27">
-    <h2>Popular Categories</h2>
-    <img src="./jpg/3DotsIcon.png" alt="3 Dots Icon" height="12" width="27">
-    <h3>Course Categories</h3>
+            <div class="welcome-courses__cell">
+                <img src="./jpg/IconOfGraduation.png" alt="Icon of a graduation" height="30" width="50"> 
+                <div class="welcome-courses__cell__text">
+                    <small>7852+</small>
+                    <h3>Graduat Students</h3>
+                </div>
+            </div>
 
-    <article>
-        <img src="./jpg/PlaceHolderImage.png" alt="Place Holder Image" width="272" height="202" >
-        <h4>Graphis Design(UI)</h4>
-        <p>Web Design Course</p>
-        <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
-        250
-        <img src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
-        800+ Courses  
-    </article>
-
-    <article>
-        <img src="./jpg/PlaceHolderImage.png" alt="Place Holder Image" width="272" height="202" >
-        <h4>Business Studies</h4>
-        <p>Finance Business</p>
-        <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
-        320
-        <img src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
-        750+ Courses  
-    </article>
-
-    <article>
-        <img src="./jpg/PlaceHolderImage.png" alt="Place Holder Image" width="272" height="202" >
-        <h4>Web Development</h4>
-        <p>Web Design Course</p>
-        <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
-        320
-        <img src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
-        700+ Courses  
-    </article>
-
-    <article>
-        <img src="./jpg/PlaceHolderImage.png" alt="Place Holder Image" width="272" height="202" >
-        <h4>Product Engineering</h4>
-        <p>Web Design Course</p>
-        <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
-        300
-        <img src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
-        750+ Courses  
-    </arfticle>
-
-    <article>
-        <img src="./jpg/PlaceHolderImage.png" alt="Place Holder Image" width="272" height="202" >
-        <h4>Basic Photography</h4>
-        <p>Web Design Course</p>
-        <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
-        300
-        <img src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
-        750+ Courses  
-    </article>
-
-    <article>
-        <img src="./jpg/PlaceHolderImage.png" alt="Place Holder Image" width="272" height="202" >
-        <h4>Medical & Health</h4>
-        <p>Doctors & Nursing</p>
-        <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
-        320
-        <img src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
-        750+ Courses  
-    </article>
-
-    <article>
-        <img src="./jpg/PlaceHolderImage.png" alt="Place Holder Image" width="272" height="202" >
-        <h4>Marketing Strategy</h4>
-        <p>Social Media Marketing</p>
-        <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
-        250
-        <img src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
-        50+ Courses  
-    </article>
-
-    <article>
-        <img src="./jpg/PlaceHolderImage.png" alt="Place Holder Image" width="272" height="202" >
-        <h4>Mobile UI Design</h4>
-        <p>Web Design Course </p>
-        <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
-        320
-        <img src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
-        750+ Courses  
-    </article>
-        
-    </section><!-- Popular categories END -->
-        
-
-    <section><!-- Popular coursesd START -->
-        <img src="./jpg/DarkBlueBackground.png" alt="Background Color" height="1038" width="1922">
-        <img src="./jpg/3DotsIcon.png" alt="3 Dots Icon" height="12" width="27">
-        <h2>Popular Courses</h2>
-        <img src="./jpg/3DotsIcon.png" alt="3 Dots Icon" height="12" width="27">
-
-        <h3>Available Courses</h3>
-        <article><!-- First Article-->
-            <img src="./jpg/PlaceHolderImage.png" alt="Place Holder Image" width="272" height="202" >
-            <img src="./jpg/BackgroundForText.png" alt="Fill For Text" width="372" height="241" >
-            <img src="./jpg/CourseIconCircle.png" alt="Course Icon Cirle" width="48" height="48" >
-            <p>Warner</p>
-            <img src="./jpg/ButtonWithPrice.png" alt="Button Icon With Price" width="70" height="28" >
-            <p>$59.95</p>
-            <img src="./jpg/BlueButtonSmall.png" alt="Button Icon With Language " width="86" height="28" >
-            <p>English</p>
-            <img src="./jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
-            <img src="./jpg/DividingLine.png" alt="Dividing Line" width="333" height="5" >
-            <h4>Best Courses For Learning  English Courses</h4>
-            <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
-            <p>25</p>
-            <img src="./jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
-            <p>36hr</p>
-            <img src="./jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
-            <p>2.5k</p>
-        </article>
-        <article><!-- Second article -->
-            <img src="./jpg/OrangeBackgroundPadding.png" alt="Orange Padding for text" width="373" height="491" >
-            <img src="./jpg/BusinessButton.png" alt="Button with Business Text" width="94" height="28" href >
-            <img src="./jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
-            <h4>Learning About It Consulting  Business Solutions</h4>
-            <img src="./jpg/CourseIconCircle.png" alt="Course Icon Cirle" width="48" height="48" >
-            <p>Warner</p>
-            <img src="./jpg/WhiteCircleButton.png" alt="Course Icon Cirle" width="70" height="28" >
-            <p>Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
-            <img src="./jpg/GetEnrolledButton.png" alt="Course Icon Cirle" width="172" height="48" >
-            <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
-            <p>25</p>
-            <img src="./jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
-            <p>36hr</p>
-            <img src="./jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
-            <p>2.5k</p>
-        </article>
-        <article><!-- Third Article-->
-            <img src="./jpg/PlaceHolderImage.png" alt="Place Holder Image" width="272" height="202" >
-            <img src="./jpg/BackgroundForText.png" alt="Fill For Text" width="372" height="241" >
-            <img src="./jpg/CourseIconCircle.png" alt="Course Icon Cirle" width="48" height="48" >
-            <p>Warner</p>
-            <img src="./jpg/ButtonWithPrice.png" alt="Button Icon With Price" width="70" height="28" >
-            <p>$59.95</p>
-            <img src="./jpg/BlueButtonSmall.png" alt="Button Icon With Language " width="86" height="28" >
-            <p>ENGLISH</p>
-            <img src="./jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
-            <img src="./jpg/DividingLine.png" alt="Dividing Line" width="333" height="5" >
-            <h4>Best Courses For Learning  English Courses</h4>
-            <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
-            <p>25</p>
-            <img src="./jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
-            <p>36hr</p>
-            <img src="./jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
-            <p>2.5k</p>
-        </article>
-        
-        <img src="./jpg/ViewAllContentButton.png" alt="Chat Bubble Icon" width="288" height="69" >
-
-        
-        
-    </section><!--Popular courses END -->
-    
-
-
-
-    <section><!-- Photo & Album START -->
-        <h2>Photo & Album</h2>
-        <h3>Campus Gallery</h3>
-    
-        <!-- Buttons -->
-        <input id="ShowAllButton" type="button" title="Show All" value="Show All">  
-        <input id="UniversityButton" type="button" title="University" value="University">  
-        <input id="Group StudyButton" type="button" title="Group Study" value="Group Study">  
-        <input id="AwardsButton" type="button" title="Awards" value="Awards">  
-        <input id="StudentsButton" type="button" title="Students" value="Students">  
-        <input id="TeacherButton" type="button" title="Teacher" value="Teacher">  
-        <input id="CampusButton" type="button" title="Campus" value="Campus">  
-        <img src="./jpg/line.png" alt="UI element" width="853" height="4" >
-        <img src="./jpg/SelectedLine.png" alt="UI element" width="123" height="5" >
-        <img src="./jpg/PhotoFiller372.png" alt="PhotoPlaceHolder" width="372" height="372" >
-        <img src="./jpg/PhotoFiller372.png" alt="PhotoPlaceHolder" width="372" height="372" >
-        <img src="./jpg/PhotoFiller372.png" alt="PhotoPlaceHolder" width="372" height="372" >
-        <img src="./jpg/PhotoFiller372.png" alt="PhotoPlaceHolder" width="372" height="372" >
-        <img src="./jpg/PhotoFiller372.png" alt="PhotoPlaceHolder" width="372" height="372" >
-        <img src="./jpg/PhotoFiller372.png" alt="PhotoPlaceHolder" width="372" height="372" >
-        <img src="./jpg/PhotoFiller372.png" alt="PhotoPlaceHolder" width="372" height="372" >
-    </section><!-- Photo & Album END-->
-
-
-
-
-    <section><!-- Team Members START -->
-        <img src="./jpg/BackgroundFillLightBlue1922x836.png" alt="BackgroundFill" width="1922" height="836"> 
-        <h2>Photo & Album</h2>
-        <h3>Campus Gallery</h3>
-        
-        <article>
-            <img src="./jpg/PlaceHolderImage272x252.png.png" alt="Image Placehodler" width="272" height="252"> 
-            <img src="./jpg/WhitePlaceholder272x180.png" alt="Image placehodler" width="272" height="180"> 
-            <img src="./jpg/PlusButton48x48.png" alt="UI button" height="48" width="48"> 
-            <h3>Somalia D Silva</h3>
-            <h4>Math Teacher</h4>
-            <img src="./jpg/UI_line191x4.png" alt="UI line" width="191" height="4"> 
-            <img src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
-            750+ courses
-        </article>
-     
-        <article>
-            <img src="./jpg/PlaceHolderImage272x252.png.png" alt="Image Placehodler" width="272" height="252"> 
-            <img src="./jpg/WhitePlaceholder272x180.png" alt="Image placehodler" width="272" height="180"> 
-            <img src="./jpg/PlusButton48x48.png" alt="UI button" height="48" width="48"> 
-            <h3>David D Warner</h3>
-            <h4>English Teacher</h4>
-            <img src="./jpg/UI_line191x4.png" alt="UI line" width="191" height="4"> 
-            <img src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
-            3850+ courses
-        </article>
-
-        <article>\
-            <img src="./jpg/PlaceHolderImage272x252.png.png" alt="Image Placehodler" width="272" height="252"> 
-            <img src="./jpg/WhitePlaceholder272x180.png" alt="Image placehodler" width="272" height="180"> 
-            <img src="./jpg/PlusButton48x48.png" alt="UI button" height="48" width="48"> 
-            <h3>Xavi Toni Crusse</h3>
-            <h4>Computer Teacher</h4>
-            <img src="./jpg/UI_line191x4.png" alt="UI line" width="191" height="4"> 
-            <img src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
-            643+ courses
-        </article>
-
-        <article>
-            <img src="./jpg/PlaceHolderImage272x252.png.png" alt="Image Placehodler" width="272" height="252"> 
-            <img src="./jpg/WhitePlaceholder272x180.png" alt="Image placehodler" width="272" height="180"> 
-            <img src="./jpg/PlusButton48x48.png" alt="UI button" height="48" width="48"> 
-            <h3>Shaine Watson</h3>
-            <h4>Web Designer</h4>
-            <img src="./jpg/UI_line191x4.png" alt="UI line" width="191" height="4"> 
-            <img src="./jpg/BooksIcon.png" alt="Book Icon" width="16" height="15" >
-            985+ courses
-        </article>
-
-    </section><!-- Team Members END  -->
-
-
-
-
-    <section><!-- Latest Events START -->
-        <h2>Latest Events</h2>
-        <h3>Upcoming Events</h3>
-
-        <article>
-            <img src="./jpg/Placeholder772x383.png" alt="Place Holder" width="772" height="383"> 
-            <img src="./jpg/BackgroundFillLightBlue772x288.png.png" alt="ColorFiller" width="772" height="288"> 
-            <img src="./jpg/PriceIcon72x72.png" alt="Price Icon" width="72" height="72"> 
-            <img src="./jpg/DateIcon15x16.png" alt="Date Icon" width="15" height="16"> 
-            25 NOV 2020
-            <img src="./jpg/ClockIcon15x15.png" alt="Clock Icon" width="15" height="15"> 
-            08 AM - 09 PM
-            <img src="./jpg/LocationIcon13x16.png" alt="Location Icon" width="13" height="16"> 
-            PARIS, FRANCE
-
-            <h4>Web Design & Development Conference 2020</h4>
-            <p>Sed ut perspiciatis unde omnis natus error sit voluptatem, Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
-            <img src="./jpg/ButtonJoin212x53.png" alt="Join Button" width="212" height="53"> 
-        </article>
-
-        <article>
-            <img src="./jpg/Placeholder373x320.png" alt="Price Icon" width="373" height="320"> 
-            <img src="./jpg/PriceIcon72x72.png" alt="Price Icon" width="72" height="72"> 
-            <img src="./jpg/DateIcon15x16.png" alt="Date Icon" width="15" height="16"> 
-            25 NOV 2020
-            <img src="./jpg/ClockIcon15x15.png" alt="Clock Icon" width="15" height="15"> 
-            08 AM - 09 PM 
-            <h4>Annual Conference 2020</h4>
-            <img src="./jpg/JoinIcon140x13.png" alt="Clock Icon" width="140" height="13"> 
-        </article>
-
-        <article>
-            <img src="./jpg/Placeholder373x320.png" alt="Price Icon" width="373" height="320"> 
-            <img src="./jpg/PriceIcon72x72.png" alt="Price Icon" width="72" height="72"> 
-            <img src="./jpg/DateIcon15x16.png" alt="Date Icon" width="15" height="16"> 
-            25 NOV 2020
-            <img src="./jpg/ClockIcon15x15.png" alt="Clock Icon" width="15" height="15"> 
-            08 AM - 09 PM 
-            <h4>Annual Conference 2020</h4>
-            <img src="./jpg/JoinIcon140x13.png" alt="Clock Icon" width="140" height="13"> 
-        </article>
-    </section><!-- Latest Events END -->
-
-
-    <section><!-- Students Feedback START-->
-        <img src="./jpg/BackgroundColor1922x985.png" alt="Background fill color" width="1922" height="985"> 
-        
-        <h2>Students Feedback</h2>
-        <h3>Upcoming Events</h3>
-
-        <article>
-            <img src="./jpg/BackgroundFiller481x552.png" alt="Color Filler" width="481" height="552"> 
-            <p>Sed ut perspiciatis unde omnis natus error sit voluptatem accus</p>
-            <p>Rnimad minima veniam quis nostreercit ationem ullam corporis su</p>
-            <img src="./jpg/ProfilePhotoPlaceHolder53x53.png" alt="Place Holder" width="53" height="53"> 
-            <h4>Sousa Fernandes</h4>
-            <h5>CEO & Founder</h5>
-            <img src="./jpg/quoteIcon124x106.png" alt="Place Holder" width="124" height="106"> 
-            <img src="./jpg/PrevIcon43x43.png" alt="Previouse Icon" width="43" height="43"> 
-            <img src="./jpg/NextIcon43x43.png" alt="Next Icon" width="43" height="43"> 
-            
-            
-            
-        </article>
-
-       
-        <article> <!-- photos -->
-            <img src="./jpg/IMagePlaceholder133x133.png" alt="Image Placeholder" width="133" height="133"> 
-            <img src="./jpg/IMagePlaceholderOrange133x133.png" alt="Orange Fill Element" width="133" height="133"> 
-            <img src="./jpg/IMagePlaceholder133x133.png" alt="Image Placeholder" width="133" height="133"> 
-            <img src="./jpg/IMagePlaceholderWhite133x133.png" alt="White fill element" width="133" height="133"> 
-            <img src="./jpg/IMagePlaceholder133x133.png" alt="Image Placeholder" width="133" height="133"> 
-            <img src="./jpg/IMagePlaceholder133x133.png" alt="Image Placeholder" width="133" height="133"> 
-            <img src="./jpg/IMagePlaceholder133x133.png" alt="Image Placeholder" width="133" height="133"> 
-            <img src="./jpg/IMagePlaceholder133x133.png" alt="Image Placeholder" width="133" height="133"> 
-            <img src="./jpg/IMagePlaceholder133x133.png" alt="Image Placeholder" width="133" height="133"> 
-            <img src="./jpg/IMagePlaceholder133x133.png" alt="Image Placeholder" width="133" height="133"> 
-        </article>
-    </section><!-- Students Feedback END -->
-
-
-    <section><!-- Build a Career START -->
-        <img src="./jpg/BackgroundColorLightBlue1922x822.png" alt="Background Color light blue" width="1922" height="822"> 
-        <img src="./jpg/ImagePlaceHolder503x502.png" alt="Image Place Holder" width="503" height="502"> 
-        <img src="./jpg/ImagePlaceHolder333x353.png" alt="Image Place Holder" width="333" height="353">
-        <h2>Build a Career</h2>
-        <h3>Become an Instructor</h3>
-        <p>Sed ut perspiciati unde omnis iste natus error sit voluptatem a</p>
-        <img src="./jpg/laptopIcon50x38.png" alt="Laptop Icon" width="50" height="38">
-
-        
-        <h4>Digitalization</h4>
-        <p>Sed ut perspiciati unde omnis iste natus error sit volu</p>
-        <img src="./jpg/HeartBook35x40.png" alt="Heart Icon" width="35" height="40">
-
-        
-        <h4>Book Friendly</h4>
-        <p>Sed ut perspiciati unde omnis iste natus error sit volu</p>
-        <img src="./jpg/BecomeDeveloperIcon228x65.png" alt="Become Developer Button" width="228" height="65">
-        <img src="./jpg/BecomePartner209x65.png" alt="Bectom Partner Icon" width="209" height="65">        
-    </section><!-- Build a Career END -->
-
-
-    <section><!-- Articles & Tips START -->
-        <h2>Articles & Tips</h2>
-        <h3>Latest News & Blog</h3>
-        <article>
-            <img src="./jpg/IMagePlaceholder372x353.png" alt="Image Place Holder" width="372" height="353">        
-            <img src="./jpg/LineAroundArticle372x268.png" alt="Line Around Article" width="372" height="268">        
-        
-            <img src="./jpg/DateIcon15x16.png" alt="Date Icon" width="15" height="16">        
-            25 NOV 2020
-
-            <img src="./jpg/Communitaction18x14.png" alt="Comment Icon" width="18" height="14">        
-            COM(30)
-            
-            <h4>Learning Resources In  Challenec Times Online Workshops</h4>
-
-            <img src="./jpg/IconPlaceHolder38x38.png" alt="Icon" width="38" height="38">        
-            <h4>David Simala</h4>
-
-            <img src="./jpg/OpenArticleIcon63x63.png" alt="Go to article Icon" width="63" height="63">        
-
-            
-        </article>
-
-        <article>
-            <img src="./jpg/IMagePlaceholder372x353.png" alt="Image Place Holder" width="372" height="353">        
-            <img src="./jpg/LineAroundArticle372x268.png" alt="Line Around Article" width="372" height="268">        
-        
-            <img src="./jpg/DateIcon15x16.png" alt="Date Icon" width="15" height="16">        
-            25 NOV 2020
-
-            <img src="./jpg/Communitaction18x14.png" alt="Comment Icon" width="18" height="14">        
-            COM(30)
-            
-            <h4>Learning Resources In  Challenec Times Online Workshops</h4>
-
-            <img src="./jpg/IconPlaceHolder38x38.png" alt="Icon" width="38" height="38">        
-            <h4>David Simala</h4>
-
-            <img src="./jpg/ GoToArticleHover63x63.png" alt="Go to article Icon" width="63" height="63">        
-        </article>
-
-        <article>
-            <img src="./jpg/IMagePlaceholder372x353.png" alt="Image Place Holder" width="372" height="353">        
-            <img src="./jpg/LineAroundArticle372x268.png" alt="Line Around Article" width="372" height="268">        
-        
-            <img src="./jpg/DateIcon15x16.png" alt="Date Icon" width="15" height="16">        
-            25 NOV 2020
-
-            <img src="./jpg/Communitaction18x14.png" alt="Comment Icon" width="18" height="14">        
-            COM(30)
-            
-            <h4>Learning Resources In  Challenec Times Online Workshops</h4>
-
-            <img src="./jpg/IconPlaceHolder38x38.png" alt="Icon" width="38" height="38">        
-            <h4>David Simala</h4>
-
-            <img src="./jpg/OpenArticleIcon63x63.png" alt="Go to article Icon" width="63" height="63">        
-        </article>
-       
-    </section><!-- Articles & Tips END -->
-
-
-    <section><!-- LOGOS Start -->
-        <img src="./jpg/EndOrangeLogo.png" alt="Background Fill" width="1922" height="252" >
-        <img src="./jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" >
-        <img src="./jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" >
-        <img src="./jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" >
-        <img src="./jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" >
-        <img src="./jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" >
-
-    </section><!--LOGOS END -->
-
-
-    <footer>
-        <img src="./jpg/FootgetBackground.png" alt="BackgroundFill" width="1922" height="595" >
-        <img src="./jpg/EduPlusLogoWhite.png" alt="EduLogo" width="222" height="50" >
-        <img src="./jpg/FacebookLogo.png" alt="Facebook Link Logo" width="113" height="33" >
-        Facebook
-        <img src="./jpg/TwitterLogo.png" alt="Twitter Link Logo" width="98" height="33" >
-        Twitter
-        <img src="./jpg/YoutubeLogo.png" alt="Youtube Link Logo" width="107" height="33" >
-        Youtube
-        <img src="./jpg/InstagramPicutre.png" alt="Instagram Link Logo" width="116" height="33" >
-        Instagram
-        <section>
-            <article>
-                <h2>
-                    Our Courses
-                </h2>
-                <ul>
-                    <li><a href="Web Development" title="Web Development Courses" rel="next">Web Development Courses</a> </li>
-                    <li><a href="Business Studies" title="Business Studies" rel="next">Business Studies</a> </li>
-                    <li><a href="Computer Engineering" title="Computer Engineering" rel="next">Web Development</a> </li>
-                    <li><a href="English Learning" title="English Learning" rel="next">English Learning</a> </li>
-                    <li><a href="Graphic Design" title="Graphic Design" rel="next">Graphic Design</a> </li>
-                    <li><a href="Color Combinations" title="Color Combinations" rel="next">Color Combinations</a> </li>
-                    <li><a href="Software Development" title="Software Development" rel="next">Software Development</a> </li>
-                    <li><a href="Photography" title="Photography" rel="next">Photography</a> </li>
-                    <li><a href="Advance WordPress" title="Advance WordPress" rel="next">Advance WordPress</a> </li>
-                    <li><a href="Basic PSD to THML" title="Basic PSD to THML" rel="next">Basic PSD to THML</a> </li>
-                </ul>
-            </article>
-            <article>
-                <h2>
-                    Company
-                </h2>
-                <ul>
-                    <li><a href="About Eduket" title="About Eduket" rel="next">About Eduket</a> </li>
-                    <li><a href="Meet Advisors" title="Meet Advisors" rel="next">Meet Advisors</a> </li>
-                    <li><a href="Computer Engineering" title="Computer Engineering" rel="next">Computer Engineering</a> </li>
-                    <li><a href="Join a Carrer" title="Join a Carrer" rel="next">Join a Carrer</a> </li>
-                    <li><a href="Latest Coures" title="Latest Coures" rel="next">Latest Coures</a> </li>
-                    <li><a href="Newsletter" title="Newsletter" rel="next">Newsletter</a> </li>
-                </ul>
-            </article>
-            <article>
-                <h2>
-                    Newsletters
-                </h2>
-                <p>Sed ut perspiciatis unde omnis natus error sit voluptatem, Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
-                <form action="action.php" method="POST">
-                    <input for="mail" id="MailInput" name="mail" type="email" placeholder="Your Email" >
-                </form>
-                <input type="button">
-                <img src="./jpg/ArrowNewsletter.png" alt="Arrow News letter" width="48" height="13" >
-            </article>
+            <div class="welcome-courses__cell">
+                <img src="./jpg/IconOfLaptop.png" alt="Laptop Icon" height="37" width="50"> 
+                <div class="welcome-courses__cell__text">
+                    <small>8963+</small>
+                    <h3>Active courses</h3>
+                </div>
+            </div>
         </section>
-        <small>Copyright © 2020 EduPlus  All Rights Reserved.</small>
-    </footer>
+        <!-- Welcome to EduPlus END -->
+
+        <!-- Course Categories START -->
+        <section class="popular-wrapper">
+            <div class="popular-wrapper__headline">
+                <img src="./jpg/3DotsIcon.png" alt="3 Dots Icon" height="12" width="27">
+                <h2>Popular Categories</h2>
+                <img src="./jpg/3DotsIcon.png" alt="3 Dots Icon" height="12" width="27">
+            </div>
+            <h3>Course Categories</h3>
+            
+            <div class = "cards-wrapper">
+                <div class = "card-small">
+                    <article>
+                    <a href="./CardSmall.html"><img class = "card-small__img" src="./jpg/OVEDMU0.jpg" alt="Place Holder Image" width="272" height="202" ></a> 
+                        <div class = "card-small__content">
+                            <h4 class = "card-small__title"><a href="./CardSmall.html">Graphic Design (UI)</a></h4>
+                            <span class = "card-small__desc">
+                            <p >Web Design Course</p>
+                            <img class = "card-small__icon" src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                            250 &nbsp;
+                            <img class = "card-small__icon" src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
+                            800+ Courses   &nbsp;
+                            </span>
+                        </div>  
+                    </article>
+                </div>
+        
+                <div class = "card-small">
+                    <article>
+                    <a href="./CardSmall.html"><img class = "card-small__img" src="./jpg/digital-increasing-bar-graph-with-businessman-hand-overlay.jpg" alt="Place Holder Image" width="272" height="202" ></a> 
+                        <div class = "card-small__content">
+                            <h4 class = "card-small__title"><a href="./CardSmall.html">Business Studies</a></h4>
+                            <span class = "card-small__desc">
+                            <p>Business Studies</p>
+                            <img class = "card-small__icon" src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                            2320 &nbsp;
+                            <img class = "card-small__icon" src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
+                            800+ Courses   &nbsp;
+                            </span>
+                        </div>  
+                    </article>
+                </div>
+        
+                <div class = "card-small">
+                    <article>
+                    <a href="./CardSmall.html"><img class = "card-small__img" src="./jpg/rear-view-programmer-working-all-night-long.jpg" alt="Place Holder Image" width="272" height="202" ></a> 
+                        <div class = "card-small__content">
+                            <h4 class = "card-small__title"><a href="./CardSmall.html">Web Development</a></h4>
+                            <span class = "card-small__desc">
+                            <p >Web Development</p>
+                            <img class = "card-small__icon" src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                            250 &nbsp;
+                            <img class = "card-small__icon" src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
+                            800+ Courses   &nbsp;
+                            </span>
+                        </div>  
+                    </article>
+                </div>
+        
+                <div class = "card-small">
+                    <article>
+                    <a href="./CardSmall.html"><img class = "card-small__img" src="./jpg/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg" alt="Place Holder Image" width="272" height="202" ></a> 
+                        <div class = "card-small__content">
+                            <h4 class = "card-small__title"><a href="./CardSmall.html">Product Engineering</a></h4>
+                            <span class = "card-small__desc">
+                            <p >Web Design Course</p>
+                            <img class = "card-small__icon" src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                            250 &nbsp;
+                            <img class = "card-small__icon" src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
+                            800+ Courses   &nbsp;
+                            </span>
+                        </div>  
+                    </article>
+                </div>
+                
+                <div class = "card-small">
+                    <article>
+                    <a href="./CardSmall.html"><img class = "card-small__img" src="./jpg/top-view-photography-accesories-with-copy-space.jpg" alt="Place Holder Image" width="272" height="202" ></a> 
+                        <div class = "card-small__content">
+                            <h4 class = "card-small__title"><a href="./CardSmall.html">Basic Photography</a></h4>
+                            <span class = "card-small__desc">
+                            <p >Basic Photography</p>
+                            <img class = "card-small__icon" src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                            250 &nbsp;
+                            <img class = "card-small__icon" src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
+                            800+ Courses   &nbsp;
+                            </span>
+                        </div>  
+                    </article>
+                </div>
+
+                <div class = "card-small">
+                    <article>
+                    <a href="./CardSmall.html"><img class = "card-small__img" src="./jpg/young-handsome-physician-medical-robe-with-stethoscope.jpg" alt="Place Holder Image" width="272" height="202" ></a> 
+                        <div class = "card-small__content">
+                            <h4 class = "card-small__title"><a href="./CardSmall.html">Medical & Health</a></h4>
+                            <span class = "card-small__desc">
+                            <p >Medical & Health</p>
+                            <img class = "card-small__icon" src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                            250 &nbsp;
+                            <img class = "card-small__icon" src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
+                            800+ Courses   &nbsp;
+                            </span>
+                        </div>  
+                    </article>
+                </div>
+        
+                <div class = "card-small">
+                    <article>
+                    <a href="./CardSmall.html"><img class = "card-small__img" src="./jpg/business-people-meeting.jpg" alt="Place Holder Image" width="272" height="202" ></a> 
+                        <div class = "card-small__content">
+                            <h4 class = "card-small__title"><a href="./CardSmall.html">Marketing Strategy</a></h4>
+                            <span class = "card-small__desc">
+                            <p >Marketing Strategy</p>
+                            <img class = "card-small__icon" src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                            250 &nbsp;
+                            <img class = "card-small__icon" src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
+                            800+ Courses   &nbsp;
+                            </span>
+                        </div>  
+                    </article>
+                </div>
+            
+                <div class = "card-small">
+                    <article>
+                    <a href="./CardSmall.html"><img class = "card-small__img" src="./jpg/02_May_12.jpg" alt="Place Holder Image" width="272" height="202" ></a> 
+                        <div class = "card-small__content">
+                            <h4 class = "card-small__title"><a href="./CardSmall.html">Mobile UI Design</a></h4>
+                            <span class = "card-small__desc">
+                            <p >Mobile UI Design</p>
+                            <img class = "card-small__icon" src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                            250 &nbsp;
+                            <img class = "card-small__icon" src="./jpg/BooksIcon.png" alt="Book Icon" width="15" height="16" >
+                            800+ Courses   &nbsp;
+                            </span>
+                        </div>  
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Course Categories END-->
+
+        <!-- Available Crourses START-->
+        <div class="available-courses__background"></div>
+        <section class="available-courses-wrapper">
+            <div class="available-courses__headline">
+                <img src="./jpg/3DotsIcon.png" alt="3 Dots Icon" height="12" width="27">
+                <h2>Popular Courses</h2>
+                <img src="./jpg/3DotsIcon.png" alt="3 Dots Icon" height="12" width="27">
+            </div>
+            <h3>Available Courses</h3>
+
+            <div class="available-courses__card-wrapper">
+                <div class="pop-up-course__wrapper">
+                    <article><!-- First Article-->
+                        <div class="pop-up-course">
+                            <div class="pop-up-course__picture">
+                                <img src="./jpg/young-woman-teaching-students-english-class-online.jpg" alt="Place Holder Image" width="375" >
+                                <div class="pop-up-course__picture__name">
+                                    <img src="./jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                    <p class="pop-up-course__picture__name__name">Warner</p>
+                                    <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                </div>
+                            </div>
+                            <div class="pop-up-course__info">
+                                <p class="pop-upcourse__info__tag">English</p>
+                                <img class="pop-upcourse__info__rating"src="./jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                <img src="./jpg/DividingLine.png" alt="Dividing Line">
+                                <div class="pop-upcourse__info__ratings">
+                                    <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                    <p>25</p>
+                                    <img src="./jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                    <p>36hr</p>
+                                    <img src="./jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                    <p>2.5k</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pop-up">
+                            <div class="pop-up-course__picture">
+                                <div class="pop-up-course__picture__name">
+                                    <img src="./jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                    <p class="pop-up-course__picture__name__name">Warner</p>
+                                    <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                </div>
+                            </div>
+                            <div class="pop-up-course__pop_up">
+                                <div class="pop-up-course__info ">
+                                    <p class="pop-upcourse__info__tag">English</p>
+                                    <img class="pop-upcourse__info__rating"src="./jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                    <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                    <p class="pop-up-description"> Sed ut perspiciatis unde omnis natus error sit voluptatem Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                                    <button class="pop-up__button" type="button"><a href="#">GET ENROLLED</a></button>
+                                    <div class="pop-upcourse__info__ratings">
+                                        <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                        <p>25</p>
+                                        <img src="./jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                        <p>36hr</p>
+                                        <img src="./jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                        <p>2.5k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+        
+        
+        
+                    </article>
+                </div>
+
+                <div class="pop-up-course__wrapper">
+                    <article><!-- First Article-->
+                        <div class="pop-up-course">
+                            <div class="pop-up-course__picture">
+                                <img src="./jpg/young-woman-teaching-students-english-class-online.jpg" alt="Place Holder Image" width="375" >
+                                <div class="pop-up-course__picture__name">
+                                    <img src="./jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                    <p class="pop-up-course__picture__name__name">Warner</p>
+                                    <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                </div>
+                            </div>
+                            <div class="pop-up-course__info">
+                                <p class="pop-upcourse__info__tag">English</p>
+                                <img class="pop-upcourse__info__rating"src="./jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                <img src="./jpg/DividingLine.png" alt="Dividing Line">
+                                <div class="pop-upcourse__info__ratings">
+                                    <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                    <p>25</p>
+                                    <img src="./jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                    <p>36hr</p>
+                                    <img src="./jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                    <p>2.5k</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pop-up">
+                            <div class="pop-up-course__picture">
+                                <div class="pop-up-course__picture__name">
+                                    <img src="./jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                    <p class="pop-up-course__picture__name__name">Warner</p>
+                                    <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                </div>
+                            </div>
+                            <div class="pop-up-course__pop_up">
+                                <div class="pop-up-course__info ">
+                                    <p class="pop-upcourse__info__tag">English</p>
+                                    <img class="pop-upcourse__info__rating"src="./jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                    <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                    <p class="pop-up-description"> Sed ut perspiciatis unde omnis natus error sit voluptatem Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                                    <button class="pop-up__button" type="button"><a href="#">GET ENROLLED</a></button>
+                                    <div class="pop-upcourse__info__ratings">
+                                        <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                        <p>25</p>
+                                        <img src="./jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                        <p>36hr</p>
+                                        <img src="./jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                        <p>2.5k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+        
+        
+        
+                    </article>
+                </div>
+
+                <div class="pop-up-course__wrapper">
+                    <article><!-- First Article-->
+                        <div class="pop-up-course">
+                            <div class="pop-up-course__picture">
+                                <img src="./jpg/young-woman-teaching-students-english-class-online.jpg" alt="Place Holder Image" width="375" >
+                                <div class="pop-up-course__picture__name">
+                                    <img src="./jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                    <p class="pop-up-course__picture__name__name">Warner</p>
+                                    <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                </div>
+                            </div>
+                            <div class="pop-up-course__info">
+                                <p class="pop-upcourse__info__tag">English</p>
+                                <img class="pop-upcourse__info__rating"src="./jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                <img src="./jpg/DividingLine.png" alt="Dividing Line">
+                                <div class="pop-upcourse__info__ratings">
+                                    <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                    <p>25</p>
+                                    <img src="./jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                    <p>36hr</p>
+                                    <img src="./jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                    <p>2.5k</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pop-up">
+                            <div class="pop-up-course__picture">
+                                <div class="pop-up-course__picture__name">
+                                    <img src="./jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                    <p class="pop-up-course__picture__name__name">Warner</p>
+                                    <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                </div>
+                            </div>
+                            <div class="pop-up-course__pop_up">
+                                <div class="pop-up-course__info ">
+                                    <p class="pop-upcourse__info__tag">English</p>
+                                    <img class="pop-upcourse__info__rating"src="./jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                    <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                    <p class="pop-up-description"> Sed ut perspiciatis unde omnis natus error sit voluptatem Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                                    <button class="pop-up__button" type="button"><a href="#">GET ENROLLED</a></button>
+                                    <div class="pop-upcourse__info__ratings">
+                                        <img src="./jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                        <p>25</p>
+                                        <img src="./jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                        <p>36hr</p>
+                                        <img src="./jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                        <p>2.5k</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+        
+        
+        
+                    </article>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- Available Crourses END-->
+
+
+
+
+
+        
+        <!-- FOOTER start -->
+        <!-- LOGOS Start -->
+        <div class = footer-big-logos__color></div>
+        <section class = "footer-big-logos">
+            <a href="#"> <img class = "footer-big-logos__logo" src="./jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" ></a>
+            <a href="#"> <img class = "footer-big-logos__logo" src="./jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" ></a>
+            <a href="#"> <img class = "footer-big-logos__logo" src="./jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" ></a>
+            <a href="#"> <img class = "footer-big-logos__logo" src="./jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" ></a>
+            <a href="#"> <img class = "footer-big-logos__logo" src="./jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" ></a>
+        </section>
+
+        <img class="footer-background" src="./jpg/FootgetBackground.png">
+        <footer>
+        <!--LOGOS END -->
+            <section class = "footer-wrapper">
+                <div class = "footer-social-logos__backbround"></div>
+                <div class = "footer-social-logos">
+                    <a href="#"><img id = "footer-edu-logo"src="./jpg/EduPlusLogoWhite.png" alt="EduLogo" width="222" height="50" ></a>
+                    <a href="http://facebook.com"><img class="footer-social-logos__logo" src="./jpg/FacebookLogo.png" alt="Facebook Link Logo" width="113" height="33" ></a>
+                    <a href="http://twitter.com"><img class="footer-social-logos__logo" src="./jpg/TwitterLogo.png" alt="Twitter Link Logo" width="98" height="33" ></a>
+                    <a href="http://youtube.com"><img class="footer-social-logos__logo" src="./jpg/YoutubeLogo.png" alt="Youtube Link Logo" width="107" height="33" ></a>
+                    <a href="http://instagram.com"><img class="footer-social-logos__logo" src="./jpg/InstagramPicutre.png" alt="Instagram Link Logo" width="116" height="33" ></a>
+                </div>
+                <!-- Start informace ve footeru-->
+                <section class = "footer-info">
+                    <article id = "footer-info__our-courses">
+                        <h2>
+                            Our Courses
+                        </h2>
+                        <ul>
+                            <div class="footer-info__our-courses__section">
+                                <div class = "footer-info__our-courses__group">
+                                    <li><a href="#" title="Web Development" rel="next">Web Development</a> </li>
+                                    <li><a href="#" title="Business Studies" rel="next">Business Studies</a> </li>
+                                    <li><a href="#" title="Computer Engineering" rel="next">Web Development</a> </li>
+                                    <li><a href="#" title="English Learning" rel="next">English Learning</a> </li>
+                                    <li><a href="#" title="Graphic Design" rel="next">Graphic Design</a> </li>
+                                </div>
+                                <div class = "footer-info__our-courses__group">
+                                    <li><a href="#" title="Color Combinations" rel="next">Color Combinations</a> </li>
+                                    <li><a href="#" title="Software Development" rel="next">Software Development</a> </li>
+                                    <li><a href="#" title="Photography" rel="next">Photography</a> </li>
+                                    <li><a href="#" title="Advance WordPress" rel="next">Advance WordPress</a> </li>
+                                    <li><a href="#" title="Basic PSD to THML" rel="next">Basic PSD to THML</a> </li>
+                                </div>
+                            </div> 
+                        </ul>
+                    </article>
+                    <article class = "footer-info__company">
+                        <h2>
+                            Company
+                        </h2>
+                        <ul>
+                            <li><a href="#" title="About Eduket" rel="next">About Eduket</a> </li>
+                            <li><a href="#" title="Meet Advisors" rel="next">Meet Advisors</a> </li>
+                            <li><a href="#" title="Join a Carrer" rel="next">Join a Carrer</a> </li>
+                            <li><a href="#" title="Latest Coures" rel="next">Latest Coures</a> </li>
+                            <li><a href="#" title="Newsletter" rel="next">Newsletter</a> </li>
+                        </ul>
+                    </article>
+                    <article class = "footer-info__newsletter">
+                        <h2>
+                            Newsletters
+                        </h2>
+                        <p>Sed ut perspiciatis unde omnis natus error sit voluptatem, Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                        
+                        <div class = "footer-info__newsletter__button">
+                            <form action="action.php" method="POST"></form>
+                                <input for="mail" id="MailInput" name="mail" type="email" placeholder="Enter Your Email" >
+                                <button><img src="./jpg/ArrowNewsletter.png"  alt="Arrow News letter" width="48" height="13" ></button>
+                            </form> 
+                        </div>
+                        
+                    </article>
+                </section>
+                <small class="footer-copyright">Copyright © 2020 <span style="color: white;">EduPlus</span> All Rights Reserved.</small>
+            </section>    
+            <button type="button" id = "footer-button" onclick="ScrollUp()"><img src="./jpg/Arrowbutton.png" </button>
+        </footer>
+    </div>    
 </body>
-</html>

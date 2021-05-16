@@ -301,17 +301,200 @@ a.main-navigation__text {
 
 /* Available Courses START */
 
-.availabe-courses__background {
+.available-courses__background {
     grid-column: 1/4;
     grid-row: 4/5;
     background-color: #062a36 ;
 }
 
+.available-courses-wrapper{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.available-courses-wrapper h2 {
+    font-weight: 500;
+    font-size: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    display: inline;
+    color: rgb(253, 77, 23);
+}
+
+.available-courses-wrapper h3 {
+    font-weight: 500;
+    font-size: 3em;
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+    color: white;
+}
+
+
+.available-courses__headline {
+    margin-top: 7em;
+}
+
+
+.available-courses__card-wrapper{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around;
+    align-self:stretch;
+}
+
+
+/* Available Courses cards START */
+
+
+.pop-up-course__wrapper{
+    width: 375px;
+    height: 470px;
+    background-color: white;
+
+}
+
+.pop-up-course__picture__name {
+    display: flex;
+    align-items: center;
+    background: #062a3600;
+    justify-content: space-evenly;
+    position: absolute;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: -5em;
+    margin-left: 2em;
+
+
+}
+
+.pop-up-course__picture__name__price{
+    display: inline-block;
+    background: #e46334;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 25px;
+    margin-left: 2em;
+
+}
+
+.pop-up-course__picture__name__name{
+    display: inline-block;
+    color:white;
+    font-weight: 600;
+    margin-right: 6em;
+    padding-left: 0.5em;
+
+}
+
+
+.pop-up-course__info {
+    padding: 2em;
+}
+
+.pop-upcourse__info__tag {
+    display: inline-block;
+    border-radius: 25px;
+    background: rgb(0, 110, 255);
+    color: white;
+    padding: 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+.pop-up-course__info__headline {
+    margin-top: 1em;
+    margin-right: 5em;
+}
+
+.pop-upcourse__info__ratings img {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.pop-upcourse__info__ratings p{
+    display: inline-block;
+    margin-right: 5em;
+}
+.pop-upcourse__info__ratings {
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+
+.pop-up {
+    background: #e7f9ff;
+    width: 375px;
+    height: 470px;
+    
+}
+
+.pop-up  p{
+    color: black;
+    
+}
+
+.pop-up .pop-up-course__picture {
+    position: relative;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    top: -4em;
+    margin-left: 1em;
+   
+}
+
+.pop-up .pop-upcourse__info__tag{
+    color: white;
+}
+.pop-up-description {
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+.pop-up__button {
+    border: none;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background:#e46334;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3em;
+}
+
+.pop-up__button:hover {
+    background:#b94f29;
+
+}
+.pop-up__button:hover a{
+    color: black;
+}
+
+.pop-up .pop-up-course__picture__name {
+    margin-top: 12em;
+    margin-left: 1em;
+}
+
+.pop-up{
+    display: none;
+}
+.pop-up-course__wrapper:hover .pop-up{
+    display: block;
+    position: absolute;
+    margin-top: -470px;
+    width: 375px;
+    height: 470px;
+}
 
 
 
 
-
+/* Available Courses cards END */
 
 
 

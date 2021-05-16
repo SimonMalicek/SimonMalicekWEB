@@ -40,11 +40,11 @@ a:hover {
 
 /* Available Courses START */ 
 
+.pop-up-course__wrapper{
+    width: 375px;
+    height: 470px;
 
-.pop-up-course__wrapper {
-    background-color: wheat;
 }
-
 
 .pop-up-course__picture__name {
     display: flex;
@@ -79,6 +79,11 @@ a:hover {
 
 }
 
+
+.pop-up-course__info {
+    padding: 2em;
+}
+
 .pop-upcourse__info__tag {
     display: inline-block;
     border-radius: 25px;
@@ -90,6 +95,84 @@ a:hover {
 
 }
 
-.pop-upcourse__info__ratings img + p{
-    display: inline-block;
+.pop-up-course__info__headline {
+    margin-top: 1em;
+    margin-right: 5em;
 }
+
+.pop-upcourse__info__ratings img {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.pop-upcourse__info__ratings p{
+    display: inline-block;
+    margin-right: 5em;
+    color: gray;
+}
+.pop-upcourse__info__ratings {
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+
+.pop-up {
+    background: #e7f9ff;
+    width: 375px;
+    height: 470px;
+    
+}
+
+.pop-up  p{
+    color: black;
+    
+}
+
+.pop-up .pop-up-course__picture {
+    position: relative;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    top: -4em;
+    margin-left: 1em;
+   
+}
+
+.pop-up .pop-upcourse__info__tag{
+    color: white;
+}
+.pop-up-description {
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+.pop-up__button {
+    border: none;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background:#e46334;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3em;
+}
+
+.pop-up__button:hover {
+    background:#b94f29;
+
+}
+.pop-up__button:hover a{
+    color: black;
+}
+
+.pop-up{
+    display: none;
+}
+.pop-up-course__wrapper:hover .pop-up{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 375px;
+    height: 470px;
+}
+
+
