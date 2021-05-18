@@ -14,7 +14,7 @@ h1, h2, h3, h4 {
 }
 
 
-p {
+p, small{
     font-family: Hind;
 }
 
@@ -42,7 +42,7 @@ a:hover {
 .main-grid{
     display: grid;
     grid-template-columns: 21.5em 1fr 20em;
-    grid-template-rows: 5.5em 57em 72em 65em 65em 45em 65em 55em 45em 55em 15em 32.5em;
+    grid-template-rows: 5.5em 57em 72em 65em 72em 45em 65em 55em 45em 55em 15em 32.5em;
 }
 
 .main-grid__header {
@@ -306,6 +306,8 @@ a.main-navigation__text {
     margin: 0;
     position: relative;
 }
+
+
 
 /* Courses Categories END */
 
@@ -583,7 +585,225 @@ a.main-navigation__text {
     margin-top: 1.5em;
 }
 
+.campus-gallery__gallery {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.campus-gallery__article {
+    position: relative;
+    margin-top: 2.5em;
+}
+.campus-gallery__arctile-overlay {
+    display: none;
+    flex-direction: column ;
+    position: absolute;
+    left: 0;
+    width: 370px;
+    height: 370px;
+    background-color: #0c3542a9;
+}
+
+.campus-galllery__arctile-overlay__text-wrapper{
+    margin: 2em;
+}
+
+.campus-gallery__arctile-overlay h4{
+    color: white;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.campus-gallery__arctile-overlay small {
+    color: white;
+    display: block;
+    font-weight: 500;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+
+.campus-gallery__arctile-overlay__button {
+    display: block;
+    width: max-content;
+    padding: 1em;
+    padding-top: 1.2em;
+    background-color: #ff6933;
+    margin-top: 10em;
+    margin-left: 14em;
+    align-self: flex-end;
+}
+
+.campus-gallery__arctile-overlay__button:hover {
+    background-color: rgb(230, 41, 8);
+}
+
+
+
+.campus-gallery__article:hover .campus-gallery__arctile-overlay{
+    display:  inline-block;
+}
 /* Campus Galleryu END */
+
+
+
+
+/* expert instructers START */
+
+.expert-instructors__background {
+    background-color: rgb(232, 247, 247);
+    grid-column: 1/4;
+    grid-row: 6/7;
+}
+
+
+.expert-instructors {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.expert-instructors__headline {
+    margin-top: 5em;
+}
+
+.expert-instructors__headline h2 {
+    font-weight: 600;
+    font-size: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    display: inline;
+    color: rgb(253, 77, 23);
+}
+
+.expert-instructors h3 {
+    font-size: 2.8em;
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+}
+
+.expert-instructors__gallery {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5em;
+}
+
+
+.expert-instructors__photo {
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.epxert-instructors__photo__info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2.5em;
+}
+.expert-instructors__photo  h3 {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.epxert-instructors__photo__info small {
+    font-size: 1em;
+    display: inline;
+}
+
+
+.expert-instructors__photo__info__line {
+    margin-top: 1em;
+}
+.expert-instructors__photo__info__icon {
+    display: inline-block;
+    margin-top: 2em;
+    margin-right: 1em;
+}
+
+.expert-instructors__photo__info__icon__wrapper {
+    margin-bottom: 1em;
+}
+.expert-instructores__photo__info__popup {
+    position: absolute;
+    left: 8.5em;
+    top: 9.3em;
+    padding:0.5em;
+    padding-right: 0.7em;
+    padding-left: 0.8em;
+    padding-bottom: 0.4em;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+    background-color: rgb(252, 115, 36);
+    
+}
+
+.expert-instructores__photo__info__popup:hover .expert-instructores__photo__info__popup-menu{
+    display: flex;
+
+}
+.expert-instructores__photo__info__popup-menu {
+    display: none;
+    position: absolute;
+    left:0;
+    padding: 0.21em;
+    top: -138px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-content: center;
+    cursor: pointer;
+}
+
+.expert-instructores__photo__info__popup-menu a{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 50px;
+    margin-top: 0.2em;
+}
+
+.expert-instructores__photo__info__popup-facebook {
+    background-color: #24a1ff;
+}
+
+.expert-instructores__photo__info__popup-facebook img{
+    padding-left: 3px;
+}
+
+.expert-instructores__photo__info__popup-youtube {
+    background-color: #ff0000;
+
+}
+
+.expert-instructores__photo__info__popup-menu__twitter {
+    background-color:   #f7bb00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -613,8 +833,6 @@ footer{
 footer ul{
     list-style-type: none;
 }
-
-
 
 
 /* Zacatek velkych log pred footerem */
