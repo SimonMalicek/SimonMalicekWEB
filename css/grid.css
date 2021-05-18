@@ -18,7 +18,7 @@ body {
 
 .main-grid{
     display: grid;
-    grid-template-columns: 23.5em auto 23.5em;
+    grid-template-columns: 23.5em 30em 23.5em;
     grid-template-rows: 5.5em 55em 65em 65em 65em 45em 65em 55em 45em 55em 47.5em;
 }
 
