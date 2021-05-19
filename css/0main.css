@@ -42,7 +42,7 @@ a:hover {
 .main-grid{
     display: grid;
     grid-template-columns: 21.5em 1fr 20em;
-    grid-template-rows: 5.5em 57em 72em 65em 72em 45em 72em 55em 45em 55em 15em 32.5em;
+    grid-template-rows: 5.5em 57em 72em 65em 72em 45em 72em 61em 45em 55em 15em 32.5em;
 }
 
 .main-grid__header {
@@ -1002,6 +1002,7 @@ a.main-navigation__text {
     grid-column: 1/4;
     grid-row: 8/9;
     background-color: #0c3542;
+    background-image: url("/jpg/people-background-big.png");
 }
 
 .students-feedback-wrapper {
@@ -1013,10 +1014,10 @@ a.main-navigation__text {
     flex-flow: column;
 }
 .students-feedback__headline {
-    margin-top: 5em;
+    margin-top: 7em;
 }
 .students-feedback__headline h2 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1em;
     margin-right: 0.5em;
     margin-left: 0.5em;
@@ -1024,19 +1025,109 @@ a.main-navigation__text {
     color: rgb(255, 255, 255);
 }
 
-.students-feedback__headline h3{
+.students-feedback-wrapper h3{
     font-size: 2.8em;
+    font-weight: 500;
     margin-top: 0.4em;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
+    color: white;
+}
+
+.students-feedback__articles-warapper{
+    display: flex;
 }
 
 
+.students-feedback__feedback-wrapper{
+    position: relative;
+}
+
+.sutdents-feedback__feedback__text-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1em;
+    left: 1.3em;
+    margin: 3em;
+}
+
+.students-feedback__feedback__main-text {
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.students-feedback__feedback__profile-wrapper {
+    display: flex;
+    margin-top: 2em;
+}
+
+.students-feedback__feedback__profile-name-wrapper{
+    margin-left: 1em;
+}
+.students-feedback__feedback__profile-name-description {
+    color: coral;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+/* students feedback Buttons */
+.students-feedback__buttons-wrapper{
+    margin-top: 3em;
+}
+.students-feedback__feedbac__button {
+    border-style: none;
+    background:#e46334;
+    padding: 0.9em;
+    cursor: pointer;
+    margin-right: 0.2em;
+}
+
+.students-feedback__feedbac__button:hover {
+
+    background:#b44d27;
+
+}
+
+
+/* students feedback Photos */
+.students-feedback__photos-wrapper{
+    margin-left: 15em;
+    display: flex;
+    justify-content: space-around;
+}
+.students-feedback__photos-wrapper img{
+    margin-top: 2em;
+}
+
+.students-feedback__photos-photo1 {
+    margin-right: 2.5em;
+    margin-top: 4em;
+}
+
+.students-feedback__photos-photo3 {
+    margin-top: -2em;
+}
 
 /* students feedback END */
 
 
 
 
+
+/* Become an instructor START */
+.become-instructor-background-color{
+    grid-column: 1/4;
+    grid-row: 9/10;
+    background:#e7f9ff;
+}
+
+.become-instructor-wrapper {
+    grid-column: 2/3;
+    grid-row: 9/10;
+}
+/* Become an instructor END */
 
 
 
