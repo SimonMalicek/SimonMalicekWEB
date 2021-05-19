@@ -42,7 +42,7 @@ a:hover {
 .main-grid{
     display: grid;
     grid-template-columns: 21.5em 1fr 20em;
-    grid-template-rows: 5.5em 57em 72em 65em 72em 45em 65em 55em 45em 55em 15em 32.5em;
+    grid-template-rows: 5.5em 57em 72em 65em 72em 45em 72em 55em 45em 55em 15em 32.5em;
 }
 
 .main-grid__header {
@@ -110,9 +110,7 @@ a.main-navigation__text {
 
 }
 
-.main-navigation__item__sub-menu {
-    
-}
+
 
 /* HEADER End */
 
@@ -788,16 +786,253 @@ a.main-navigation__text {
     background-color:   #f7bb00;
 }
 
+/* expert instructers END */
 
 
 
 
+/* Upcoming events START */
+
+
+.upcoming-events-wrapper {
+    grid-column: 2/3;
+    grid-row: 7/8;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.upcoming-events__headline {
+    margin-top: 5em;
+}
+
+.upcoming-events__headline h2 {
+    font-weight: 600;
+    font-size: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    display: inline;
+    color: rgb(253, 77, 23);
+}
+
+.upcoming-events__big-headline {
+    font-size: 2.8em;
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+}
+
+.upcoming-events__articles {
+    display: flex;
+}
+
+.upcoming-events__articles__big {
+    position: relative;
+    background-color: #ebf7fa;
+
+}
+.upcoming-events__articles__big__info-wrapper {
+    display: flex;
+    flex-direction: column ;
+    width: 40em;
+    margin: 2em;
+    margin-left: 4em;
+}
+.upcoming-events__articles__big__info-wrapper p{
+    word-wrap: break-word;
+}
+.upcoming-events__articles__big__info {
+    display: flex;
+
+}
+
+.upcoming-events__articles__big__info p,
+.upcoming-events__articles__big__info img {
+    display: inline-block;
+}
+
+.upcoming-events__articles__big__info p {
+    margin-left: 0.5em;
+    margin-right: 2em;
+    font-weight: 500;
+}
+
+
+.upcoming-events__articles__big__headline {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+
+}
+
+.upcoming-events__articles__big__button {
+    background-color: #ff6933;
+    width: 10em;
+    text-align: center;
+    padding: 1em;
+    font-family: roboto;
+    color: white;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+
+.upcoming-events__articles__big__button:hover {
+    background-color: #d1582c;
+
+}
+
+
+.upcoming-events__articles__big__price-button {
+    position: absolute;
+    background-color: #ff6933;
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+    padding: 1em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    border-radius: 30px;
+    top: 22em;
+    left: 40em;
+}
+
+
+.upcoming-events__articles__small__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.upcoming-events__articles__small__article{
+    position: relative;
+    margin-left: 2em;
+}
+
+
+.upcoming-events__articles__small__article__info-wrapper {
+    position: absolute;
+    top: 0;
+}
+
+.upcoming-events__articles__small__article__info{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    margin-top: 12em;
+}
+
+.upcoming-events__articles__small__article__info__time-date {
+    display: flex;
+    align-items: center;
+}
+
+.upcoming-events__articles__small__article__info__time-date p,
+.upcoming-events__articles__small__article__info__time-date img {
+    display: inline-block;
+}
+
+
+.upcoming-events__articles__small__article__info__time-date p {
+    margin-left: 0.2em;
+    margin-right: 1em;
+    font-weight: bold;
+    color: rgb(192, 192, 192);
+
+}
+
+.upcoming-events__articles__small__article__info h3 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 0.2em;
+}
+
+.upcoming-events__articles__small__article__info__button {
+    display: inline-flex;
+    padding: 0.5em;
+    margin-top: 0.7em;
+    align-content: center;
+    align-items: center;
+    
+}
+.upcoming-events__articles__small__article__info__button p{
+    color: white;
+}
+
+.upcoming-events__articles__small__article__info__button__arrow {
+    margin-bottom:0.2em;
+    margin-left: 0.5em;
+    
+}
+
+.upcoming-events__articles__small__article__price-button {
+    position: absolute;
+    background-color: #ff6933;
+    font-family: roboto;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    border-radius: 30px;
+    top: 2em;
+    left: 16em;
+}
+
+.upcoming-events__view-all-button {
+    color: #0c3542;
+    font-family: roboto;
+    margin-top: 4em;
+    padding: 1.5em;
+    padding-right: 4em;
+    padding-left: 4em;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #b4b4b4;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+/* Upcoming events END */
 
 
 
+/* students feedback START */
+
+.students-feedback-background {
+    grid-column: 1/4;
+    grid-row: 8/9;
+    background-color: #0c3542;
+}
+
+.students-feedback-wrapper {
+    grid-column: 2/3;
+    grid-row: 8/9;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.students-feedback__headline {
+    margin-top: 5em;
+}
+.students-feedback__headline h2 {
+    font-weight: 600;
+    font-size: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+
+.students-feedback__headline h3{
+    font-size: 2.8em;
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+}
 
 
 
+/* students feedback END */
 
 
 
@@ -852,8 +1087,7 @@ footer ul{
     grid-row: 11/12;
 }
 
-.footer-big-logos__logo {
-}
+
 /* Konec velkych log pred footerem */
 
 
