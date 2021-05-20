@@ -1038,7 +1038,7 @@ a.main-navigation__text {
     grid-column: 1/4;
     grid-row: 8/9;
     background-color: #0c3542;
-    background-image: url("/jpg/people-background-big.png");
+    background-image: url(../jpg/people-background-big.png);
 }
 
 .students-feedback-wrapper {
@@ -1513,6 +1513,7 @@ footer ul{
     top: -15em;
     background-color: rgb(40, 126, 255);
     border: none;
+    cursor: pointer;
 }
 
 #footer-button:hover{
