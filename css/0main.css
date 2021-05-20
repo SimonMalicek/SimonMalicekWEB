@@ -42,7 +42,7 @@ a:hover {
 .main-grid{
     display: grid;
     grid-template-columns: 21.5em 1fr 20em;
-    grid-template-rows: 5.5em 57em 72em 65em 72em 45em 72em 61em 45em 55em 15em 32.5em;
+    grid-template-rows: 5.5em 57em 72em 65em 72em 45em 72em 61em 52em 55em 15em 32.5em;
 }
 
 .main-grid__header {
@@ -1126,6 +1126,95 @@ a.main-navigation__text {
 .become-instructor-wrapper {
     grid-column: 2/3;
     grid-row: 9/10;
+    display: flex;
+}
+
+.become-instructor__main-image {
+    align-self: center;
+    margin-right: 5em;
+}
+
+
+
+
+
+.become-instructor__main-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 30em;
+}
+
+.become-instructor__headline {
+    margin-top: 8em;
+}
+
+.become-instructor__headline img {
+    display: inline;
+}
+
+.become-instructor__headline h2 {
+    margin-left: 0.5em; 
+    display: inline;
+    color: #db5524;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.become-instructor__big-headline {
+    font-size: 3em;
+    margin-top: 0.5em;
+}
+
+.become-instructor__main-wrapper p {
+    margin-top: 1.5em;
+}
+.become-instructor__main-wrapper__selection-wrapper {
+    display: flex;
+    margin-top: 3em;
+    justify-content: space-between;
+}
+.become-instructor__main-wrapper__selection-wrapper img {
+    margin-bottom: 1em;
+}
+
+.become-instructor__main-wrapper__selection-wrapper h4 {
+    font-size: 1.5em;
+}
+.become-instructor__main-wrapper__selection-wrapper__book {
+    margin-left: 2em;
+}
+
+.become-instructor__main-wrapper__buttons-wrapper {
+    display: flex;
+    margin-top: 5em;
+}
+
+.become-instructor__main-wrapper__buttons-wrapper button {
+    border: none;
+    background-color: #e46334;
+
+}
+
+.become-instructor__main-wrapper__buttons-wrapper button:hover {
+    background-color: #fff;
+    color: #e46334;
+
+}
+
+
+.become-instructor__main-wrapper__buttons-wrapper button a {
+    margin: 1.3em;
+    display: inline-block;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-weight: bold;
+
+}
+
+.become-instructor__main-wrapper__buttons__join {
+    margin-right: 1em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
 }
 /* Become an instructor END */
 
