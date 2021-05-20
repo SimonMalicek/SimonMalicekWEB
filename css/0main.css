@@ -42,7 +42,7 @@ a:hover {
 .main-grid{
     display: grid;
     grid-template-columns: 21.5em 1fr 20em;
-    grid-template-rows: 5.5em 57em 72em 65em 72em 45em 72em 61em 52em 55em 15em 32.5em;
+    grid-template-rows: 5.5em 57em 72em 65em 72em 45em 72em 61em 52em 65em 15em 32.5em;
 }
 
 .main-grid__header {
@@ -86,28 +86,64 @@ a.main-navigation__text {
 .main-navigation__item{
     display: flex;
     align-items: center;
+    position: relative;
 }
 
+.hearder-icons img {
+    margin-left: 3.3em;
+}
+
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+}
 .header-icons__menu {
     margin-left: 2em;
 }
 
+
+
+
+
 .main-navigation__item__sub-menu{
     display: none;
+    position: relative;
 }
+
+.main-navigation__item__sub-menu__decor{
+    padding-top: 0.2em;
+    background-color: rgb(253, 77, 23);
+}
+.main-navigation__item__sub-menu li {
+    color: rgb(68, 68, 68);
+    display: inline-block;
+    padding: 0.5em;
+    width: 10em;
+
+
+}
+.main-navigation__item__sub-menu li:nth-child(2n) {
+    background-color: white;
+}
+
+.main-navigation__item__sub-menu li:nth-child(2n+1) {
+    background-color: rgb(253, 77, 23);
+}
+
+
 
 .main-navigation__item__sub-menu>ul{
     list-style-type: none;
 }
 
+
+
 .main-navigation__item:hover .main-navigation__item__sub-menu{
     display: block;
     position: absolute;
-    padding-left: 2em;
-    padding-right: 1em;
-    padding-top: 1em;
-    margin-top: 6em;
-
+    top: -0.5em;
+    left: 1.5em;
+    padding-top: 2.2em;
 }
 
 
@@ -1219,6 +1255,103 @@ a.main-navigation__text {
 /* Become an instructor END */
 
 
+
+/* Latest News & Blog START */
+
+.latest-news-wrapper {
+    grid-column: 2/3;
+    grid-row: 10/11;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.latest-news__headline {
+    margin-top: 8em;
+}
+
+.latest-news__headline h2 {
+    font-weight: 600;
+    font-size: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    display: inline;
+    color: rgb(253, 77, 23);
+}
+
+.latest-news__big-headline {
+    font-size: 2.8em;
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+}
+
+
+.latest-news__articles-warapper {
+    position: relative;
+    display: flex;
+    align-self: stretch;
+    justify-content: space-around;
+    
+}
+.latest-news__articles__article{
+    max-width: 370px;
+    border: rgb(187, 187, 187);
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+}
+
+.latest-news__articles__article__comments-wrapper {
+    display: flex;
+}
+
+.latest-news__articles__article__text-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+.latest-news__articles__article__comments-wrapper p {
+    display: inline-block;
+    margin-left: 0.3em;
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+.latest-news__articles__article__text-wrapper h4 {
+    font-size: 1.5em;
+    margin-top: 0.3em;
+}
+
+.latest-news__articles__article__profile-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.latest-news__articles__article__profile-wrapper h5{
+    font-size: 1.4em;
+    margin-left: 0.5em;
+}
+
+.latest-news__articles__article__button {
+    background-color: #bbbbbb;
+    display: block;
+    position: absolute;
+    top: 34em;
+    left: 19.4em;
+}
+
+.latest-news__articles__article__button:hover {
+    background-color: #ff6933;
+}
+.latest-news__articles__article__button img{
+    margin-top: 1.6em;
+    margin-bottom: 1em;
+    margin-left: 1.4em;
+    margin-right: 1.4em;
+}
+/* Latest News & Blog END */
 
 
 
