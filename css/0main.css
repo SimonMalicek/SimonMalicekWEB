@@ -41,7 +41,7 @@ a:hover {
 
 .main-grid{
     display: grid;
-    grid-template-columns: 21.5em 1fr 20em;
+    grid-template-columns: 20em 1fr 20em;
     grid-template-rows: 5.5em 57em 72em 65em 72em 45em 72em 61em 52em 65em 15em 32.5em;
 }
 
