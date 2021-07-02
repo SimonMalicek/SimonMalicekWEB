@@ -1,13 +1,26 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: #e7f9ff;
+    margin: 0;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4 {
+    font-family: Roboto;
 }
 
 
+p, small{
+    font-family: Hind;
+}
+
+input, select, textarea{
+    color: darkgray;
+}
 
 a, a:visited, a:active {
     color: inherit;
@@ -20,10 +33,35 @@ a:hover {
 }
 
 
+
+
+
+
+
+/* ################################################################ */
+
+/* GRID*/
+/* Tady zacina grid*/
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: auto;
+}
+
+.main-grid__header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+
+}
+
+/* HEADER Start*/
+
+
 header{  
-    position: absolute;
+    grid-column: 1/4;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 1.5em;
     margin-left: 2.3em;
@@ -32,13 +70,14 @@ header{
 }
 
 .main-navigation__item > img{
-    margin-top: 12px;
     margin-left: 5px;
 
 }
 .main-navigation {
     display: flex;
-    margin-right: 31.5em;
+    flex-grow: 4;
+
+    margin-right: 3em;
     margin-left: 3em;
     list-style-type: none;
 }
@@ -49,23 +88,71 @@ a.main-navigation__text {
     padding-left: 1.5em;
 }
 
-.header-icons__menu {
-    margin-left: 2em;
+.main-navigation__item{
+    display: flex;
+    align-items: center;
+    position: relative;
 }
+
+.hearder-icons img {
+    margin-left: 3.3em;
+}
+
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 3em;
+}
+.header-icons__menu {
+    margin-left: 0;
+}
+
+
+
+
 
 .main-navigation__item__sub-menu{
     display: none;
+    position: relative;
 }
+
+.main-navigation__item__sub-menu__decor{
+    padding-top: 0.2em;
+    background-color: rgb(253, 77, 23);
+}
+.main-navigation__item__sub-menu li {
+    color: rgb(68, 68, 68);
+    display: inline-block;
+    padding: 0.5em;
+    width: 10em;
+
+
+}
+.main-navigation__item__sub-menu li:nth-child(2n) {
+    background-color: white;
+}
+
+.main-navigation__item__sub-menu li:nth-child(2n+1) {
+    background-color: rgb(253, 77, 23);
+}
+
+
 
 .main-navigation__item__sub-menu>ul{
     list-style-type: none;
 }
 
+
+
 .main-navigation__item:hover .main-navigation__item__sub-menu{
     display: block;
     position: absolute;
-
-    padding-left: 2em;
-    padding-right: 1em;
-    padding-top: 0.5em;
+    top: -0.5em;
+    left: 1.5em;
+    padding-top: 2.2em;
 }
+
+
+
+/* HEADER End */
