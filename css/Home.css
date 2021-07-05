@@ -49,6 +49,8 @@ a:hover {
 
 }
 
+
+
 .main-grid__header {
     grid-column: 1/4;
     grid-row: 1/2;
@@ -60,9 +62,8 @@ a:hover {
 
 header{  
     grid-column: 1/4;
-    position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 1.5em;
     margin-left: 2.3em;
@@ -76,7 +77,7 @@ header{
 }
 .main-navigation {
     display: flex;
-    margin-right: 30.5em;
+    margin-right: 3em;
     margin-left: 3em;
     list-style-type: none;
 }
@@ -84,7 +85,7 @@ header{
 a.main-navigation__text {
     float: left;
     display: block;
-    padding-left: 1.5em;
+    margin-left: 1.5em;
 }
 
 .main-navigation__item{
@@ -100,9 +101,14 @@ a.main-navigation__text {
 .header-icons{
     display: flex;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: 3em;
+}
+.header-icons a{
+    margin-left: 0.3em;
 }
 .header-icons__menu {
-    margin-left: 2em;
+    margin-left: 0;
 }
 
 
@@ -123,18 +129,7 @@ a.main-navigation__text {
     display: inline-block;
     padding: 0.5em;
     width: 10em;
-
-
 }
-.main-navigation__item__sub-menu li:nth-child(2n) {
-    background-color: white;
-}
-
-.main-navigation__item__sub-menu li:nth-child(2n+1) {
-    background-color: rgb(253, 77, 23);
-}
-
-
 
 .main-navigation__item__sub-menu>ul{
     list-style-type: none;
@@ -145,28 +140,44 @@ a.main-navigation__text {
 .main-navigation__item:hover .main-navigation__item__sub-menu{
     display: block;
     position: absolute;
-    top: -0.5em;
+    top: 0.5em;
     left: 1.5em;
-    padding-top: 2.2em;
+    padding-top: 1em;
+    margin-top: 0.5em;
+}
+
+.main-navigation__item:hover #Home-sub-menu{
+    display: block;
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+    padding-top: 1em;
+    margin-top: 0.5em;
+}
+
+.main-navigation__item:hover {
+    color: coral;
+    cursor: pointer;
+}
+.main-navigation__item__sub-menu li:hover, .main-navigation__item__sub-menu a:hover {
+    background-color: coral;
+    color: white;
 }
 
 
 
 /* HEADER End */
 
-
 /* START Welcome to Edu ... More Than 1200 Online Courses */
 
 /* background */
 
 .welcome-background {
-    grid-row: 1/3;
     grid-column: 1/4;
-    margin-left: -17px;
-    
-
+    grid-row: 1/3;
+    background-image: url(../jpg/BackgroundWithGirl1922x952.png);
+    background-color: rgb(239, 255, 255);
 }
-
 
 .welcome-wrapper {
     margin-top: 10em;
@@ -211,14 +222,19 @@ a.main-navigation__text {
     font-family: Hind;
     font-size: 1.2em;
     color:  gray;
-    padding-right: 6.5em;
-    margin-left: 2em;
+    padding-right: 7.5em;
+    margin-right: 0.5em;
+    padding-left: 0.5em;
+}
+.welcome-wrapper__search-bar button:hover{
+    cursor: pointer;
 }
 
 .welcome-wrapper__info {
 
     display: flex;
     margin-top: 4em;
+    flex-wrap: wrap;
 }
 
 .welcome-wrapper__info p{
@@ -244,23 +260,32 @@ a.main-navigation__text {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 55em;
+    margin-top: 35em;
     grid-column: 2/3;
     grid-row: 2/3;
 }
 .welcome-courses__cell{
     background-color: white;
-    display: block;
+    position: relative;
+    top: 3em;
     margin-top: 2em;
+    display: block;
     padding: 2em;
     padding-top: 1.5em;
     padding-bottom: 0.5em;
-    box-shadow:0px 10px 20px rgba(128, 128, 128, 0.37);}
+    box-shadow:0px 10px 20px rgba(128, 128, 128, 0.37);
+}
+
 .welcome-courses__cell small{
     font-size: 2em;
     font-weight: bold;
     font-family: Hind;
     color: tomato;
+}
+
+#welcome-courses__cell__active {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
 }
 
 .welcome-courses__cell h3{
@@ -305,6 +330,7 @@ a.main-navigation__text {
     font-size: 2.8em;
     margin-top: 0.4em;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 
@@ -312,13 +338,15 @@ a.main-navigation__text {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 2em;
 }
 
 
 
 /* cards Start */
 .card-small {
-    margin-top: 1.3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     width: 272px;
     border: 1px solid rgb(212, 212, 212);
 
@@ -385,6 +413,7 @@ a.main-navigation__text {
     font-size: 3em;
     margin-top: 0.4em;
     margin-bottom: 1em;
+    text-align: center;
     color: white;
 }
 
@@ -397,8 +426,10 @@ a.main-navigation__text {
 .available-courses__card-wrapper{
     margin-top: 5em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-self:stretch;
+    padding-bottom: 2em;
 }
 
 
@@ -408,6 +439,8 @@ a.main-navigation__text {
 .pop-up-course__wrapper{
     width: 375px;
     height: 470px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     background-color: white;
 
 }
@@ -595,6 +628,7 @@ a.main-navigation__text {
     font-size: 2.8em;
     margin-top: 0.4em;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .campus-gallery__buttons {
@@ -630,6 +664,7 @@ a.main-navigation__text {
     justify-content: space-around;
     align-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 2em;
 }
 
 .campus-gallery__article {
@@ -720,17 +755,21 @@ a.main-navigation__text {
     color: rgb(253, 77, 23);
 }
 
-.expert-instructors h3 {
+.expert-instructors > h3 {
     font-size: 2.8em;
     margin-top: 0.4em;
     margin-bottom: 1em;
+    text-align: center;
+
 }
 
 .expert-instructors__gallery {
     margin-top: 2em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 1.5em;
+    margin-bottom: 2em;
 }
 
 
@@ -739,6 +778,7 @@ a.main-navigation__text {
     position: relative;
     display: flex;
     flex-direction: column;
+
 }
 
 .epxert-instructors__photo__info {
@@ -843,6 +883,7 @@ a.main-navigation__text {
     align-content: center;
     align-items: center;
     flex-flow: column;
+    margin-bottom: 2em;
 }
 .upcoming-events__headline {
     margin-top: 5em;
@@ -861,10 +902,13 @@ a.main-navigation__text {
     font-size: 2.8em;
     margin-top: 0.4em;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .upcoming-events__articles {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .upcoming-events__articles__big {
@@ -938,6 +982,9 @@ a.main-navigation__text {
     left: 40em;
 }
 
+#upcoming-events__articles__hidden {
+    display: none;
+}
 
 .upcoming-events__articles__small__wrapper {
     display: flex;
@@ -986,6 +1033,7 @@ a.main-navigation__text {
     font-size: 1.5em;
     font-weight: 500;
     margin-top: 0.2em;
+    text-align: center;
 }
 
 .upcoming-events__articles__small__article__info__button {
@@ -1045,6 +1093,7 @@ a.main-navigation__text {
     grid-row: 8/9;
     background-color: #0c3542;
     background-image: url(../jpg/people-background-big.png);
+    background-position: center;
 }
 
 .students-feedback-wrapper {
@@ -1067,12 +1116,14 @@ a.main-navigation__text {
     color: rgb(255, 255, 255);
 }
 
-.students-feedback-wrapper h3{
+.students-feedback-wrapper > h3{
     font-size: 2.8em;
     font-weight: 500;
     margin-top: 0.4em;
     margin-bottom: 3em;
     color: white;
+    text-align: center;
+
 }
 
 .students-feedback__articles-warapper{
@@ -1289,6 +1340,7 @@ a.main-navigation__text {
     font-size: 2.8em;
     margin-top: 0.4em;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 
@@ -1384,6 +1436,12 @@ footer{
     font-family: Hind;
 }
 
+.footer-info__background{
+    grid-column: 1/4;
+    grid-row: 12/14;
+    background-image: url(../jpg/FootgetBackground.png);
+
+}
 footer ul{
     list-style-type: none;
 }
@@ -1427,6 +1485,8 @@ footer ul{
 
 
 .footer-social-logos {
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 2em;
     margin-top: 4em;
 }
@@ -1448,6 +1508,7 @@ footer ul{
     margin-top: 8.5em;
     margin-left: 5em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -1513,15 +1574,202 @@ footer ul{
 }
 
 #footer-button {
-    position: relative;
     padding: 1.5em;
-    left: 100em;
-    top: -15em;
     background-color: rgb(40, 126, 255);
     border: none;
+    height: 4em;
     cursor: pointer;
 }
 
 #footer-button:hover{
     background-color: rgb(28, 86, 173);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ################################################################ */
+/* Media queries */
+
+@media screen and (max-width: 1300px) {
+    .main-navigation{margin: 0;}
+    .header-icons{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+/* TABLET */
+@media screen and (max-width: 1024px) {
+
+    /* GRID START */
+
+    .main-grid{
+        grid-template-columns: 10% 80% 10%;
+    }
+
+
+    /* GRID END */
+
+    
+    .header-icons > a {display: none;}
+
+    .header-icons {
+        margin: 0;
+        padding: 0;
+    }
+    #header__header-icons__sign-in {
+        display: block;
+        padding-left: 10.4em;
+    }
+    
+    header{
+        flex-wrap: wrap;
+    }
+
+    nav{order: 3;}
+    .main-navigation{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #HomeNavButton{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    #HomeNavText{margin: 0;}
+
+    /* Campus GAllery */
+    .campus-gallery__buttons{
+        flex-direction: column;
+    }
+
+    .campus-gallery__button{
+        margin-bottom: 0.7em;
+    }
+
+
+
+    /* Upcoming Events */
+    .upcoming-events__articles__big {
+        display: none;
+    }
+
+    #upcoming-events__articles__hidden {
+        display: block;
+        color: black;
+    }
+
+    /*what our Students Say */
+    .students-feedback__photos-wrapper{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 615px) {
+    #header__header-icons__sign-in {
+        padding-left: 3.5em;
+    }
+
+
+
+/* PHONE */
+@media screen and (max-width: 480px) {
+
+    /* GRID START */
+
+    .main-grid{
+        grid-template-columns: 5% 90% 5%;
+    }
+
+    /* GRID END */
+
+
+
+    /* Header START */
+    header{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .header-icons {display: none;}
+
+
+    .main-navigation {
+        margin-top: 1em;
+        flex-direction: column;
+
+    }
+    
+    a.main-navigation__text {
+        font-size: 1.3em;
+        margin: 0;
+    }
+
+    .main-navigation__item img {display: none;}
+
+   
+    .main-navigation__item:hover .main-navigation__item__sub-menu{
+        display: none;
+    }
+    
+    .main-navigation__item:hover #Home-sub-menu{
+        display: none;
+    }
+    /* Header END */
+
+
+    .welcome-wrapper__first-part {
+        font-size: 0.8em;
+    }
+    
+    .welcome-wrapper__search-bar__input {
+        padding-right: 4.4em;
+
+    }
+
+    .welcome-wrapper__search-bar {
+        width: 25em;
+
+
+    }
+    
+    /* Popular Courses */
+    .available-courses-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+
+
+
+
+
+    
+}
+
+
+
+
+/* ################################################################ */

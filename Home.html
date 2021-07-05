@@ -24,16 +24,16 @@
 
 <body>
     <div class="main-grid">
-
-        <!-- Header start -->
-        <div class="main-grid__header">
+        <div class="welcome-background"></div>
+         <!-- Header start -->
+         <div class="main-grid__header">
             <header>
-                <img src="jpg/logo.png" alt="Logo EduPlus" height="50" width='223'> 
+                <a href="#" rel="next" title="Main logo"><img src="jpg/logo.png" alt="Logo EduPlus" height="50" width='223'></a>
                 <nav>
                     <ul class = "main-navigation"><!-- Zacatek seznamu, navigace--> 
                         <li>
                             <div class = "main-navigation__item" id="HomeNavButton">
-                                <a class = "main-navigation__text"  href="Home.html" rel="next" title="Navigation to the Home site">Home</a>   
+                                <a class = "main-navigation__text" id="HomeNavText" href="Home.html" rel="next" title="Navigation to the Home site">Home</a>   
                                 <img src="jpg/NavArrowIcon.png">
                                 <div class = "main-navigation__item__sub-menu" id="Home-sub-menu">
                                     <ul>
@@ -110,7 +110,7 @@
                 <div class ="header-icons">
                     <a href="https://www.facebook.com/"> <img src="jpg/FacebookIcon53x53.png" alt="Facebook Icon" width="53" height="53" ></a>
                     <a href="https://www.YOUTUBE.com/"> <img src="jpg/YoutubeIcon53x53.png" alt="Youtube Icon" width="53" height="53" > </a>
-                    <a href="#"> <img src="jpg/SignInIcon123x53.png" alt="Sign In Icon" width="123" height="53" ></a>
+                    <a href="#" id="header__header-icons__sign-in"> <img src="jpg/SignInIcon123x53.png" alt="Sign In Icon" width="123" height="53" ></a>
                     <a href="#"> <img class="header-icons__menu" src="jpg/MenuIcon9Dots.png" alt="Menu Icon" height="48" width="48"> </a>
                 </div>      
             </header>
@@ -119,13 +119,12 @@
         
 
         <!-- Welcom to edu Start-->
-        <img class="welcome-background" src="jpg/BackgroundWithGirl1922x952.png" width="1920">
         <div class="welcome-wrapper">
-            <section>
+            <section class="welcome-wrapper__first-part">
                 
                     <div class="welcome-wrapper__small-headline">
                         <img src="jpg/3DotsIcon.png" alt="Laptop Icon" height="12" width="27">
-                        <h1>Welcom to EduPlus</h1>
+                        <h1>Welcome to EduPlus</h1>
                     </div>
         
                     <h2>More than 1200 Online Courses</h2>
@@ -170,7 +169,7 @@
                 </div>
             </div>
 
-            <div class="welcome-courses__cell">
+            <div class="welcome-courses__cell" id="welcome-courses__cell__active">
                 <img src="jpg/IconOfLaptop.png" alt="Laptop Icon" height="37" width="50"> 
                 <div class="welcome-courses__cell__text">
                     <small>8963+</small>
@@ -527,7 +526,7 @@
                 </div>
                 <h3 class="campus-gallery__big-headline">Campus Gallery</h3>
                 <div class="campus-gallery__buttons">
-                    <span class="campus-gallery__button-active" >Show All</span>
+                    <span class="campus-gallery__button">Show All</span>
                     <span class="campus-gallery__button">University</span>
                     <span class="campus-gallery__button">Study</span>
                     <span class="campus-gallery__button">Awards</span>
@@ -759,6 +758,29 @@
                 </article>
 
                 <div class="upcoming-events__articles__small__wrapper">
+                    <article id="upcoming-events__articles__hidden" class="upcoming-events__articles__small__article">
+                        <img src="jpg/group-770.png" width="370" height="317">
+                        <div class="upcoming-events__articles__small__article__info-wrapper">
+                            <div class="upcoming-events__articles__small__article__info">
+                                <div class="upcoming-events__articles__small__article__info__time-date">
+                                    <div class="upcoming-events__articles__small__article__info__time-date__date"> 
+                                        <img alt="date icon" src="jpg/date-icon-small.png">
+                                        <p>25 NOV 2020</p>
+                                    </div>
+                                    <div class="upcoming-events__articles__small__article__info__time-date__time"> 
+                                        <img alt="time icon" src="jpg/time icon.png">
+                                        <p>08 AM - 09 PM</p>
+                                    </div>
+                                </div>
+                                <a href="#"><h3> Annual Conference 2020</h3></a>
+                                <div class="upcoming-events__articles__small__article__info__button">
+                                    <a href="#"><p>JOIN EVENT</p></a>
+                                    <a href="#"><img src=jpg/arrow-small-white.png class="upcoming-events__articles__small__article__info__button__arrow" height="10"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="upcoming-events__articles__small__article__price-button">20$</div>
+                    </article>
                     <article class="upcoming-events__articles__small__article">
                         <img src="jpg/small-article-370.png">
                         <div class="upcoming-events__articles__small__article__info-wrapper">
@@ -1024,8 +1046,7 @@
             <a href="#"> <img class = "footer-big-logos__logo" src="jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" ></a>
             <a href="#"> <img class = "footer-big-logos__logo" src="jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" ></a>
         </section>
-
-        <img class="footer-background" src="jpg/FootgetBackground.png" width="1900">
+        <div class="footer-info__background"></div>
         <footer>
         <!--LOGOS END -->
             <section class = "footer-wrapper">
@@ -1088,10 +1109,10 @@
                         </div>
                         
                     </article>
+                    <button type="button" id = "footer-button" onclick="ScrollUp()"><img src="jpg/Arrowbutton.png"> </button>
                 </section>
                 <small class="footer-copyright">Copyright © 2020 <span style="color: white;">EduPlus</span> All Rights Reserved.</small>
             </section>    
-            <button type="button" id = "footer-button" onclick="ScrollUp()"><img src="jpg/Arrowbutton.png"> </button>
         </footer>
     </div>    
 </body>
