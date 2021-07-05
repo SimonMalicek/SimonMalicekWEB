@@ -41,8 +41,12 @@ a:hover {
 
 .main-grid{
     display: grid;
-    grid-template-columns: 20em 1fr 20em;
+    grid-template-columns: 15% 70% 15%;
+    /*
     grid-template-rows: 5.5em 57em 72em 65em 72em 45em 72em 61em 52em 65em 15em 32.5em;
+    */
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+
 }
 
 .main-grid__header {
@@ -238,14 +242,16 @@ a.main-navigation__text {
 
 .welcome-courses{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 50em;
+    margin-top: 55em;
     grid-column: 2/3;
     grid-row: 2/3;
 }
 .welcome-courses__cell{
     background-color: white;
     display: block;
+    margin-top: 2em;
     padding: 2em;
     padding-top: 1.5em;
     padding-bottom: 0.5em;
