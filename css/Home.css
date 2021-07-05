@@ -181,7 +181,7 @@ a.main-navigation__text {
 
 .welcome-wrapper {
     margin-top: 10em;
-    width: 29em;
+    max-width: 29em;
     grid-column: 2/3;
     grid-row: 2/3;
 }
@@ -240,16 +240,17 @@ a.main-navigation__text {
 .welcome-wrapper__info p{
     display: inline-block;
     width: 15em;
-    padding-right: 1em;
     font-size: 0.9em;
     color:  rgb(155, 155, 155);
     font-weight: bold;
 
 }
 
-.welcome-wrapper__info__contacts {
-    padding-left: 2em;
+.welcome-wrapper__info > img {
+    margin-right: 2em;
 }
+
+
 
 /* END Welcom to Edu ... More Than 1200 Online Courses */
 
@@ -1103,6 +1104,7 @@ a.main-navigation__text {
     align-content: center;
     align-items: center;
     flex-flow: column;
+    margin-bottom: 2em;
 }
 .students-feedback__headline {
     margin-top: 7em;
@@ -1220,6 +1222,7 @@ a.main-navigation__text {
     grid-column: 2/3;
     grid-row: 9/10;
     display: flex;
+    margin-bottom: 2em;
 }
 
 .become-instructor__main-image {
@@ -1349,6 +1352,7 @@ a.main-navigation__text {
     display: flex;
     align-self: stretch;
     justify-content: space-around;
+    flex-wrap: wrap;
     
 }
 .latest-news__articles__article{
@@ -1357,6 +1361,7 @@ a.main-navigation__text {
     border-width: 1px;
     border-style: solid;
     position: relative;
+    margin-bottom: 2em;
 }
 
 .latest-news__articles__article__comments-wrapper {
@@ -1452,10 +1457,10 @@ footer ul{
 .footer-big-logos {
     grid-column: 2/3;
     grid-row: 11/12;
-    padding-top: 5em;
-    padding-bottom: 0em;
+    padding-top: 2em;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer-big-logos__color{
@@ -1464,6 +1469,10 @@ footer ul{
     grid-row: 11/12;
 }
 
+.footer-big-logos a{
+    margin: 1em;
+    margin-bottom: 2em;
+}
 
 /* Konec velkych log pred footerem */
 
@@ -1489,12 +1498,15 @@ footer ul{
     flex-wrap: wrap;
     margin-left: 2em;
     margin-top: 4em;
+    grid-column: 2/4;
 }
 
-#footer-edu-logo {
-    margin-right: 14.5em;
-}
 
+.footer__logos-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
 .footer-social-logos__logo{
     margin-bottom: 0.3em;
     margin-right: 3.6em;
@@ -1676,6 +1688,33 @@ footer ul{
     .students-feedback__photos-wrapper{
         display: none;
     }
+
+    .students-feedback__buttons-wrapper {
+        display: none;
+    }
+
+
+    /*Upcoming Events */
+    .upcoming-events__articles__small__article{
+        margin-bottom: 2em;
+    }
+
+
+
+    /* Become an Instructor*/
+
+    .become-instructor-wrapper{
+        flex-direction: column;
+    }
+
+    .become-instructor__main-image{
+        margin-top: 2em;
+        order: 2;
+    }
+    
+    .become-instructor__main-image{
+        width: 75%;
+    }
 }
 
 
@@ -1692,7 +1731,7 @@ footer ul{
 
 
 /* PHONE */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
     /* GRID START */
 
@@ -1761,8 +1800,7 @@ footer ul{
         align-content: center;
     }
 
-
-
+   /* What Our Studetns Tell
 
 
 
