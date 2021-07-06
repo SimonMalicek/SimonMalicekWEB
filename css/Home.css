@@ -1231,6 +1231,7 @@ a.main-navigation__text {
 
 .become-instructor__main-image {
     align-self: center;
+    width: 100%;
     margin-right: 5em;
 }
 
@@ -1464,17 +1465,18 @@ footer ul{
     padding-top: 2em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .footer-big-logos__color{
-    background-color: rgb(255, 122, 45);
+    background-color: #ea5822;
     grid-column: 1/4;
     grid-row: 11/12;
 }
 
 .footer-big-logos a{
-    margin: 1em;
+    margin: 2em;
+    
     margin-bottom: 2em;
 }
 
@@ -1861,7 +1863,7 @@ footer ul{
    .footer-info__newsletter p {
     display: block;
     word-wrap: break-word;
-    width: 20em;
+    width: 20em;8
 
 }
 
