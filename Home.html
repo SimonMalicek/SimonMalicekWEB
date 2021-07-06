@@ -1038,7 +1038,7 @@
 
         <!-- FOOTER start -->
         <!-- LOGOS Start -->
-        <div class = foote  r-big-logos__color></div>
+        <div class = "footer-big-logos__color"></div>
         <section class = "footer-big-logos">
             <a href="#"> <img class = "footer-big-logos__logo" src="jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" ></a>
             <a href="#"> <img class = "footer-big-logos__logo" src="jpg/Logo1.png" alt="Mouitain Logo" width="162" height="88" ></a>
@@ -1062,58 +1062,60 @@
                 </div>
 
                 <!-- Start informace ve footeru-->
-                <section class = "footer-info">
-                    <article id = "footer-info__our-courses">
-                        <h2>
-                            Our Courses
-                        </h2>
-                        <ul>
-                            <div class="footer-info__our-courses__section">
-                                <div class = "footer-info__our-courses__group">
-                                    <li><a href="#" title="Web Development" rel="next">Web Development</a> </li>
-                                    <li><a href="#" title="Business Studies" rel="next">Business Studies</a> </li>
-                                    <li><a href="#" title="Computer Engineering" rel="next">Web Development</a> </li>
-                                    <li><a href="#" title="English Learning" rel="next">English Learning</a> </li>
-                                    <li><a href="#" title="Graphic Design" rel="next">Graphic Design</a> </li>
-                                </div>
-                                <div class = "footer-info__our-courses__group">
-                                    <li><a href="#" title="Color Combinations" rel="next">Color Combinations</a> </li>
-                                    <li><a href="#" title="Software Development" rel="next">Software Development</a> </li>
-                                    <li><a href="#" title="Photography" rel="next">Photography</a> </li>
-                                    <li><a href="#" title="Advance WordPress" rel="next">Advance WordPress</a> </li>
-                                    <li><a href="#" title="Basic PSD to THML" rel="next">Basic PSD to THML</a> </li>
-                                </div>
-                            </div> 
-                        </ul>
-                    </article>
-                    <article class = "footer-info__company">
-                        <h2>
-                            Company
-                        </h2>
-                        <ul>
-                            <li><a href="#" title="About Eduket" rel="next">About Eduket</a> </li>
-                            <li><a href="#" title="Meet Advisors" rel="next">Meet Advisors</a> </li>
-                            <li><a href="#" title="Join a Carrer" rel="next">Join a Carrer</a> </li>
-                            <li><a href="#" title="Latest Coures" rel="next">Latest Coures</a> </li>
-                            <li><a href="#" title="Newsletter" rel="next">Newsletter</a> </li>
-                        </ul>
-                    </article>
-                    <article class = "footer-info__newsletter">
-                        <h2>
-                            Newsletters
-                        </h2>
-                        <p>Sed ut perspiciatis unde omnis natus error sit voluptatem, Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
-                        
-                        <div class = "footer-info__newsletter__button">
-                            <form action="action.php" method="POST"></form>
-                                <input for="mail" id="MailInput" name="mail" type="email" placeholder="Enter Your Email" >
-                                <button><img src="jpg/ArrowNewsletter.png"  alt="Arrow News letter" width="48" height="13" ></button>
-                            </form> 
-                        </div>
-                        
-                    </article>
-                    <button type="button" id = "footer-button" onclick="ScrollUp()"><img src="jpg/Arrowbutton.png"> </button>
-                </section>
+                <div class="footer-info__wrapper">
+                    <section class = "footer-info">
+                        <article id = "footer-info__our-courses">
+                            <h2>
+                                Our Courses
+                            </h2>
+                            <ul>
+                                <div class="footer-info__our-courses__section">
+                                    <div class = "footer-info__our-courses__group">
+                                        <li><a href="#" title="Web Development" rel="next">Web Development</a> </li>
+                                        <li><a href="#" title="Business Studies" rel="next">Business Studies</a> </li>
+                                        <li><a href="#" title="Computer Engineering" rel="next">Web Development</a> </li>
+                                        <li><a href="#" title="English Learning" rel="next">English Learning</a> </li>
+                                        <li><a href="#" title="Graphic Design" rel="next">Graphic Design</a> </li>
+                                    </div>
+                                    <div class = "footer-info__our-courses__group">
+                                        <li><a href="#" title="Color Combinations" rel="next">Color Combinations</a> </li>
+                                        <li><a href="#" title="Software Development" rel="next">Software Development</a> </li>
+                                        <li><a href="#" title="Photography" rel="next">Photography</a> </li>
+                                        <li><a href="#" title="Advance WordPress" rel="next">Advance WordPress</a> </li>
+                                        <li><a href="#" title="Basic PSD to THML" rel="next">Basic PSD to THML</a> </li>
+                                    </div>
+                                </div> 
+                            </ul>
+                        </article>
+                        <article class = "footer-info__company">
+                            <h2>
+                                Company
+                            </h2>
+                            <ul>
+                                <li><a href="#" title="About Eduket" rel="next">About Eduket</a> </li>
+                                <li><a href="#" title="Meet Advisors" rel="next">Meet Advisors</a> </li>
+                                <li><a href="#" title="Join a Carrer" rel="next">Join a Carrer</a> </li>
+                                <li><a href="#" title="Latest Coures" rel="next">Latest Coures</a> </li>
+                                <li><a href="#" title="Newsletter" rel="next">Newsletter</a> </li>
+                            </ul>
+                        </article>
+                        <article class = "footer-info__newsletter">
+                            <h2>
+                                Newsletters
+                            </h2>
+                            <p>Sed ut perspiciatis unde omnis natus error sit voluptatem, Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                            
+                            <div class = "footer-info__newsletter__button">
+                                <form action="action.php" method="POST"></form>
+                                    <input for="mail" id="MailInput" name="mail" type="email" placeholder="Enter Your Email" >
+                                    <button><img src="jpg/ArrowNewsletter.png"  alt="Arrow News letter" width="48" height="13" ></button>
+                                </form> 
+                            </div>
+                            
+                        </article>
+                        <button type="button" id = "footer-button" onclick="ScrollUp()"><img src="jpg/Arrowbutton.png"> </button>
+                    </section>
+                </div>
                 <small class="footer-copyright">Copyright © 2020 <span style="color: white;">EduPlus</span> All Rights Reserved.</small>
             </section>    
         </footer>
