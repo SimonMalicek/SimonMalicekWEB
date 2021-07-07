@@ -1476,7 +1476,6 @@ footer ul{
 
 .footer-big-logos a{
     margin: 2em;
-    
     margin-bottom: 2em;
 }
 
@@ -1545,7 +1544,7 @@ footer ul{
     margin-bottom: 0.5em;
 }
 
-.footer-info a, p, small {
+.footer-info a, .footer-info p,.footer-info  small {
     color: gray;
 }
 
