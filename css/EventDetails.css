@@ -14,7 +14,7 @@ h1, h2, h3, h4 {
 }
 
 
-p, small, li{
+p, small{
     font-family: Hind;
 }
 
@@ -145,7 +145,6 @@ a.main-navigation__text {
     left: 1.5em;
     padding-top: 1em;
     margin-top: 0.5em;
-    
 }
 
 .main-navigation__item:hover {
@@ -193,488 +192,154 @@ a.main-navigation__text {
 
 /* Under header-background END */
 
-/* Courses Selection */
 
 
+/* Annual Conference 2020 */
 
-
-
-.courses-selection__wrapper{
-    margin-bottom: 5em;
-}
-
-.courses-selection__menu {
+.annual-conference__wrapper{
+    grid-column: 2/3;
+    grid-row: 4/5;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 7em;
-    margin-bottom: 2em;
-}
-.courses-selection__menu li{
-    list-style-type: none;
-}
-.courses-selection__menu button{
-    font-size: 0.9em;
-    list-style-type: none;
-    margin-left: 0.5em;
-    margin-right: 0.5em ;
-    border: none;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: white;
-    border-radius: 20px;
-    font-weight: bold;
-    
-}
-
-.courses-selection__menu button:hover{
-    background: #ea5822;
-    color: white;
-    cursor: pointer;
-
-}
-
-
-
-.courses-selection__courses {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-.pop-up-course__wrapper{
-    width: 250px;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-    background-color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(224, 224, 224);
-}
-
-.pop-up-course__picture__name {
-    display: flex;
-    align-items: center;
-    background: #062a3600;
-    justify-content: space-evenly;
-    position: absolute;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    margin-top: -5em;
-    margin-left: 1em;
-
-
-}
-
-.pop-up-course__picture__name__price{
-    display: inline-block;
-    background: #ea5822;
-    color: white5;
-    padding-left: 1em;
-    padding-right: 1em;
-    border-radius: 25px;    
-    margin-left: -5em;
-    margin-top: 3.5em;
-    font-weight: bold;
-}
-#pop-up-course__picture__name__price-popup{
-    margin-top: 0em;
-    background: white;
-    color: rgb(0, 110, 255);
-}
-
-.pop-up-course__picture__name__name{
-    display: inline-block;
-    color:white;
-    font-weight: 600;
-    margin-right: 6em;
-    padding-left: 0.5em;
-
-}
-
-.pop-up .pop-up-course__picture__name{
+    padding: 5em;
     margin-top: 5em;
 }
 
-
-.pop-up-course__info {
-    padding: 0.5em;
+.annual-conference__wrapper h1{
+    font-size: 2em;
 }
 
-.pop-upcourse__info__tag {
-    display: inline-block;
-    border-radius: 25px;
-    background: rgb(0, 110, 255);
+.annual-conference__info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: grey;
+    font-weight: bold;
+    align-items: flex-end;
+}
+.annual-conference p{
+    color: grey;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.annual-conference__info-cell{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.annual-conference__info-cell img{
+    width: fit-content;
+    height: fit-content;
+    margin-right: 5px;
+}
+
+.annual-conference__info span{
+    font-family: Hind;
+    background-color: rgb(0, 110, 255);
+    display: block;
+    height: fit-content;
+    padding-top: 3px;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    font-weight: bold;
     color: white;
-    padding: 1px;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-
+    font-size: 1.4em;
 }
 
-.pop-up-course__info__headline {
-    margin-top: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
+.annual-conference__info-cell_button span{
+    background-color: tomato;
+    font-size: 0.9em;
+    padding: 1em;
+    padding-right: 3em;
+    padding-left: 3em;
 }
 
-.pop-upcourse__info__ratings img {
-    display: inline-block;
-    margin-top: 5px;
-}
+.annual-conference__info-cell_button span:hover{
 
-.pop-upcourse__info__ratings p{
-    display: inline-block;
-    margin-right: 1.5em;
-    margin-left: 0.5em;
+    background-color: rgb(189, 72, 52);
 }
-.pop-upcourse__info__ratings {
-    display: inline-flex;
-    justify-content: space-around;
-
-}
-
-.pop-up {
-    background: rgb(0, 110, 255);
-    width: 250px;
-    height: auto;
-    color: white;
-}
-
-.pop-up .pop-up-course__picture {
-    position: relative;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    top: -4em;
-    margin-left: 1em;
+.annual-conference__photo{
+    max-width: auto;
+    width: 100%;
    
 }
 
-.pop-up .pop-upcourse__info__tag{
-    color: rgb(0, 110, 255);
-    background: white;
-}
-.pop-up-description {
-    margin-top: 3em;
-    margin-bottom: 14px;
-}
 
-.pop-up__button {
-    border: none;
-    padding: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
-    background:white;
-    color: rgb(0, 110, 255);
-    font-weight: bold;
-    margin-bottom: 1em;
-}
-
-.pop-up__button:hover {
-    background:#a0d9ff;
-
-}
-.pop-up__button:hover a{
-    color: black;
-}
-
-.pop-up .pop-up-course__picture__name {
-    margin-top: 10.7em;
-    margin-left: -0.5em;
-    margin-right: 0.5em;
-    margin-bottom: 20px;
-}
-
-.pop-up{
-    display: none;
-}
-.pop-up-course__wrapper:hover .pop-up{
-    display: block;
-    position: absolute;
-    margin-top: -380px;
-    width: 250px;
-}
-
-
-
-.pop-up-description {
-    color: white;
-}
-
-
-.pop-up-course__info__headline-popup{
-    margin: 0;
-}
-
-/* Courses selection END */
-
-
-/* expert instructers START */
-
-.expert-instructors__background {
-    background-color: rgb(232, 247, 247);
-    grid-column: 1/4;
-    grid-row: 4/5;
-}
-
-
-.expert-instructors {
-    grid-column: 2/3;
-    grid-row: 4/5;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-flow: column;
-    margin-bottom: 5em;
-}
-.expert-instructors__headline {
-    margin-top: 5em;
-}
-
-.expert-instructors__headline h2 {
-    font-weight: 600;
-    font-size: 1em;
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-    display: inline;
-    color: rgb(253, 77, 23);
-}
-
-.expert-instructors > h3 {
-    font-size: 2.8em;
-    margin-top: 0.4em;
-    margin-bottom: 1em;
-    text-align: center;
-
-}
-
-.expert-instructors__gallery {
-    margin-top: 2em;
+.annual-conference__importance-wrapper{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 1.5em;
-    margin-bottom: 2em;
+    justify-content: space-between;
 }
 
-
-.expert-instructors__photo {
-    background-color: white;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.epxert-instructors__photo__info {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1em;
-    margin-left: 2em;
-    margin-right: 2.5em;
-}
-.expert-instructors__photo  h3 {
-    font-size: 1.4em;
-    font-weight: 600;
+.annual-conference__importance-wrapper p{
+    max-width: 25em;
     margin: 0;
-    padding: 0;
-}
-
-.epxert-instructors__photo__info small {
-    font-size: 1em;
-    display: inline;
-}
-
-
-.expert-instructors__photo__info__line {
     margin-top: 1em;
 }
-.expert-instructors__photo__info__icon {
-    display: inline-block;
-    margin-top: 2em;
-    margin-right: 1em;
+
+.annual-conference__importance-wrapper img{
+    max-width: 30em;
+    width: 100%;
+    height: 100%;
 }
 
-.expert-instructors__photo__info__icon__wrapper {
-    margin-bottom: 1em;
-}
-.expert-instructores__photo__info__popup {
-    position: absolute;
-    left: 8.5em;
-    top: 9.3em;
-    padding:0.5em;
-    padding-right: 0.7em;
-    padding-left: 0.8em;
-    padding-bottom: 0.4em;
-    font-weight: bold;
-    color: white;
-    font-size: 1.5em;
-    background-color: rgb(252, 115, 36);
+.annual-conference__importance__list-item{
+    margin: 1em;
+    margin-left: 0;
     
 }
 
-.expert-instructores__photo__info__popup:hover .expert-instructores__photo__info__popup-menu{
-    display: flex;
-
-}
-.expert-instructores__photo__info__popup-menu {
-    display: none;
-    position: absolute;
-    left:0;
-    padding: 0.21em;
-    top: -138px;
-    background-color: rgb(255, 255, 255);
-    flex-direction: column;
-    align-content: center;
-    cursor: pointer;
-}
-
-.expert-instructores__photo__info__popup-menu a{
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    border-radius: 50px;
-    margin-top: 0.2em;
-}
-
-.expert-instructores__photo__info__popup-facebook {
-    background-color: #24a1ff;
-}
-
-.expert-instructores__photo__info__popup-facebook img{
-    padding-left: 3px;
-}
-
-.expert-instructores__photo__info__popup-youtube {
-    background-color: #ff0000;
-
-}
-
-.expert-instructores__photo__info__popup-menu__twitter {
-    background-color:   #f7bb00;
-}
-
-/* expert instructers END */
-
-
-
-
-/* Latest News & Blog START */
-
-.latest-news-wrapper {
-    grid-column: 2/3;
-    grid-row: 5/6;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-flow: column;
-    margin-bottom: 5em;
-}
-.latest-news__headline {
-    margin-top: 8em;
-}
-
-.latest-news__headline h2 {
-    font-weight: 600;
-    font-size: 1em;
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-    display: inline;
-    color: rgb(253, 77, 23);
-}
-
-.latest-news__big-headline {
-    font-size: 2.8em;
-    margin-top: 0.4em;
-    margin-bottom: 1em;
-    text-align: center;
-}
-
-
-.latest-news__articles-warapper {
-    position: relative;
-    display: flex;
-    align-self: stretch;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
-}
-.latest-news__articles__article{
-    max-width: 370px;
-    border: rgb(187, 187, 187);
-    border-width: 1px;
-    border-style: solid;
-    position: relative;
+.annual-conference__decor{
+    padding-top: 1px;
+    background-color: lightgray;
     margin-bottom: 2em;
 }
 
-.latest-news__articles__article__comments-wrapper {
+.annual-conference__list{
     display: flex;
+    flex-wrap: wrap;
+}
+.annual-conferece__list-item{
+    position: relative;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    }
+.annual-conferece__list-item__info{
+    position: absolute;
+    top: 180px;
+    left: 20px;
 }
 
-.latest-news__articles__article__text-wrapper{
-    display: flex;
-    flex-direction: column;
-    margin: 2em;
-}
 
-.latest-news__articles__article__comments-wrapper p {
-    display: inline-block;
-    margin-left: 0.3em;
-    margin-right: 1em;
+.annual-conferece__list-item__info small{
+    color: lightgray;
     font-weight: bold;
 }
 
-.latest-news__articles__article__text-wrapper h4 {
-    font-size: 1.5em;
+.annual-conferece__list-item__info h1{
     margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    color: white;
 }
-
-.latest-news__articles__article__profile-wrapper {
+.annual-conferece__list-item__info__date-wrapper{
     display: flex;
-    align-items: center;
-    margin-top: 1.5em;
+    justify-content: space-between;
+    margin-right: 3em;
+
 }
 
-.latest-news__articles__article__profile-wrapper h5{
-    font-size: 1.4em;
-    margin-left: 0.5em;
+.annual-conferece__list-item__info__date-wrapper img{
+    width: fit-content;
+    height: fit-content;
 }
 
-.latest-news__articles__article__button {
-    background-color: #bbbbbb;
-    display: block;
-    position: absolute;
-    top: 34em;
-    left: 19.4em;
+.annual-conferece__list-item__info span{
+    color: white;
 }
 
-.latest-news__articles__article__button:hover {
-    background-color: #ff6933;
-}
-.latest-news__articles__article__button img{
-    margin-top: 1.6em;
-    margin-bottom: 1em;
-    margin-left: 1.4em;
-    margin-right: 1.4em;
-}
-/* Latest News & Blog END */
-
-
-
-
-
-
+.annual-conferece__list-item__info span:hover, .annual-conferece__list-item__info h1:hover{
+    color: tomato;
+} 
 
 
 
@@ -891,18 +556,6 @@ footer ul{
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* ################################################################ */
 /* Media queries */
 
@@ -1037,17 +690,6 @@ footer ul{
     }
 
 
-    /* courses selection */
-    .courses-selection__menu{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-
-
-
 
 
    /*footer */
@@ -1071,7 +713,8 @@ footer ul{
     display: block;
     word-wrap: break-word;
     width: 20em;
-   }
+
+}
 
    #footer-button {
        margin-top: 2em;
@@ -1084,3 +727,8 @@ footer ul{
    }
     
 }
+
+
+
+
+/* ################################################################ */

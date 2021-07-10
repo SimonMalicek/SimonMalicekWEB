@@ -996,6 +996,7 @@ a.main-navigation__text {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .upcoming-events__articles__small__article{
     position: relative;
     margin-left: 2em;
@@ -1809,6 +1810,7 @@ footer ul{
     .main-navigation__item:hover #Home-sub-menu{
         display: none;
     }
+    
     /* Header END */
 
 
@@ -1862,7 +1864,7 @@ footer ul{
    .footer-info__newsletter p {
     display: block;
     word-wrap: break-word;
-    width: 20em;8
+    width: 20em;
 
 }
 
@@ -1877,8 +1879,3 @@ footer ul{
    }
     
 }
-
-
-
-
-/* ################################################################ */

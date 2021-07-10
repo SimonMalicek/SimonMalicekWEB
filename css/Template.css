@@ -404,18 +404,6 @@ footer ul{
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* ################################################################ */
 /* Media queries */
 
@@ -572,7 +560,7 @@ footer ul{
    .footer-info__newsletter p {
     display: block;
     word-wrap: break-word;
-    width: 20em;8
+    width: 20em;
 
 }
 

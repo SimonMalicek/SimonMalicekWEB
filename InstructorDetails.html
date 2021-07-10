@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instructor Details</title>
+    <meta name="description" content="webova stranka do skoly">
+    <meta name="Author" content="Simon Malicek IT">
+    <link rel='stylesheet' href="css/InstructorDetails.css">
+    <script src="JS/script.js"></script>
+</head>
+
+<body>
+    <div class="main-grid">
+
+        <div class="welcome-background"></div>
+        <!-- Header start -->
+        <div class="main-grid__header">
+            <header>
+                <a href="#" rel="next" title="Main logo"><img src="jpg/logo.png" alt="Logo EduPlus" height="50" width='223'></a>
+                <nav>
+                    <ul class = "main-navigation"><!-- Zacatek seznamu, navigace--> 
+                        <li>
+                            <div class = "main-navigation__item" id="HomeNavButton">
+                                <a class = "main-navigation__text" id="HomeNavText" href="Home.html" rel="next" title="Navigation to the Home site">Home</a>   
+                                <img src="jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Home-sub-menu">
+                                    <ul>
+                                        <div class="main-navigation__item__sub-menu__decor"></div>
+                                        <li><a a href="./AboutUs.html">About Us</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div> 
+                            </div>    
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="CoursesNavButton">
+                            <a class = "main-navigation__text"   href="Courses.html" rel="next" title="Navigation to the Courses site">Courses</a>   
+                            <img src="jpg/NavArrowIcon.png">
+                            <div class = "main-navigation__item__sub-menu" id="Courses-sub-menu">
+                                <ul>
+                                    <div class="main-navigation__item__sub-menu__decor"></div>
+                                    <li><a a href="./OurCourses.html">Our Courses</a></li>
+                                    <li><a a href="./CoursesDetails.html">Courses Details</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                </ul>
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item"  id="EventsNavButton">
+                            <a class = "main-navigation__text"  href="Events.html" rel="next" title="Navigation to the Events site">Events</a>   
+                            <img src="jpg/NavArrowIcon.png">
+                            <div class = "main-navigation__item__sub-menu" id="Events-sub-menu">
+                                <ul>
+                                    <div class="main-navigation__item__sub-menu__decor"></div>
+                                    <li><a a href="./EventDetails.html">Event Details</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                </ul>
+                            </div>  
+                        </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="PagesNavButton">
+                                <a class = "main-navigation__text"   href="Pages.html" rel="next" title="Navigation to the Pages site">Pages</a>   
+                                <img src="jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Pages-sub-menu">
+                                    <ul>
+                                        <div class="main-navigation__item__sub-menu__decor"></div>
+                                        <li><a a href="./InstructorDetails.html">Instructor Details</a></li>
+                                        <li><a a href="./FAQ.html">FAQ</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div>  
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="BlogNavButton">
+                                <a class = "main-navigation__text"   href="Blog.html" rel="next" title="Navigation to the Blog site"> Blog</a>   
+                                <img src="jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Blog-sub-menu">
+                                    <ul>
+                                        <div class="main-navigation__item__sub-menu__decor"></div>
+                                        <li><a a href="./Blog.html">Blog</a></li>
+                                        <li><a a href="./BlogDetailed.html">Blog Detailed</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div>  
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="ContacNavButton">
+                                <a class = "main-navigation__text"   href="ContactUs.html" rel="next" title="Navigation to the Contact site">Contact</a>   
+                            </div>  
+                        </li>
+                    </ul>
+                </nav>
+                <div class ="header-icons">
+                    <a href="https://www.facebook.com/"> <img src="jpg/FacebookIcon53x53.png" alt="Facebook Icon" width="53" height="53" ></a>
+                    <a href="https://www.YOUTUBE.com/"> <img src="jpg/YoutubeIcon53x53.png" alt="Youtube Icon" width="53" height="53" > </a>
+                    <a href="#" id="header__header-icons__sign-in"> <img src="jpg/SignInIcon123x53.png" alt="Sign In Icon" width="123" height="53" ></a>
+                    <a href="#"> <img class="header-icons__menu" src="jpg/MenuIcon9Dots.png" alt="Menu Icon" height="48" width="48"> </a>
+                </div>      
+            </header>
+        </div>
+        <!-- Header end -->
+
+        <!-- Our Courses START-->
+        <div class="under-header__background">
+            <h1>Instructor Details</h1>
+            <span><a href="./Home.html">Home</a><small> > </small><a href="./InstructorDetails.html">Instructor Details</a></span>
+        </div>
+        <!-- Our Courses END-->
+
+        <!-- About Me START-->
+        <div class="about-me__background"></div>
+        <section class="about-me__wrapper">
+            <div class="about-me__profile">
+                <img class="about-me__profile__photo" src="./jpg/profile-photo.jpg" alt="profile photo">
+                <div class="about-me__profile__info-wrapper">
+                    <div class="about-me__profile__info__name">
+                        <h1>Simon Malicek</h1>
+                        <h2>IT Student</h2>
+                        <div class="about-me__profile__info__name-decor"></div>
+                        <div>
+                            <img class="about-me__profile__book-icon" src="./jpg/book-icon-small.png" alt="book icon">
+                            <small>750+ Courses</small>
+                        </div>    
+                    </div>
+                    <div class="about-me__profile__info__socials-wrapper">
+                        <div class="about-me__profile__info__socials">
+                            <a href="https://facebook.com"><img src="/jpg/fb-icon.png" alt="facebook icon"></a>
+                            <a href="https://twitter.com"><img src="/jpg/twit-icon.png" alt="twitter icon"></a>
+                            <a href="https://youtube.com"><img src="/jpg/yt-icon.png" alt="youtube icon"></a>
+                            <a href="https://www.behance.net/"><img src="/jpg/behenance-logo.png" alt="behenance icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-me__about-me">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet scelerisque diam, et iaculis dui pellentesque eget. Etiam quam libero, volutpat eu congue quis, mollis eleifend purus. Curabitur imperdiet urna non semper convallis. Phasellus ultricies eu purus a condimentum. Etiam maximus tincidunt neque eget sodales. Vivamus tempus porta eleifend. Pellentesque ut pretium nunc.</p>
+                <p>In ultrices pretium sem, eu lobortis nisl fermentum et. Donec vel sem mollis, tristique eros a, vulputate lectus. Praesent non felis sit amet sapien bibendum tristique. Integer consequat aliquet semper. Praesent at dui vel dui iaculis accumsan eget id ex. Suspendisse at sem ut orci ornare sollicitudin. Praesent sagittis porttitor ultricies. Praesent a mi elit. Nunc rhoncus pretium consequat.</p>
+                <div class="about-me__stats-wrapper">
+                    <div class="about-me__stats__stat">
+                        <img src="./jpg/BooksLogo.png">
+                        <div class="about-me__stats__stat__numbers-wrapper">
+                            <small class="about-me_stats_stat_number">3045+</small>
+                            <small>Satisfied Students</small>
+                        </div>             
+                    </div>
+                    <div class="about-me__stats__stat-decor"></div>
+                    <div class="about-me__stats__stat">
+                        <img src="./jpg/IconOfLaptop.png">
+                        <div class="about-me__stats__stat__numbers-wrapper">
+                            <small class="about-me_stats_stat_number">3045+</small>
+                            <small>Satisfied Students</small>
+                        </div>             
+                    </div>
+                </div>
+                </div>
+            <div class="about-me__certifications">
+                <h1>Certifications</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet scelerisque diam, et iaculis dui pellentesque eget. </p>
+                <div class="about-me__certifications__img-wrapper">
+                    <img class="about-me__certifications__img" src="./jpg/certi-1.jpg" alt="certification-img">
+                    <img class="about-me__certifications__img" src="./jpg/certi-2.jpg" alt="certification-img">
+                    <img class="about-me__certifications__img" src="./jpg/certi-3.jpg" alt="certification-img">
+                </div>
+            </div>
+            <div class="about-me__educations">
+                <h1>Education</h1>
+                <div class="about-me__educations__univ-wrapper">
+                    <div class="about-me__educations__univ">
+                        <img src="./jpg/IconOfGraduation.png">
+                        <div class="about-me__educations__univ-text">
+                            <a href="#"><h2>World University</h2></a>
+                            <h3>Computer Science</h3>
+                        </div>
+                    </div>
+                    <div class="about-me__educations__univ">
+                        <img src="./jpg/book-icon-big.png">
+                        <div class="about-me__educations__univ-text">
+                            <a href="#"><h2>World University</h2></a>
+                            <h3>Computer Science</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Education</h2>
+                <div class="about-me__educations__univ-wrapper">
+                    <div class="about-me__educations__univ">
+                        <img src="./jpg/BooksLogo.png">
+                        <div class="about-me__educations__univ-text">
+                            <a href="#"><h2>World University</h2></a>
+                            <h3>Computer Science</h3>
+                        </div>
+                    </div>
+                    <div class="about-me__educations__univ">
+                        <img src="./jpg/digi-icon.png">
+                        <div class="about-me__educations__univ-text">
+                            <a href="#"><h2>World University</h2></a>
+                            <h3>Computer Science</h3>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        
+        </section>
+        <!-- About Me END-->
+
+        <section class="popular-courses">
+            <h1>Popular Courses</h1>
+            <div class="popular-coureses__wrapper">
+                <div class="popular-courses__courses-wrapper">
+                    <div class="pop-up-course__wrapper">
+                        <article><!-- First Article-->
+                            <div class="pop-up-course">
+                                <div class="pop-up-course__picture">
+                                    <img src="jpg/young-woman-teaching-students-english-class-online.jpg" alt="Place Holder Image" width="250"  >
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__info">
+                                    <p class="pop-upcourse__info__tag">English</p>
+                                    <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                    <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                    <img src="jpg/DividingLine.png" alt="Dividing Line" width="190">
+                                    <div class="pop-upcourse__info__ratings">
+                                        <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                        <p>25</p>
+                                        <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                        <p>36hr</p>
+                                        <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                        <p>2.5k</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pop-up">
+                                <div class="pop-up-course__picture">
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price" id="pop-up-course__picture__name__price-popup"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__pop_up">
+                                    <div class="pop-up-course__info ">
+                                        <p class="pop-upcourse__info__tag">English</p>
+                                        <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                        <a href="#"><h4 class="pop-up-course__info__headline-popup">Best Courses For Learning  English Courses</h4></a>
+                                        <p class="pop-up-description"> Sed ut perspiciatis unde omnis natus error sit voluptatem Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                                        <button class="pop-up__button" type="button"><a href="#">GET ENROLLED</a></button>
+                                        <div class="pop-upcourse__info__ratings">
+                                            <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                            <p>25</p>
+                                            <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                            <p>36hr</p>
+                                            <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                            <p>2.5k</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="popular-courses__courses-wrapper">
+                    <div class="pop-up-course__wrapper">
+                        <article><!-- First Article-->
+                            <div class="pop-up-course">
+                                <div class="pop-up-course__picture">
+                                    <img src="jpg/young-woman-teaching-students-english-class-online.jpg" alt="Place Holder Image" width="250"  >
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__info">
+                                    <p class="pop-upcourse__info__tag">English</p>
+                                    <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                    <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                    <img src="jpg/DividingLine.png" alt="Dividing Line" width="190">
+                                    <div class="pop-upcourse__info__ratings">
+                                        <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                        <p>25</p>
+                                        <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                        <p>36hr</p>
+                                        <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                        <p>2.5k</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pop-up">
+                                <div class="pop-up-course__picture">
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price" id="pop-up-course__picture__name__price-popup"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__pop_up">
+                                    <div class="pop-up-course__info ">
+                                        <p class="pop-upcourse__info__tag">English</p>
+                                        <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                        <a href="#"><h4 class="pop-up-course__info__headline-popup">Best Courses For Learning  English Courses</h4></a>
+                                        <p class="pop-up-description"> Sed ut perspiciatis unde omnis natus error sit voluptatem Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                                        <button class="pop-up__button" type="button"><a href="#">GET ENROLLED</a></button>
+                                        <div class="pop-upcourse__info__ratings">
+                                            <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                            <p>25</p>
+                                            <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                            <p>36hr</p>
+                                            <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                            <p>2.5k</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="popular-courses__courses-wrapper">
+                    <div class="pop-up-course__wrapper">
+                        <article><!-- First Article-->
+                            <div class="pop-up-course">
+                                <div class="pop-up-course__picture">
+                                    <img src="jpg/young-woman-teaching-students-english-class-online.jpg" alt="Place Holder Image" width="250"  >
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__info">
+                                    <p class="pop-upcourse__info__tag">English</p>
+                                    <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                    <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                    <img src="jpg/DividingLine.png" alt="Dividing Line" width="190">
+                                    <div class="pop-upcourse__info__ratings">
+                                        <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                        <p>25</p>
+                                        <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                        <p>36hr</p>
+                                        <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                        <p>2.5k</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pop-up">
+                                <div class="pop-up-course__picture">
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price" id="pop-up-course__picture__name__price-popup"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__pop_up">
+                                    <div class="pop-up-course__info ">
+                                        <p class="pop-upcourse__info__tag">English</p>
+                                        <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                        <a href="#"><h4 class="pop-up-course__info__headline-popup">Best Courses For Learning  English Courses</h4></a>
+                                        <p class="pop-up-description"> Sed ut perspiciatis unde omnis natus error sit voluptatem Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                                        <button class="pop-up__button" type="button"><a href="#">GET ENROLLED</a></button>
+                                        <div class="pop-upcourse__info__ratings">
+                                            <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                            <p>25</p>
+                                            <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                            <p>36hr</p>
+                                            <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                            <p>2.5k</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="popular-courses__courses-wrapper">
+                    <div class="pop-up-course__wrapper">
+                        <article><!-- First Article-->
+                            <div class="pop-up-course">
+                                <div class="pop-up-course__picture">
+                                    <img src="jpg/young-woman-teaching-students-english-class-online.jpg" alt="Place Holder Image" width="250"  >
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__info">
+                                    <p class="pop-upcourse__info__tag">English</p>
+                                    <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                    <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                    <img src="jpg/DividingLine.png" alt="Dividing Line" width="190">
+                                    <div class="pop-upcourse__info__ratings">
+                                        <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                        <p>25</p>
+                                        <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                        <p>36hr</p>
+                                        <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                        <p>2.5k</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pop-up">
+                                <div class="pop-up-course__picture">
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price" id="pop-up-course__picture__name__price-popup"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__pop_up">
+                                    <div class="pop-up-course__info ">
+                                        <p class="pop-upcourse__info__tag">English</p>
+                                        <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                        <a href="#"><h4 class="pop-up-course__info__headline-popup">Best Courses For Learning  English Courses</h4></a>
+                                        <p class="pop-up-description"> Sed ut perspiciatis unde omnis natus error sit voluptatem Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                                        <button class="pop-up__button" type="button"><a href="#">GET ENROLLED</a></button>
+                                        <div class="pop-upcourse__info__ratings">
+                                            <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                            <p>25</p>
+                                            <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                            <p>36hr</p>
+                                            <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                            <p>2.5k</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="popular-courses__courses-wrapper">
+                    <div class="pop-up-course__wrapper">
+                        <article><!-- First Article-->
+                            <div class="pop-up-course">
+                                <div class="pop-up-course__picture">
+                                    <img src="jpg/young-woman-teaching-students-english-class-online.jpg" alt="Place Holder Image" width="250"  >
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__info">
+                                    <p class="pop-upcourse__info__tag">English</p>
+                                    <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                    <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                    <img src="jpg/DividingLine.png" alt="Dividing Line" width="190">
+                                    <div class="pop-upcourse__info__ratings">
+                                        <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                        <p>25</p>
+                                        <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                        <p>36hr</p>
+                                        <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                        <p>2.5k</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pop-up">
+                                <div class="pop-up-course__picture">
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price" id="pop-up-course__picture__name__price-popup"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__pop_up">
+                                    <div class="pop-up-course__info ">
+                                        <p class="pop-upcourse__info__tag">English</p>
+                                        <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                        <a href="#"><h4 class="pop-up-course__info__headline-popup">Best Courses For Learning  English Courses</h4></a>
+                                        <p class="pop-up-description"> Sed ut perspiciatis unde omnis natus error sit voluptatem Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                                        <button class="pop-up__button" type="button"><a href="#">GET ENROLLED</a></button>
+                                        <div class="pop-upcourse__info__ratings">
+                                            <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                            <p>25</p>
+                                            <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                            <p>36hr</p>
+                                            <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                            <p>2.5k</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="popular-courses__courses-wrapper">
+                    <div class="pop-up-course__wrapper">
+                        <article><!-- First Article-->
+                            <div class="pop-up-course">
+                                <div class="pop-up-course__picture">
+                                    <img src="jpg/young-woman-teaching-students-english-class-online.jpg" alt="Place Holder Image" width="250"  >
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__info">
+                                    <p class="pop-upcourse__info__tag">English</p>
+                                    <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                    <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                    <img src="jpg/DividingLine.png" alt="Dividing Line" width="190">
+                                    <div class="pop-upcourse__info__ratings">
+                                        <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                        <p>25</p>
+                                        <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                        <p>36hr</p>
+                                        <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                        <p>2.5k</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pop-up">
+                                <div class="pop-up-course__picture">
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price" id="pop-up-course__picture__name__price-popup"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__pop_up">
+                                    <div class="pop-up-course__info ">
+                                        <p class="pop-upcourse__info__tag">English</p>
+                                        <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                        <a href="#"><h4 class="pop-up-course__info__headline-popup">Best Courses For Learning  English Courses</h4></a>
+                                        <p class="pop-up-description"> Sed ut perspiciatis unde omnis natus error sit voluptatem Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                                        <button class="pop-up__button" type="button"><a href="#">GET ENROLLED</a></button>
+                                        <div class="pop-upcourse__info__ratings">
+                                            <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                            <p>25</p>
+                                            <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                            <p>36hr</p>
+                                            <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                            <p>2.5k</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="popular-courses__courses-wrapper">
+                    <div class="pop-up-course__wrapper">
+                        <article><!-- First Article-->
+                            <div class="pop-up-course">
+                                <div class="pop-up-course__picture">
+                                    <img src="jpg/young-woman-teaching-students-english-class-online.jpg" alt="Place Holder Image" width="250"  >
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__info">
+                                    <p class="pop-upcourse__info__tag">English</p>
+                                    <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                    <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                    <img src="jpg/DividingLine.png" alt="Dividing Line" width="190">
+                                    <div class="pop-upcourse__info__ratings">
+                                        <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                        <p>25</p>
+                                        <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                        <p>36hr</p>
+                                        <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                        <p>2.5k</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pop-up">
+                                <div class="pop-up-course__picture">
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price" id="pop-up-course__picture__name__price-popup"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__pop_up">
+                                    <div class="pop-up-course__info ">
+                                        <p class="pop-upcourse__info__tag">English</p>
+                                        <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                        <a href="#"><h4 class="pop-up-course__info__headline-popup">Best Courses For Learning  English Courses</h4></a>
+                                        <p class="pop-up-description"> Sed ut perspiciatis unde omnis natus error sit voluptatem Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                                        <button class="pop-up__button" type="button"><a href="#">GET ENROLLED</a></button>
+                                        <div class="pop-upcourse__info__ratings">
+                                            <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                            <p>25</p>
+                                            <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                            <p>36hr</p>
+                                            <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                            <p>2.5k</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="popular-courses__courses-wrapper">
+                    <div class="pop-up-course__wrapper">
+                        <article><!-- First Article-->
+                            <div class="pop-up-course">
+                                <div class="pop-up-course__picture">
+                                    <img src="jpg/young-woman-teaching-students-english-class-online.jpg" alt="Place Holder Image" width="250"  >
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__info">
+                                    <p class="pop-upcourse__info__tag">English</p>
+                                    <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                    <a href="#"><h4 class="pop-up-course__info__headline">Best Courses For Learning  English Courses</h4></a>
+                                    <img src="jpg/DividingLine.png" alt="Dividing Line" width="190">
+                                    <div class="pop-upcourse__info__ratings">
+                                        <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                        <p>25</p>
+                                        <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                        <p>36hr</p>
+                                        <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                        <p>2.5k</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pop-up">
+                                <div class="pop-up-course__picture">
+                                    <div class="pop-up-course__picture__name">
+                                        <img src="jpg/ProfilePhoto.png" alt="Course Icon Cirle" width="48" height="48" >
+                                        <p class="pop-up-course__picture__name__name">Warner</p>
+                                        <div class="pop-up-course__picture__name__price" id="pop-up-course__picture__name__price-popup"><p>$59.95</p></div>
+                                    </div>
+                                </div>
+                                <div class="pop-up-course__pop_up">
+                                    <div class="pop-up-course__info ">
+                                        <p class="pop-upcourse__info__tag">English</p>
+                                        <img class="pop-upcourse__info__rating"src="jpg/StarRating4,5of5.png" alt="Rating 4,5 of 5" width="91" height="13" >
+                                        <a href="#"><h4 class="pop-up-course__info__headline-popup">Best Courses For Learning  English Courses</h4></a>
+                                        <p class="pop-up-description"> Sed ut perspiciatis unde omnis natus error sit voluptatem Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                                        <button class="pop-up__button" type="button"><a href="#">GET ENROLLED</a></button>
+                                        <div class="pop-upcourse__info__ratings">
+                                            <img src="jpg/PeopleIcon.png" alt="People Icon" width="20" height="15" >
+                                            <p>25</p>
+                                            <img src="jpg/ClockIcon.png" alt="People Icon" width="15" height="15" >
+                                            <p>36hr</p>
+                                            <img src="jpg/ChatBubbleIcon.png" alt="Chat Bubble Icon" width="18" height="14" >
+                                            <p>2.5k</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER start -->
+        <div class = "footer-big-logos__color"></div>
+        <section class = "footer-big-logos">
+            <a href="#"> <img class = "footer-big-logos__logo" src="jpg/footer-logo-1.png" alt="Mouitain Logo"  ></a>
+            <a href="#"> <img class = "footer-big-logos__logo" src="jpg/footer-logo-5.png" alt="Mouitain Logo"  ></a>
+            <a href="#"> <img class = "footer-big-logos__logo" src="jpg/footer-logo-2.png" alt="Mouitain Logo"  ></a>
+            <a href="#"> <img class = "footer-big-logos__logo" src="jpg/footer-logo-4.png" alt="Mouitain Logo"  ></a>
+            <a href="#"> <img class = "footer-big-logos__logo" src="jpg/footer-logo-3.png" alt="Mouitain Logo"  ></a>
+        </section>
+        <div class="footer-info__background"></div>
+        <footer>
+        <!--LOGOS END -->
+            <section class = "footer-wrapper">
+                <div class = "footer-social-logos__backbround"></div>
+                <div class = "footer-social-logos">
+                    <a href="#"><img id = "footer-edu-logo"src="jpg/EduPlusLogoWhite.png" alt="EduLogo" width="222" height="50" ></a>
+                    <div class="footer__logos-wrapper">
+                        <a href="http://facebook.com"><img class="footer-social-logos__logo" src="jpg/FacebookLogo.png" alt="Facebook Link Logo" width="113" height="33" ></a>
+                        <a href="http://twitter.com"><img class="footer-social-logos__logo" src="jpg/TwitterLogo.png" alt="Twitter Link Logo" width="98" height="33" ></a>
+                        <a href="http://youtube.com"><img class="footer-social-logos__logo" src="jpg/YoutubeLogo.png" alt="Youtube Link Logo" width="107" height="33" ></a>
+                        <a href="http://instagram.com"><img class="footer-social-logos__logo" src="jpg/InstagramPicutre.png" alt="Instagram Link Logo" width="116" height="33" ></a>
+                    </div>
+                </div>
+
+                <!-- Start informace ve footeru-->
+                <div class="footer-info__wrapper">
+                    <section class = "footer-info">
+                        <article id = "footer-info__our-courses">
+                            <h2>
+                                Our Courses
+                            </h2>
+                            <ul>
+                                <div class="footer-info__our-courses__section">
+                                    <div class = "footer-info__our-courses__group">
+                                        <li><a href="#" title="Web Development" rel="next">Web Development</a> </li>
+                                        <li><a href="#" title="Business Studies" rel="next">Business Studies</a> </li>
+                                        <li><a href="#" title="Computer Engineering" rel="next">Web Development</a> </li>
+                                        <li><a href="#" title="English Learning" rel="next">English Learning</a> </li>
+                                        <li><a href="#" title="Graphic Design" rel="next">Graphic Design</a> </li>
+                                    </div>
+                                    <div class = "footer-info__our-courses__group">
+                                        <li><a href="#" title="Color Combinations" rel="next">Color Combinations</a> </li>
+                                        <li><a href="#" title="Software Development" rel="next">Software Development</a> </li>
+                                        <li><a href="#" title="Photography" rel="next">Photography</a> </li>
+                                        <li><a href="#" title="Advance WordPress" rel="next">Advance WordPress</a> </li>
+                                        <li><a href="#" title="Basic PSD to THML" rel="next">Basic PSD to THML</a> </li>
+                                    </div>
+                                </div> 
+                            </ul>
+                        </article>
+                        <article class = "footer-info__company">
+                            <h2>
+                                Company
+                            </h2>
+                            <ul>
+                                <li><a href="#" title="About Eduket" rel="next">About Eduket</a> </li>
+                                <li><a href="#" title="Meet Advisors" rel="next">Meet Advisors</a> </li>
+                                <li><a href="#" title="Join a Carrer" rel="next">Join a Carrer</a> </li>
+                                <li><a href="#" title="Latest Coures" rel="next">Latest Coures</a> </li>
+                                <li><a href="#" title="Newsletter" rel="next">Newsletter</a> </li>
+                            </ul>
+                        </article>
+                        <article class = "footer-info__newsletter">
+                            <h2>
+                                Newsletters
+                            </h2>
+                            <p>Sed ut perspiciatis unde omnis natus error sit voluptatem, Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                            
+                            <div class = "footer-info__newsletter__button">
+                                <form action="action.php" method="POST"></form>
+                                    <input for="mail" id="MailInput" name="mail" type="email" placeholder="Enter Your Email" >
+                                    <button><img src="jpg/ArrowNewsletter.png"  alt="Arrow News letter" width="48" height="13" ></button>
+                                </form> 
+                            </div>
+                            
+                        </article>
+                        <button type="button" id = "footer-button" onclick="ScrollUp()"><img src="jpg/Arrowbutton.png"> </button>
+                    </section>
+                </div>
+                <small class="footer-copyright">Copyright © 2020 <span style="color: white;">EduPlus</span> All Rights Reserved.</small>
+            </section>    
+        </footer>
+    </div>
+</body>

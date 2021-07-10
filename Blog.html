@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Grid</title>
+    <meta name="description" content="webova stranka do skoly">
+    <meta name="Author" content="Simon Malicek IT">
+    <link rel='stylesheet' href="css/Blog.css">
+    <script src="JS/script.js"></script>
+</head>
+
+<body>
+    <div class="main-grid">
+
+        <div class="welcome-background"></div>
+        <!-- Header start -->
+        <div class="main-grid__header">
+            <header>
+                <a href="#" rel="next" title="Main logo"><img src="jpg/logo.png" alt="Logo EduPlus" height="50" width='223'></a>
+                <nav>
+                    <ul class = "main-navigation"><!-- Zacatek seznamu, navigace--> 
+                        <li>
+                            <div class = "main-navigation__item" id="HomeNavButton">
+                                <a class = "main-navigation__text" id="HomeNavText" href="Home.html" rel="next" title="Navigation to the Home site">Home</a>   
+                                <img src="jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Home-sub-menu">
+                                    <ul>
+                                        <div class="main-navigation__item__sub-menu__decor"></div>
+                                        <li><a a href="./AboutUs.html">About Us</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div> 
+                            </div>    
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="CoursesNavButton">
+                            <a class = "main-navigation__text"   href="Courses.html" rel="next" title="Navigation to the Courses site">Courses</a>   
+                            <img src="jpg/NavArrowIcon.png">
+                            <div class = "main-navigation__item__sub-menu" id="Courses-sub-menu">
+                                <ul>
+                                    <div class="main-navigation__item__sub-menu__decor"></div>
+                                    <li><a a href="./OurCourses.html">Our Courses</a></li>
+                                    <li><a a href="./CoursesDetails.html">Courses Details</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                </ul>
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item"  id="EventsNavButton">
+                            <a class = "main-navigation__text"  href="Events.html" rel="next" title="Navigation to the Events site">Events</a>   
+                            <img src="jpg/NavArrowIcon.png">
+                            <div class = "main-navigation__item__sub-menu" id="Events-sub-menu">
+                                <ul>
+                                    <div class="main-navigation__item__sub-menu__decor"></div>
+                                    <li><a a href="./EventDetails.html">Event Details</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                </ul>
+                            </div>  
+                        </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="PagesNavButton">
+                                <a class = "main-navigation__text"   href="Pages.html" rel="next" title="Navigation to the Pages site">Pages</a>   
+                                <img src="jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Pages-sub-menu">
+                                    <ul>
+                                        <div class="main-navigation__item__sub-menu__decor"></div>
+                                        <li><a a href="./Instructor Details">Instructor Details</a></li>
+                                        <li><a a href="./FAQ.html">FAQ</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div>  
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="BlogNavButton">
+                                <a class = "main-navigation__text"   href="Blog.html" rel="next" title="Navigation to the Blog site"> Blog</a>   
+                                <img src="jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Blog-sub-menu">
+                                    <ul>
+                                        <div class="main-navigation__item__sub-menu__decor"></div>
+                                        <li><a a href="./Blog.html">Blog</a></li>
+                                        <li><a a href="./BlogDetailed.html">Blog Detailed</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div>  
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="ContacNavButton">
+                                <a class = "main-navigation__text"   href="ContactUs.html" rel="next" title="Navigation to the Contact site">Contact</a>   
+                            </div>  
+                        </li>
+                    </ul>
+                </nav>
+                <div class ="header-icons">
+                    <a href="https://www.facebook.com/"> <img src="jpg/FacebookIcon53x53.png" alt="Facebook Icon" width="53" height="53" ></a>
+                    <a href="https://www.YOUTUBE.com/"> <img src="jpg/YoutubeIcon53x53.png" alt="Youtube Icon" width="53" height="53" > </a>
+                    <a href="#" id="header__header-icons__sign-in"> <img src="jpg/SignInIcon123x53.png" alt="Sign In Icon" width="123" height="53" ></a>
+                    <a href="#"> <img class="header-icons__menu" src="jpg/MenuIcon9Dots.png" alt="Menu Icon" height="48" width="48"> </a>
+                </div>      
+            </header>
+        </div>
+        <!-- Header end -->
+
+        <!-- Background START-->
+        <div class="under-header__background">
+            <h1>Blog Grid</h1>
+            <span><a href="./Home.html">Home</a><small> > </small><a href="./OurCourses.html">Blog Grid</a></span>
+        </div>
+        <!-- Background END -->
+
+
+        <!-- Blog Grid START-->
+        <div class="blog-grid__background"></div>
+        <div class="blog-grid__wrapper">
+            <section class="blog-grid__blogs">
+                <article class="blog-grid__blogs__blog">
+                    <img class="blog-grid__blogs__blog__img" src="./jpg/4884785.jpg" alt="people" width="700">
+                    <div class="blog-grid__blogs__blog-wrapper">
+                        <small class="blog-grid__blogs__blog__tag"><a href="#">DESIGN</a></small>
+                        <a href="#"><h1 class="blog-grid__blogs__blog__headline">Inspire Design Decision With Ott Storch When Idea How To Sapce And Kern</h1></a>
+                        <div class="blog-grid__blogs__blog__info-wrapper">
+                            <div class="blog-grid__blogs__blog__info__name">
+                                <img class="blog-grid__blogs__blog__info" src="./jpg/person-icon.png" alt="person-icon">
+                                <small>By somalla Doe</small>
+                            </div>
+                            <div class="blog-grid__blogs__blog__info">
+                                <img class="blog-grid__blogs__blog__info__date-icon" src="./jpg/time-icon.png" alt="person-icon">
+                                <small>25 NOV 2020</small>
+                            </div>
+                            <div class="blog-grid__blogs__blog__info">
+                                <img class="blog-grid__blogs__blog__info__comment-icon" src="./jpg/comments-small.png" alt="person-icon">
+                                <small>Comments (50)</small>
+                            </div>
+                            <div class="blog-grid__blogs__blog__info">
+                                <img class="blog-grid__blogs__blog__info__like-icon" src="./jpg/IconOfLaptop.png" alt="person-icon" width="20">
+                                <small>Like (1K)</small>
+                            </div>
+                        </div>
+                        <p class="blog-grid__blogs__blog__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pretium velit lorem, id finibus dolor pretium sed. Sed vestibulum maximus dolor, tincidunt efficitur sapien condimentum ac. Proin vel justo elit. Duis ultrices euismod leo id tempor.</p>
+                        </p>
+                        <a href="#"><button class="blog-grid__blog__button"type="button">READ MORE</button></a>
+                    </div>
+                </article>
+                <article class="blog-grid__blogs__blog">
+                    <img class="blog-grid__blogs__blog__img" src="./jpg/group-diverse-people-having-business-meeting.jpg" alt="people" width="700">
+                    <div class="blog-grid__blogs__blog-wrapper">
+                        <small class="blog-grid__blogs__blog__tag"><a href="#">DESIGN</a></small>
+                        <a href="#"><h1 class="blog-grid__blogs__blog__headline">Inspire Design Decision With Ott Storch When Idea How To Sapce And Kern</h1></a>
+                        <div class="blog-grid__blogs__blog__info-wrapper">
+                            <div class="blog-grid__blogs__blog__info__name">
+                                <img class="blog-grid__blogs__blog__info" src="./jpg/person-icon.png" alt="person-icon">
+                                <small>By somalla Doe</small>
+                            </div>
+                            <div class="blog-grid__blogs__blog__info">
+                                <img class="blog-grid__blogs__blog__info__date-icon" src="./jpg/time-icon.png" alt="person-icon">
+                                <small>25 NOV 2020</small>
+                            </div>
+                            <div class="blog-grid__blogs__blog__info">
+                                <img class="blog-grid__blogs__blog__info__comment-icon" src="./jpg/comments-small.png" alt="person-icon">
+                                <small>Comments (50)</small>
+                            </div>
+                            <div class="blog-grid__blogs__blog__info">
+                                <img class="blog-grid__blogs__blog__info__like-icon" src="./jpg/IconOfLaptop.png" alt="person-icon" width="20">
+                                <small>Like (1K)</small>
+                            </div>
+                        </div>
+                        <p class="blog-grid__blogs__blog__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pretium velit lorem, id finibus dolor pretium sed. Sed vestibulum maximus dolor, tincidunt efficitur sapien condimentum ac. Proin vel justo elit. Duis ultrices euismod leo id tempor.</p>
+                        </p>
+                        <a href="#"><button class="blog-grid__blog__button"type="button">READ MORE</button></a>
+                    </div>
+                </article>
+                <article class="blog-grid__blogs__blog">
+                    <img class="blog-grid__blogs__blog__img" src="./jpg/top-view-photography-accesories-with-copy-space.jpg" alt="people" width="700">
+                    <div class="blog-grid__blogs__blog-wrapper">
+                        <small class="blog-grid__blogs__blog__tag"><a href="#">DESIGN</a></small>
+                        <a href="#"><h1 class="blog-grid__blogs__blog__headline">Inspire Design Decision With Ott Storch When Idea How To Sapce And Kern</h1></a>
+                        <div class="blog-grid__blogs__blog__info-wrapper">
+                            <div class="blog-grid__blogs__blog__info__name">
+                                <img class="blog-grid__blogs__blog__info" src="./jpg/person-icon.png" alt="person-icon">
+                                <small>By somalla Doe</small>
+                            </div>
+                            <div class="blog-grid__blogs__blog__info">
+                                <img class="blog-grid__blogs__blog__info__date-icon" src="./jpg/time-icon.png" alt="person-icon">
+                                <small>25 NOV 2020</small>
+                            </div>
+                            <div class="blog-grid__blogs__blog__info">
+                                <img class="blog-grid__blogs__blog__info__comment-icon" src="./jpg/comments-small.png" alt="person-icon">
+                                <small>Comments (50)</small>
+                            </div>
+                            <div class="blog-grid__blogs__blog__info">
+                                <img class="blog-grid__blogs__blog__info__like-icon" src="./jpg/IconOfLaptop.png" alt="person-icon" width="20">
+                                <small>Like (1K)</small>
+                            </div>
+                        </div>
+                        <p class="blog-grid__blogs__blog__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pretium velit lorem, id finibus dolor pretium sed. Sed vestibulum maximus dolor, tincidunt efficitur sapien condimentum ac. Proin vel justo elit. Duis ultrices euismod leo id tempor.</p>
+                        </p>
+                        <a href="#"><button class="blog-grid__blog__button"type="button">READ MORE</button></a>
+                    </div>
+                </article>
+                <article class="blog-grid__blogs__blog">
+                    <img class="blog-grid__blogs__blog__img" src="./jpg/OVEDMU0.jpg" alt="people" width="700">
+                    <div class="blog-grid__blogs__blog-wrapper">
+                        <small class="blog-grid__blogs__blog__tag"><a href="#">DESIGN</a></small>
+                        <a href="#"><h1 class="blog-grid__blogs__blog__headline">Inspire Design Decision With Ott Storch When Idea How To Sapce And Kern</h1></a>
+                        <div class="blog-grid__blogs__blog__info-wrapper">
+                            <div class="blog-grid__blogs__blog__info__name">
+                                <img class="blog-grid__blogs__blog__info" src="./jpg/person-icon.png" alt="person-icon">
+                                <small>By somalla Doe</small>
+                            </div>
+                            <div class="blog-grid__blogs__blog__info">
+                                <img class="blog-grid__blogs__blog__info__date-icon" src="./jpg/time-icon.png" alt="person-icon">
+                                <small>25 NOV 2020</small>
+                            </div>
+                            <div class="blog-grid__blogs__blog__info">
+                                <img class="blog-grid__blogs__blog__info__comment-icon" src="./jpg/comments-small.png" alt="person-icon">
+                                <small>Comments (50)</small>
+                            </div>
+                            <div class="blog-grid__blogs__blog__info">
+                                <img class="blog-grid__blogs__blog__info__like-icon" src="./jpg/IconOfLaptop.png" alt="person-icon" width="20">
+                                <small>Like (1K)</small>
+                            </div>
+                        </div>
+                        <p class="blog-grid__blogs__blog__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pretium velit lorem, id finibus dolor pretium sed. Sed vestibulum maximus dolor, tincidunt efficitur sapien condimentum ac. Proin vel justo elit. Duis ultrices euismod leo id tempor.</p>
+                        </p>
+                        <a href="#"><button class="blog-grid__blog__button"type="button">READ MORE</button></a>
+                    </div>
+                </article>
+                
+            </section>
+            <aside class="blog-grid__aside">
+                <div class="blog-grid__aside__search">
+                    <h2>Search Here</h2>
+                    <!-- 
+                    <div class="blog-grid__aside__search__searchbar">
+                        <input type="text" id="searhc-input" name="search-input" value="Keywords">
+                        <button type="button"><img src="./jpg/searchIcon68x68.png" alt="search icon" width="32"></button>
+                    </div>
+                    -->
+                    <div class="welcome-wrapper__search-bar">
+                        <input class="welcome-wrapper__search-bar__input" type="text" id="fname" value="Keywords">
+                        <button type="button"><img src="jpg/ZoomIcon.png" alt="Search Icon" width="20" height="20"></button>
+                    </div>
+                </div>
+                <section class="blog-grid__aside__menu">
+                        <article class="blog-grid__aside__menu__item">
+                            <a href="#"> 
+                                <h1>Web Design</h1>
+                                <span>➜</span>
+                            </a>
+                        </article>
+                        <article class="blog-grid__aside__menu__item">
+                            <a href="#"> 
+                                <h1>Computer Enginnering</h1>
+                                <span>➜</span>
+                            </a>
+                        </article>
+                        <article class="blog-grid__aside__menu__item">
+                            <a href="#"> 
+                                <h1>Business Studies</h1>
+                                <span>➜</span>
+                            </a>
+                        </article>
+                        <article class="blog-grid__aside__menu__item">
+                            <a href="#"> 
+                                <h1>Medicine</h1>
+                                <span>➜</span>
+                            </a>
+                        </article>
+                        <article class="blog-grid__aside__menu__item">
+                            <a href="#"> 
+                                <h1>Web Development</h1>
+                                <span>➜</span>
+                            </a>
+                        </article>
+                        <article class="blog-grid__aside__menu__item">
+                            <a href="#"> 
+                                <h1>English</h1>
+                                <span>➜</span>
+                            </a>
+                        </article>
+                </section>
+
+                <section class="blog-grid__aside__recent-news">
+                    <h1>Recent News</h1>
+                    <article class="blog-grio__aside__recent-news__article">
+                        <a href="#"><img src="./jpg/pexels-photo-414974.jpeg" width="64" alt="article cover"></a>
+                        <div class="blog-grio__aside__recent-news__article__text-wrapper">
+                            <a href="#"><h2>Starting Podcast Epis 15 Lia</h2></a>
+                            <h3>By Silva Hola</h3>
+                        </div>
+                    </article>
+                    <div class="blog-grio__aside__recent-news__article__decor"></div>
+                    <article class="blog-grio__aside__recent-news__article">
+                        <a href="#"> <img src="./jpg/group-diverse-people-having-business-meeting.jpg" width="64" alt="article cover"></a>
+                        <div class="blog-grio__aside__recent-news__article__text-wrapper">
+                            <a href="#"></a><a href="#"><h2>Starting Podcast Epis 15 Lia</h2></a>
+                            <h3>By Silva Hola</h3>
+                        </div>
+                    </article>
+                    <div class="blog-grio__aside__recent-news__article__decor"></div>
+                    
+                    <article class="blog-grio__aside__recent-news__article">
+                        <a href="#"><img src="./jpg/group-770.png" width="64" alt="article cover"></a>
+                        <div class="blog-grio__aside__recent-news__article__text-wrapper">
+                            <a href="#"><h2>Starting Podcast Epis 15 Lia</h2></a>
+                            <h3>By Silva Hola</h3>
+                        </div>
+                    </article>
+                    <div class="blog-grio__aside__recent-news__article__decor"></div>
+                    <article class="blog-grio__aside__recent-news__article">
+                        <a href="#"><img src="./jpg/business-people-meeting.jpg" width="64" alt="article cover"></a>
+                        <div class="blog-grio__aside__recent-news__article__text-wrapper">
+                            <a href="#"><h2>Starting Podcast Epis 15 Lia</h2></a>
+                            <h3>By Silva Hola</h3>
+                        </div>
+                    </article>
+                    
+                </section>
+
+                <section class="blog-grid__aside__gallery">
+                    <h1>Photo Gallery</h1>
+                    <div class="blog-grid__aside__gallery__photos-wrapper">
+                        <div class="blog-grid__aside__gallery__photo">
+                            <img class="blog-grid__aside__gallery__photo__img" src="./jpg/photo8.png" alt="photo">
+                            <a class="blog-grid__aside__gallery__photo-pop-up" href="https://instagram.com">
+                                <div>
+                                <img src="./jpg/instagram-icon-white.png" alt="instagram-icon">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blog-grid__aside__gallery__photo">
+                            <img class="blog-grid__aside__gallery__photo__img" src="./jpg/photo3.png" alt="photo">
+                            <a class="blog-grid__aside__gallery__photo-pop-up" href="https://instagram.com">
+                                <div>
+                                <img src="./jpg/instagram-icon-white.png" alt="instagram-icon">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blog-grid__aside__gallery__photo">
+                            <img class="blog-grid__aside__gallery__photo__img" src="./jpg/photo4.png" alt="photo">
+                            <a class="blog-grid__aside__gallery__photo-pop-up" href="https://instagram.com">
+                                <div>
+                                <img src="./jpg/instagram-icon-white.png" alt="instagram-icon">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blog-grid__aside__gallery__photo">
+                            <img class="blog-grid__aside__gallery__photo__img" src="./jpg/photo5.png" alt="photo">
+                            <a class="blog-grid__aside__gallery__photo-pop-up" href="https://instagram.com">
+                                <div>
+                                <img src="./jpg/instagram-icon-white.png" alt="instagram-icon">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blog-grid__aside__gallery__photo">
+                            <img class="blog-grid__aside__gallery__photo__img" src="./jpg/photo6.png" alt="photo">
+                            <a class="blog-grid__aside__gallery__photo-pop-up" href="https://instagram.com">
+                                <div>
+                                <img src="./jpg/instagram-icon-white.png" alt="instagram-icon">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blog-grid__aside__gallery__photo">
+                            <img class="blog-grid__aside__gallery__photo__img" src="./jpg/photo7.png" alt="photo">
+                            <a class="blog-grid__aside__gallery__photo-pop-up" href="https://instagram.com">
+                                <div>
+                                <img src="./jpg/instagram-icon-white.png" alt="instagram-icon">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="blog-grid__aside__tags">
+                    <h1>Popular Tags</h1>
+                    <div class="blog-grid__aside__tags-wrapper">
+                        <div class="blog-grid__aside__tags__tag-wrapper">
+                            <a href="#">
+                            <div class="blog-grid__aside__tags__tag">
+                                Portfolio
+                            </div></a>
+                        </div>
+                        <div class="blog-grid__aside__tags__tag-wrapper">
+                            <a href="#">
+                            <div class="blog-grid__aside__tags__tag">
+                                Energy
+                            </div></a>
+                        </div>
+                        <div class="blog-grid__aside__tags__tag-wrapper">
+                            <a href="#">
+                            <div class="blog-grid__aside__tags__tag">
+                                Resume
+                            </div></a>
+                        </div>
+                        <div class="blog-grid__aside__tags__tag-wrapper">
+                            <a href="#">
+                            <div class="blog-grid__aside__tags__tag">
+                                Gallery
+                            </div></a>
+                        </div>
+                        <div class="blog-grid__aside__tags__tag-wrapper">
+                            <a href="#">
+                            <div class="blog-grid__aside__tags__tag">
+                                Renewable
+                            </div></a>
+                        </div>
+                    </div>
+                </section>
+
+                <img class="blog-grid__aside__ad" src="./jpg/rekl-banner.jpg" alt="rek">
+            </aside>
+        </div>
+        <!-- Blog Grid END-->
+
+
+
+
+
+
+        <!-- FOOTER start -->
+        <!-- LOGOS Start -->
+
+        <div class="footer-info__background"></div>
+        <footer>
+        <!--LOGOS END -->
+            <section class = "footer-wrapper">
+                <div class = "footer-social-logos__backbround"></div>
+                <div class = "footer-social-logos">
+                    <a href="#"><img id = "footer-edu-logo"src="jpg/EduPlusLogoWhite.png" alt="EduLogo" width="222" height="50" ></a>
+                    <div class="footer__logos-wrapper">
+                        <a href="http://facebook.com"><img class="footer-social-logos__logo" src="jpg/FacebookLogo.png" alt="Facebook Link Logo" width="113" height="33" ></a>
+                        <a href="http://twitter.com"><img class="footer-social-logos__logo" src="jpg/TwitterLogo.png" alt="Twitter Link Logo" width="98" height="33" ></a>
+                        <a href="http://youtube.com"><img class="footer-social-logos__logo" src="jpg/YoutubeLogo.png" alt="Youtube Link Logo" width="107" height="33" ></a>
+                        <a href="http://instagram.com"><img class="footer-social-logos__logo" src="jpg/InstagramPicutre.png" alt="Instagram Link Logo" width="116" height="33" ></a>
+                    </div>
+                </div>
+
+                <!-- Start informace ve footeru-->
+                <div class="footer-info__wrapper">
+                    <section class = "footer-info">
+                        <article id = "footer-info__our-courses">
+                            <h2>
+                                Our Courses
+                            </h2>
+                            <ul>
+                                <div class="footer-info__our-courses__section">
+                                    <div class = "footer-info__our-courses__group">
+                                        <li><a href="#" title="Web Development" rel="next">Web Development</a> </li>
+                                        <li><a href="#" title="Business Studies" rel="next">Business Studies</a> </li>
+                                        <li><a href="#" title="Computer Engineering" rel="next">Web Development</a> </li>
+                                        <li><a href="#" title="English Learning" rel="next">English Learning</a> </li>
+                                        <li><a href="#" title="Graphic Design" rel="next">Graphic Design</a> </li>
+                                    </div>
+                                    <div class = "footer-info__our-courses__group">
+                                        <li><a href="#" title="Color Combinations" rel="next">Color Combinations</a> </li>
+                                        <li><a href="#" title="Software Development" rel="next">Software Development</a> </li>
+                                        <li><a href="#" title="Photography" rel="next">Photography</a> </li>
+                                        <li><a href="#" title="Advance WordPress" rel="next">Advance WordPress</a> </li>
+                                        <li><a href="#" title="Basic PSD to THML" rel="next">Basic PSD to THML</a> </li>
+                                    </div>
+                                </div> 
+                            </ul>
+                        </article>
+                        <article class = "footer-info__company">
+                            <h2>
+                                Company
+                            </h2>
+                            <ul>
+                                <li><a href="#" title="About Eduket" rel="next">About Eduket</a> </li>
+                                <li><a href="#" title="Meet Advisors" rel="next">Meet Advisors</a> </li>
+                                <li><a href="#" title="Join a Carrer" rel="next">Join a Carrer</a> </li>
+                                <li><a href="#" title="Latest Coures" rel="next">Latest Coures</a> </li>
+                                <li><a href="#" title="Newsletter" rel="next">Newsletter</a> </li>
+                            </ul>
+                        </article>
+                        <article class = "footer-info__newsletter">
+                            <h2>
+                                Newsletters
+                            </h2>
+                            <p>Sed ut perspiciatis unde omnis natus error sit voluptatem, Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                            
+                            <div class = "footer-info__newsletter__button">
+                                <form action="action.php" method="POST"></form>
+                                    <input for="mail" id="MailInput" name="mail" type="email" placeholder="Enter Your Email" >
+                                    <button><img src="jpg/ArrowNewsletter.png"  alt="Arrow News letter" width="48" height="13" ></button>
+                                </form> 
+                            </div>
+                            
+                        </article>
+                        <button type="button" id = "footer-button" onclick="ScrollUp()"><img src="jpg/Arrowbutton.png"> </button>
+                    </section>
+                </div>
+                <small class="footer-copyright">Copyright © 2020 <span style="color: white;">EduPlus</span> All Rights Reserved.</small>
+            </section>    
+        </footer>
+    </div>
+</body>
