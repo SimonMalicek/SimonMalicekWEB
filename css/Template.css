@@ -471,7 +471,7 @@ footer ul{
 
 
 
-
+}
 
 @media screen and (max-width: 615px) {
     #header__header-icons__sign-in {
@@ -479,6 +479,7 @@ footer ul{
     }
 
 
+}
 
 /* PHONE */
 @media screen and (max-width: 600px) {
@@ -575,8 +576,3 @@ footer ul{
    }
     
 }
-
-
-
-
-/* ################################################################ */

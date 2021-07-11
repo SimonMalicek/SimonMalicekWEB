@@ -765,6 +765,8 @@ footer ul{
 /* ################################################################ */
 /* Media queries */
 
+
+
 @media screen and (max-width: 1300px) {
     .main-navigation{margin: 0;}
     .header-icons{
@@ -846,7 +848,7 @@ footer ul{
         padding-left: 3.5em;
     }
 
-
+}
 
 /* PHONE */
 @media screen and (max-width: 600px) {

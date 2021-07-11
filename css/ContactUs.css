@@ -305,6 +305,7 @@ a.main-navigation__text {
     justify-content: space-between;
     align-self:baseline;
     margin-bottom: 2em;
+    flex-wrap: wrap;
 }
 
 .form{
@@ -582,11 +583,27 @@ footer ul{
     .header-icons{
         margin-left: 0;
         margin-right: 0;
+
+    }
+
+
+    .form__form-3input-wrapper {
+        flex-direction: column ;
+    }
+
+    #textbox{
+        width: 30em;
+    }
+    .form__form__cell{
+        margin-top: 1em;
+        margin-bottom: em;
+    }
+
+    #email-cell{
+        margin: 0;
+        margin-top: 1em;
     }
 }
-
-
-
 
 
 /* TABLET */
@@ -641,13 +658,13 @@ footer ul{
 
 
 
-
+}
 
 @media screen and (max-width: 615px) {
     #header__header-icons__sign-in {
         padding-left: 3.5em;
     }
-
+}
 
 
 /* PHONE */
@@ -714,8 +731,7 @@ footer ul{
 
    .footer-social-logos {
     margin-left: 0em;
-  
-}
+    }
 
    .footer-info {
        margin: 0;
@@ -731,8 +747,7 @@ footer ul{
     display: block;
     word-wrap: break-word;
     width: 20em;
-
-}
+   }
 
    #footer-button {
        margin-top: 2em;
@@ -745,8 +760,3 @@ footer ul{
    }
     
 }
-
-
-
-
-/* ################################################################ */
