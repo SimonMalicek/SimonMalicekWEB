@@ -13,10 +13,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Template</title>
+    <title>Course Details</title>
     <meta name="description" content="webova stranka do skoly">
     <meta name="Author" content="Simon Malicek IT">
-    <link rel='stylesheet' href="css/Template.css">
+    <link rel='stylesheet' href="css/CourseDetails.css">
     <script src="JS/script.js"></script>
 </head>
 
@@ -24,97 +24,97 @@
     <div class="main-grid">
 
         <div class="welcome-background"></div>
-       <!-- Header start -->
-       <div class="main-grid__header">
-        <header>
-            <a href="#" rel="next" title="Main logo"><img src="jpg/logo.png" alt="Logo EduPlus" height="50" width='223'></a>
-            <nav>
-                <ul class = "main-navigation"><!-- Zacatek seznamu, navigace--> 
-                    <li>
-                        <div class = "main-navigation__item" id="HomeNavButton">
-                            <a class = "main-navigation__text" id="HomeNavText" href="./01_Home.html" rel="next" title="Navigation to the Home site">Home</a>   
+        <!-- Header start -->
+        <div class="main-grid__header">
+            <header>
+                <a href="#" rel="next" title="Main logo"><img src="jpg/logo.png" alt="Logo EduPlus" height="50" width='223'></a>
+                <nav>
+                    <ul class = "main-navigation"><!-- Zacatek seznamu, navigace--> 
+                        <li>
+                            <div class = "main-navigation__item" id="HomeNavButton">
+                                <a class = "main-navigation__text" id="HomeNavText" href="./01_Home.html" rel="next" title="Navigation to the Home site">Home</a>   
+                                <img src="jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Home-sub-menu">
+                                    <ul>
+                                        <div class="main-navigation__item__sub-menu__decor"></div>
+                                        <li><a a href="./02_AboutUs.html">About Us</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div> 
+                            </div>    
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="CoursesNavButton">
+                            <a class = "main-navigation__text"   href="./05_OurCourses.html" rel="next" title="Navigation to the Courses site">Courses</a>   
                             <img src="jpg/NavArrowIcon.png">
-                            <div class = "main-navigation__item__sub-menu" id="Home-sub-menu">
+                            <div class = "main-navigation__item__sub-menu" id="Courses-sub-menu">
                                 <ul>
                                     <div class="main-navigation__item__sub-menu__decor"></div>
-                                    <li><a a href="./02_AboutUs.html">About Us</a></li>
-                                    <li><a a href="#">Link</a></li>
+                                    <li><a a href="./05_OurCourses.html">Our Courses</a></li>
+                                    <li><a a href="./06_CoursesDetails.html">Courses Details</a></li>
                                     <li><a a href="#">Link</a></li>
                                 </ul>
-                            </div> 
-                        </div>    
-                    </li>
-                    <li>
-                        <div class = "main-navigation__item" id="CoursesNavButton">
-                        <a class = "main-navigation__text"   href="./05_OurCourses.html" rel="next" title="Navigation to the Courses site">Courses</a>   
-                        <img src="jpg/NavArrowIcon.png">
-                        <div class = "main-navigation__item__sub-menu" id="Courses-sub-menu">
-                            <ul>
-                                <div class="main-navigation__item__sub-menu__decor"></div>
-                                <li><a a href="./05_OurCourses.html">Our Courses</a></li>
-                                <li><a a href="./06_CoursesDetails.html">Courses Details</a></li>
-                                <li><a a href="#">Link</a></li>
-                            </ul>
-                        </div>  
-                    </li>
-                    <li>
-                        <div class = "main-navigation__item"  id="EventsNavButton">
-                        <a class = "main-navigation__text"  href="08_EventDetails.html" rel="next" title="Navigation to the Events site">Events</a>   
-                        <img src="jpg/NavArrowIcon.png">
-                        <div class = "main-navigation__item__sub-menu" id="Events-sub-menu">
-                            <ul>
-                                <div class="main-navigation__item__sub-menu__decor"></div>
-                                <li><a a href="./08_EventDetails.html">Event Details</a></li>
-                                <li><a a href="#">Link</a></li>
-                                <li><a a href="#">Link</a></li>
-                            </ul>
-                        </div>  
-                    </div>  
-                    </li>
-                    <li>
-                        <div class = "main-navigation__item" id="PagesNavButton">
-                            <a class = "main-navigation__text"   href="10_InstructorDetails.html" rel="next" title="Navigation to the Pages site">Pages</a>   
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item"  id="EventsNavButton">
+                            <a class = "main-navigation__text"  href="08_EventDetails.html" rel="next" title="Navigation to the Events site">Events</a>   
                             <img src="jpg/NavArrowIcon.png">
-                            <div class = "main-navigation__item__sub-menu" id="Pages-sub-menu">
+                            <div class = "main-navigation__item__sub-menu" id="Events-sub-menu">
                                 <ul>
                                     <div class="main-navigation__item__sub-menu__decor"></div>
-                                    <li><a a href="./10_InstructorDetails.html Details">Instructor Details</a></li>
-                                    <li><a a href="./11_FAQ.html">FAQ</a></li>
+                                    <li><a a href="./08_EventDetails.html">Event Details</a></li>
+                                    <li><a a href="#">Link</a></li>
                                     <li><a a href="#">Link</a></li>
                                 </ul>
                             </div>  
                         </div>  
-                    </li>
-                    <li>
-                        <div class = "main-navigation__item" id="BlogNavButton">
-                            <a class = "main-navigation__text"   href="13_BlogStandar.html" rel="next" title="Navigation to the Blog site"> Blog</a>   
-                            <img src="jpg/NavArrowIcon.png">
-                            <div class = "main-navigation__item__sub-menu" id="Blog-sub-menu">
-                                <ul>
-                                    <div class="main-navigation__item__sub-menu__decor"></div>
-                                    <li><a a href="./13_BlogStandar.html">Blog Grid</a></li>
-                                    <li><a a href="./14_BlogDetails.html">Blog Detailed</a></li>
-                                    <li><a a href="#">Link</a></li>
-                                </ul>
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="PagesNavButton">
+                                <a class = "main-navigation__text"   href="10_InstructorDetails.html" rel="next" title="Navigation to the Pages site">Pages</a>   
+                                <img src="jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Pages-sub-menu">
+                                    <ul>
+                                        <div class="main-navigation__item__sub-menu__decor"></div>
+                                        <li><a a href="./10_InstructorDetails.html Details">Instructor Details</a></li>
+                                        <li><a a href="./11_FAQ.html">FAQ</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div>  
                             </div>  
-                        </div>  
-                    </li>
-                    <li>
-                        <div class = "main-navigation__item" id="ContacNavButton">
-                            <a class = "main-navigation__text"   href="15ContactUs.html" rel="next" title="Navigation to the Contact site">Contact</a>   
-                        </div>  
-                    </li>
-                </ul>
-            </nav>
-            <div class ="header-icons">
-                <a href="https://www.facebook.com/"> <img src="jpg/FacebookIcon53x53.png" alt="Facebook Icon" width="53" height="53" ></a>
-                <a href="https://www.YOUTUBE.com/"> <img src="jpg/YoutubeIcon53x53.png" alt="Youtube Icon" width="53" height="53" > </a>
-                <a href="#" id="header__header-icons__sign-in"> <img src="jpg/SignInIcon123x53.png" alt="Sign In Icon" width="123" height="53" ></a>
-                <a href="#"> <img class="header-icons__menu" src="jpg/MenuIcon9Dots.png" alt="Menu Icon" height="48" width="48"> </a>
-            </div>      
-        </header>
-    </div>
-    <!-- Header end -->
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="BlogNavButton">
+                                <a class = "main-navigation__text"   href="13_BlogStandar.html" rel="next" title="Navigation to the Blog site"> Blog</a>   
+                                <img src="jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Blog-sub-menu">
+                                    <ul>
+                                        <div class="main-navigation__item__sub-menu__decor"></div>
+                                        <li><a a href="./13_BlogStandar.html">Blog Grid</a></li>
+                                        <li><a a href="./14_BlogDetails.html">Blog Detailed</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div>  
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="ContacNavButton">
+                                <a class = "main-navigation__text"   href="15ContactUs.html" rel="next" title="Navigation to the Contact site">Contact</a>   
+                            </div>  
+                        </li>
+                    </ul>
+                </nav>
+                <div class ="header-icons">
+                    <a href="https://www.facebook.com/"> <img src="jpg/FacebookIcon53x53.png" alt="Facebook Icon" width="53" height="53" ></a>
+                    <a href="https://www.YOUTUBE.com/"> <img src="jpg/YoutubeIcon53x53.png" alt="Youtube Icon" width="53" height="53" > </a>
+                    <a href="#" id="header__header-icons__sign-in"> <img src="jpg/SignInIcon123x53.png" alt="Sign In Icon" width="123" height="53" ></a>
+                    <a href="#"> <img class="header-icons__menu" src="jpg/MenuIcon9Dots.png" alt="Menu Icon" height="48" width="48"> </a>
+                </div>      
+            </header>
+        </div>
+        <!-- Header end -->
 
         <!-- Our Courses START-->
         <div class="under-header__background">

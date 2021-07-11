@@ -1,0 +1,752 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4 {
+    font-family: Roboto;
+}
+
+
+p, small{
+    font-family: Hind;
+}
+
+input, select, textarea{
+    color: darkgray;
+}
+
+a, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+    font-family: Hind;
+  }
+
+a:hover {
+    color: coral;
+}
+
+
+
+
+
+/* GRID*/
+/* Tady zacina grid*/
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    /*
+    grid-template-rows: 5.5em 57em 72em 65em 72em 45em 72em 61em 52em 65em 15em 32.5em;
+    */
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+
+}
+
+
+.main-grid__header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: rgb(238, 255, 253);
+
+}
+
+
+/* HEADER Start*/
+
+
+header{  
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5em;
+    margin-left: 2.3em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.main-navigation__item > img{
+    margin-left: 5px;
+
+}
+.main-navigation {
+    display: flex;
+    margin-right: 3em;
+    margin-left: 3em;
+    list-style-type: none;
+}
+
+a.main-navigation__text {
+    float: left;
+    display: block;
+    margin-left: 1.5em;
+}
+
+.main-navigation__item{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hearder-icons img {
+    margin-left: 3.3em;
+}
+
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3em;
+}
+.header-icons a{
+    margin-left: 0.3em;
+}
+.header-icons__menu {
+    margin-left: 0;
+}
+
+
+
+
+
+.main-navigation__item__sub-menu{
+    display: none;
+    position: relative;
+}
+
+.main-navigation__item__sub-menu__decor{
+    padding-top: 0.2em;
+    background-color: rgb(253, 77, 23);
+}
+.main-navigation__item__sub-menu li {
+    color: rgb(68, 68, 68);
+    background-color: rgb(238, 255, 253);
+    display: inline-block;
+    padding: 0.5em;
+    width: 10em;
+}
+
+.main-navigation__item__sub-menu>ul{
+    list-style-type: none;
+}
+
+
+
+.main-navigation__item:hover .main-navigation__item__sub-menu{
+    display: block;
+    position: absolute;
+    top: 0.5em;
+    left: 1.5em;
+    padding-top: 1em;
+    margin-top: 0.5em;
+}
+
+.main-navigation__item:hover {
+    color: coral;
+    cursor: pointer;
+}
+.main-navigation__item__sub-menu li:hover, .main-navigation__item__sub-menu a:hover {
+    background-color: coral;
+    color: white;
+}
+
+
+
+/* HEADER End */
+
+
+
+/* Under header-background START */
+
+.under-header__background {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-image: url(../jpg/about-us-background.png);
+    background-size: cover;
+    background-position:center ;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.under-header__background h1{
+    margin: 0.5em;
+    font-size: 4em;
+}
+
+.under-header__background a{
+    margin: 1em;
+}
+
+/* Under header-background END */
+
+
+/*  Contatct Us START */
+
+.contact-us__background{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background-color: rgb(238, 255, 253);
+}
+
+.contact-us__wrapper {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    display: flex;
+    flex-direction: column;
+}
+
+.get-in-touch__wrapper{
+    margin-top: 5em;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 80em;
+    margin-bottom: 0em;
+}
+
+.get-in-touch__main{
+    padding: 2em;
+    max-width: 30em;
+}
+.get-in-touch__main__headline-small h1{
+    display: inline-block;
+    color: rgb(253, 77, 23);
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.get-in-touch__main h2{
+    font-size: 3em;
+}
+
+.get-in-touch__main p{
+    color: grey;
+    max-width: 22em;
+}
+
+.get-in-touch__main__details-wrapper{
+    display: flex;
+    max-width: 20em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.get-in-touch__main__details-wrapper img {
+    max-width: 10em;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 1em;
+  
+}
+
+#phone{
+    margin-right: 30px;
+}
+
+.get-in-touch__main__decor{
+    max-width: 22em;
+    padding-top: 1px;
+    background-color: lightgray;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.get-in-touch__main__socials{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* FORM START */
+
+.form-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form__headline-small{
+    margin-bottom: 1em;
+}
+.form__headline-small img, .form__headline-small h1{
+    display: inline-block;
+    color: #ea5822;
+    font-size: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+}
+
+
+.form-wrapper h2{
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.form-wrapper form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__form-3input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-self:baseline;
+    margin-bottom: 2em;
+}
+
+.form{
+    width: 50em;
+}
+
+.form__form__cell{
+    background-color: white;
+    padding: 1em;
+    color: black;
+
+}
+#email-cell{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+form input{
+    color: black;
+    font-weight: bold;
+    border: none;
+
+    font-size: 1em;
+}
+
+form textarea{
+    color: black;
+    font-family: Hind;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 2em;
+    border: none;
+}
+
+.form-wrapper button{
+    border: none;
+    background-color: #ea5822;
+    padding: 2em;
+    padding-left: 15em;
+    color: white;
+    font-weight: bold;
+    padding-right: 15em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.form-wrapper button:hover{
+   
+    cursor: pointer;
+    background-color: rgb(214, 57, 0);
+}
+
+
+/* Form END */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Start */
+
+.main-grid__footer{
+    grid-column: 1/4;
+
+}
+
+
+footer{
+    grid-column: 2/3;
+    grid-row: 12/13;
+    color: rgb(245, 245, 245);
+    font-family: Hind;
+}
+
+.footer-info__background{
+    grid-column: 1/4;
+    grid-row: 12/14;
+    background-image: url(../jpg/FootgetBackground.png);
+
+}
+footer ul{
+    list-style-type: none;
+}
+
+
+/* Zacatek velkych log pred footerem */
+
+.footer-big-logos {
+    grid-column: 2/3;
+    grid-row: 11/12;
+    padding-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-big-logos__color{
+    background-color: #ea5822;
+    grid-column: 1/4;
+    grid-row: 11/12;
+}
+
+.footer-big-logos a{
+    margin: 2em;
+    margin-bottom: 2em;
+}
+
+/* Konec velkych log pred footerem */
+
+
+
+
+/* Background pro footer (nevim jestli je to takhle spravne) */
+.footer-background {
+    grid-column: 1/4;
+    grid-row: 12/13;
+    background-color: rgb(0, 23, 49);
+    width: 1920px;
+    margin-left: -17px;
+
+}
+
+
+
+/* footer Edu logo a socials*/
+
+
+.footer-social-logos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5em;
+    margin-top: 4em;
+    grid-column: 2/4;
+    align-items: center;
+
+}
+
+
+.footer__logos-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+.footer-social-logos__logo{
+    margin-bottom: 0.3em;
+    margin-right: 3.6em;
+}
+
+
+
+/* footer info a odkazy */
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-info {
+    margin-top: 5.5em;
+    margin-left: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-info article {
+    margin-bottom: 1em;
+}
+
+.footer-info h2 {
+    margin-bottom: 0.5em;
+}
+.footer-info a, .footer-info p,.footer-info  small {
+    color: gray;
+}
+
+.footer-info a:hover {
+    color: coral;
+}
+
+.footer-info__our-courses__section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-info__our-courses__section>div{
+    margin-right: 1.5em;
+}
+
+.footer-info__company {
+    margin: 0em;
+}
+
+
+/* START News Letter*/
+
+.footer-info__newsletter p {
+    display: block;
+    word-wrap: break-word;
+    width: 30em;
+
+}
+
+.footer-info__newsletter__button{
+    padding-top: 2em;
+
+}
+
+.footer-info__newsletter__button input{
+    border: none;
+    padding: 1.5em;
+    width: 70%;
+    height: 100%;
+    background-color: #0c3542;
+}
+
+.footer-info__newsletter__button button{
+    border: none;
+    padding: 1.5em;
+    position: relative;
+    right: 4px;
+    background-color: rgb(252, 115, 36);
+    
+    
+}
+
+.footer-info__newsletter__button button:hover{
+    background-color: rgb(214, 57, 0);
+}
+
+
+#footer-button {
+    padding: 1.5em;
+    background-color: rgb(40, 126, 255);
+    border: none;
+    height: 4em;
+    cursor: pointer;
+}
+
+#footer-button:hover{
+    background-color: rgb(28, 86, 173);
+}
+
+
+.footer-copyright {
+    background-color: #163441;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: 2em;
+    margin-left: 5.5em;
+    margin-right: 5.5em;
+    align-self: stretch;
+    text-align: center;
+}
+
+/* ################################################################ */
+/* Media queries */
+
+@media screen and (max-width: 1300px) {
+    .main-navigation{margin: 0;}
+    .header-icons{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+/* TABLET */
+@media screen and (max-width: 1024px) {
+
+    /* GRID START */
+
+    .main-grid{
+        grid-template-columns: 10% 80% 10%;
+    }
+
+
+    /* GRID END */
+
+    
+    .header-icons > a {display: none;}
+
+    .header-icons {
+        margin: 0;
+        padding: 0;
+    }
+    #header__header-icons__sign-in {
+        display: block;
+        padding-left: 10.4em;
+    }
+    
+    header{
+        flex-wrap: wrap;
+    }
+
+    nav{order: 3;}
+    .main-navigation{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #HomeNavButton{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    #HomeNavText{margin: 0;}
+
+    /* Header ENDS */
+
+    /*what our Students Say */
+    .students-feedback__photos-wrapper{
+        display: none;
+    }
+
+    .students-feedback__buttons-wrapper {
+        display: none;
+    }
+
+
+
+
+
+@media screen and (max-width: 615px) {
+    #header__header-icons__sign-in {
+        padding-left: 3.5em;
+    }
+
+
+
+/* PHONE */
+@media screen and (max-width: 600px) {
+
+    /* GRID START */
+
+    .main-grid{
+        grid-template-columns: 5% 90% 5%;
+    }
+
+    /* GRID END */
+
+
+
+    /* Header START */
+    header{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .header-icons {display: none;}
+
+
+    .main-navigation {
+        margin-top: 1em;
+        flex-direction: column;
+
+    }
+    
+    a.main-navigation__text {
+        font-size: 1.3em;
+        margin: 0;
+    }
+
+    .main-navigation__item img {display: none;}
+
+   
+    .main-navigation__item:hover .main-navigation__item__sub-menu{
+        display: none;
+    }
+    
+    .main-navigation__item:hover #Home-sub-menu{
+        display: none;
+    }
+    /* Header END */
+
+    /*Institute Gaosl */
+    .institue-goals{
+        flex-direction: column;
+        
+    }
+
+    .institute-goals__video{
+        max-width: 20em;
+        max-height: auto;
+    }
+
+
+
+
+   /*footer */
+
+   .footer-social-logos {
+    margin-left: 0em;
+  
+}
+
+   .footer-info {
+       margin: 0;
+   }
+   .footer-info__newsletter__button input {
+       width: 13em;
+   }
+   
+
+
+
+   .footer-info__newsletter p {
+    display: block;
+    word-wrap: break-word;
+    width: 20em;
+
+}
+
+   #footer-button {
+       margin-top: 2em;
+   }
+
+   
+   .footer-copyright{
+       margin-left: 0;
+       margin-right: 0;
+   }
+    
+}
+
+
+
+
+/* ################################################################ */

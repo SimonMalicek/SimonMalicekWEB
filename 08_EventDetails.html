@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Event Details</title>
+    <meta name="description" content="webova stranka do skoly">
+    <meta name="Author" content="Simon Malicek IT">
+    <link rel='stylesheet' href="css/EventDetails.css">
+    <script src="JS/script.js"></script>
+</head>
+
+<body>
+    <div class="main-grid">
+
+        <div class="welcome-background"></div>
+        <!-- Header start -->
+        <div class="main-grid__header">
+            <header>
+                <a href="#" rel="next" title="Main logo"><img src="jpg/logo.png" alt="Logo EduPlus" height="50" width='223'></a>
+                <nav>
+                    <ul class = "main-navigation"><!-- Zacatek seznamu, navigace--> 
+                        <li>
+                            <div class = "main-navigation__item" id="HomeNavButton">
+                                <a class = "main-navigation__text" id="HomeNavText" href="./01_Home.html" rel="next" title="Navigation to the Home site">Home</a>   
+                                <img src="jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Home-sub-menu">
+                                    <ul>
+                                        <div class="main-navigation__item__sub-menu__decor"></div>
+                                        <li><a a href="./02_AboutUs.html">About Us</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div> 
+                            </div>    
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="CoursesNavButton">
+                            <a class = "main-navigation__text"   href="./05_OurCourses.html" rel="next" title="Navigation to the Courses site">Courses</a>   
+                            <img src="jpg/NavArrowIcon.png">
+                            <div class = "main-navigation__item__sub-menu" id="Courses-sub-menu">
+                                <ul>
+                                    <div class="main-navigation__item__sub-menu__decor"></div>
+                                    <li><a a href="./05_OurCourses.html">Our Courses</a></li>
+                                    <li><a a href="./06_CoursesDetails.html">Courses Details</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                </ul>
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item"  id="EventsNavButton">
+                            <a class = "main-navigation__text"  href="08_EventDetails.html" rel="next" title="Navigation to the Events site">Events</a>   
+                            <img src="jpg/NavArrowIcon.png">
+                            <div class = "main-navigation__item__sub-menu" id="Events-sub-menu">
+                                <ul>
+                                    <div class="main-navigation__item__sub-menu__decor"></div>
+                                    <li><a a href="./08_EventDetails.html">Event Details</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                    <li><a a href="#">Link</a></li>
+                                </ul>
+                            </div>  
+                        </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="PagesNavButton">
+                                <a class = "main-navigation__text"   href="10_InstructorDetails.html" rel="next" title="Navigation to the Pages site">Pages</a>   
+                                <img src="jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Pages-sub-menu">
+                                    <ul>
+                                        <div class="main-navigation__item__sub-menu__decor"></div>
+                                        <li><a a href="./10_InstructorDetails.html Details">Instructor Details</a></li>
+                                        <li><a a href="./11_FAQ.html">FAQ</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div>  
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="BlogNavButton">
+                                <a class = "main-navigation__text"   href="13_BlogStandar.html" rel="next" title="Navigation to the Blog site"> Blog</a>   
+                                <img src="jpg/NavArrowIcon.png">
+                                <div class = "main-navigation__item__sub-menu" id="Blog-sub-menu">
+                                    <ul>
+                                        <div class="main-navigation__item__sub-menu__decor"></div>
+                                        <li><a a href="./13_BlogStandar.html">Blog Grid</a></li>
+                                        <li><a a href="./14_BlogDetails.html">Blog Detailed</a></li>
+                                        <li><a a href="#">Link</a></li>
+                                    </ul>
+                                </div>  
+                            </div>  
+                        </li>
+                        <li>
+                            <div class = "main-navigation__item" id="ContacNavButton">
+                                <a class = "main-navigation__text"   href="15ContactUs.html" rel="next" title="Navigation to the Contact site">Contact</a>   
+                            </div>  
+                        </li>
+                    </ul>
+                </nav>
+                <div class ="header-icons">
+                    <a href="https://www.facebook.com/"> <img src="jpg/FacebookIcon53x53.png" alt="Facebook Icon" width="53" height="53" ></a>
+                    <a href="https://www.YOUTUBE.com/"> <img src="jpg/YoutubeIcon53x53.png" alt="Youtube Icon" width="53" height="53" > </a>
+                    <a href="#" id="header__header-icons__sign-in"> <img src="jpg/SignInIcon123x53.png" alt="Sign In Icon" width="123" height="53" ></a>
+                    <a href="#"> <img class="header-icons__menu" src="jpg/MenuIcon9Dots.png" alt="Menu Icon" height="48" width="48"> </a>
+                </div>      
+            </header>
+        </div>
+        <!-- Header end -->
+        <div class="under-header__background">
+            <h1>Event Details</h1>
+            <span><a href="./Home.html">Home</a><small> > </small><a href="./EventDetais.html">Event Details</a></span>
+        </div>
+
+
+        <!-- Annual Conference START -->
+        <section class="annual-conference__wrapper">
+            <article class="annual-conference">
+                <h1>Annual Conference 2020</h1>
+                <div class="annual-conference__info">
+                    <div class="annual-conference__info-cell">
+                        <img src="./jpg/date-icon-small.png" alt="time icon">
+                        <small>25 November 2020</small>
+                    </div>
+                    <div class="annual-conference__info-cell">
+                        <img src="./jpg/ClockIcon.png" alt="ClockIc">
+                        <small>25 Sat - Friday 08 am - 09 pm</small>
+                    </div>
+                    <div class="annual-conference__info-cell">
+                        <img src="./jpg/person-icon.png" alt="people icon">
+                        <small>250 Main Stree, USA</small>
+                    </div>
+                    <div class="annual-conference__info-cell">
+                        <img src="./jpg/location-icon.png" alt="location-icon">
+                        <small>New York Museum</small>
+                    </div>
+                    <span>$20</span>
+                    <a class="annual-conference__info-cell_button"href="#"><span>JOIN EVENT</span></a>
+
+                </div>
+                <p> 
+                    Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie viverra felis. Nullam maximus pretium scelerisque. Ut in varius augue, feugiat sollicitudin lacus. Nam venenatis sem vitae imperdiet aliquam. Mauris gravida luctus turpis, vel ultricies orci. Maecenas vitae euismod sapien. Integer enim ex, placerat vel erat in, molestie suscipit nulla. Sed ac purus vitae justo hendrerit iaculis vitae cursus ex. Integer id pulvinar nisl, eu malesuada nibh. Vivamus at ullamcorper ante. Vivamus mattis posuere odio ut tempor. consectetur adipiscing elit. Nulla molestie viverra felis. Nullam maximus pretium scelerisque. Ut in varius augue, feugiat sollicitudin lacus. Nam venenatis sem vitae imperdiet aliquam. Mauris gravida luctus turpis, vel ultricies orci. Maecenas vitae euismod sapien. Integer enim ex, placerat vel erat in, molestie suscipit nulla. Sed ac purus vitae justo hendrerit iaculis vitae cursus ex. Integer id pulvinar nisl, eu malesuada nibh. Vivamus at ullamcorper ante. Vivamus mattis posuere odio ut tempor.
+                </p>
+                <img class="annual-conference__photo"src="./jpg/business-people-meeting.jpg" alt="photo of a meeting">
+                <p>
+                    Nulla neque libero, congue commodo dolor sit amet, placerat imperdiet diam. Donec tincidunt condimentum lectus in commodo. Etiam vitae leo tortor. In eget nunc a quam mollis pretium. Fusce viverra mi lorem, iaculis viverra ipsum tempus non. Donec mi lacus, placerat in nulla ac, tempor gravida tortor. Mauris dapibus auctor massa accumsan porta. Nulla maximus, quam sit amet facilisis viverra, felis sem fringilla nunc, et iaculis enim lacus eu sem. Ut ac congue est. Proin id malesuada dolor. Curabitur venenatis ante at molestie volutpat. Maecenas at sodales nunc, et faucibus nibh.
+                </p>
+                
+                <div class="annual-conference__importance-wrapper">
+                    
+                    <div class="annual-conference__importance">
+                        <h1>Importance Of Events</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie viverra felis. Nullam maximus pretium scelerisque. Ut in varius augue, feugiat sollicitudin lacus. Nam venenatis sem vitae imperdiet aliquam. Mauris gravida luctus turpis, vel ultricies orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie viverra felis.</p>
+                        <div class="annual-conference__importance__list">
+                            <div class="annual-conference__importance__list-item">
+                                <a href="#">✓</a>
+                                <a href="#">Creating Secure Password Flows With NodeJS And MySQL</a>
+                            </div>
+                            <div class="annual-conference__importance__list-item">
+                                <a href="#">✓</a>
+                                <a href="#">Make Honest Design Work For Digital Business With Design</a>
+                            </div>
+                            <div class="annual-conference__importance__list-item">
+                                <a href="#">✓</a>
+                                <a href="#">Building An E-Commere Site With October Version Of MS DOS</a>
+                            </div>
+                            <div class="annual-conference__importance__list-item">
+                                <a href="#">✓</a>
+                                <a href="#">Smashing Podcast episode 11 With Eduardo Boucaso What is</a>
+                            </div>
+                            <div class="annual-conference__importance__list-item">
+                                <a href="#">✓</a>
+                                <a href="#">Avoid These Mistakes, That Are Commonly Made on Your PC</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./jpg/map.png" alt="map">
+                </div>
+                <div class="annual-conference__decor"></div>
+                <div class="annual-conference__list">
+                   <article class="annual-conferece__list-item">
+                       <img src="./jpg/small-article-370.png" alt="people">
+                       <div class="annual-conferece__list-item__info">
+                           <div class="annual-conferece__list-item__info__date-wrapper">
+                               <img src="./jpg/time icon.png" alt="time icon">
+                               <small>08 AM - 09 PM</small>
+                               <img class src="./jpg/location-icon.png" alt="time icon">
+                               <small>25 NOV 2020</small>
+                           </div>
+                           <a href="#"><h1>Annual Conference</h1></a>
+                           <a href="#"><span>JOIN EVENT</span></a>
+                       </div>
+                   </article>
+                   <article class="annual-conferece__list-item">
+                    <img src="./jpg/small-article-370.png" alt="people">
+                    <div class="annual-conferece__list-item__info">
+                        <div class="annual-conferece__list-item__info__date-wrapper">
+                            <img src="./jpg/time icon.png" alt="time icon">
+                            <small>08 AM - 09 PM</small>
+                            <img class src="./jpg/location-icon.png" alt="time icon">
+                            <small>25 NOV 2020</small>
+                        </div>
+                        <a href="#"><h1>Annual Conference</h1></a>
+                        <a href="#"><span>JOIN EVENT</span></a>
+                    </div>
+                </article>
+                <article class="annual-conferece__list-item">
+                    <img src="./jpg/small-article-370.png" alt="people">
+                    <div class="annual-conferece__list-item__info">
+                        <div class="annual-conferece__list-item__info__date-wrapper">
+                            <img src="./jpg/time icon.png" alt="time icon">
+                            <small>08 AM - 09 PM</small>
+                            <img class src="./jpg/location-icon.png" alt="time icon">
+                            <small>25 NOV 2020</small>
+                        </div>
+                        <a href="#"><h1>Annual Conference</h1></a>
+                        <a href="#"><span>JOIN EVENT</span></a>
+                    </div>
+                </article>
+                </div>
+            </article>
+        </section>
+        <!-- Annual Conference END -->
+
+
+
+         <!-- FOOTER start -->
+        <!-- LOGOS Start -->
+        <div class = "footer-big-logos__color"></div>
+        <section class = "footer-big-logos">
+            <a href="#"> <img class = "footer-big-logos__logo" src="jpg/footer-logo-1.png" alt="Mouitain Logo"  ></a>
+            <a href="#"> <img class = "footer-big-logos__logo" src="jpg/footer-logo-5.png" alt="Mouitain Logo"  ></a>
+            <a href="#"> <img class = "footer-big-logos__logo" src="jpg/footer-logo-2.png" alt="Mouitain Logo"  ></a>
+            <a href="#"> <img class = "footer-big-logos__logo" src="jpg/footer-logo-4.png" alt="Mouitain Logo"  ></a>
+            <a href="#"> <img class = "footer-big-logos__logo" src="jpg/footer-logo-3.png" alt="Mouitain Logo"  ></a>
+        </section>
+        <div class="footer-info__background"></div>
+        <footer>
+        <!--LOGOS END -->
+            <section class = "footer-wrapper">
+                <div class = "footer-social-logos__backbround"></div>
+                <div class = "footer-social-logos">
+                    <a href="#"><img id = "footer-edu-logo"src="jpg/EduPlusLogoWhite.png" alt="EduLogo" width="222" height="50" ></a>
+                    <div class="footer__logos-wrapper">
+                        <a href="http://facebook.com"><img class="footer-social-logos__logo" src="jpg/FacebookLogo.png" alt="Facebook Link Logo" width="113" height="33" ></a>
+                        <a href="http://twitter.com"><img class="footer-social-logos__logo" src="jpg/TwitterLogo.png" alt="Twitter Link Logo" width="98" height="33" ></a>
+                        <a href="http://youtube.com"><img class="footer-social-logos__logo" src="jpg/YoutubeLogo.png" alt="Youtube Link Logo" width="107" height="33" ></a>
+                        <a href="http://instagram.com"><img class="footer-social-logos__logo" src="jpg/InstagramPicutre.png" alt="Instagram Link Logo" width="116" height="33" ></a>
+                    </div>
+                </div>
+
+                <!-- Start informace ve footeru-->
+                <div class="footer-info__wrapper">
+                    <section class = "footer-info">
+                        <article id = "footer-info__our-courses">
+                            <h2>
+                                Our Courses
+                            </h2>
+                            <ul>
+                                <div class="footer-info__our-courses__section">
+                                    <div class = "footer-info__our-courses__group">
+                                        <li><a href="#" title="Web Development" rel="next">Web Development</a> </li>
+                                        <li><a href="#" title="Business Studies" rel="next">Business Studies</a> </li>
+                                        <li><a href="#" title="Computer Engineering" rel="next">Web Development</a> </li>
+                                        <li><a href="#" title="English Learning" rel="next">English Learning</a> </li>
+                                        <li><a href="#" title="Graphic Design" rel="next">Graphic Design</a> </li>
+                                    </div>
+                                    <div class = "footer-info__our-courses__group">
+                                        <li><a href="#" title="Color Combinations" rel="next">Color Combinations</a> </li>
+                                        <li><a href="#" title="Software Development" rel="next">Software Development</a> </li>
+                                        <li><a href="#" title="Photography" rel="next">Photography</a> </li>
+                                        <li><a href="#" title="Advance WordPress" rel="next">Advance WordPress</a> </li>
+                                        <li><a href="#" title="Basic PSD to THML" rel="next">Basic PSD to THML</a> </li>
+                                    </div>
+                                </div> 
+                            </ul>
+                        </article>
+                        <article class = "footer-info__company">
+                            <h2>
+                                Company
+                            </h2>
+                            <ul>
+                                <li><a href="#" title="About Eduket" rel="next">About Eduket</a> </li>
+                                <li><a href="#" title="Meet Advisors" rel="next">Meet Advisors</a> </li>
+                                <li><a href="#" title="Join a Carrer" rel="next">Join a Carrer</a> </li>
+                                <li><a href="#" title="Latest Coures" rel="next">Latest Coures</a> </li>
+                                <li><a href="#" title="Newsletter" rel="next">Newsletter</a> </li>
+                            </ul>
+                        </article>
+                        <article class = "footer-info__newsletter">
+                            <h2>
+                                Newsletters
+                            </h2>
+                            <p>Sed ut perspiciatis unde omnis natus error sit voluptatem, Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
+                            
+                            <div class = "footer-info__newsletter__button">
+                                <form action="action.php" method="POST"></form>
+                                    <input for="mail" id="MailInput" name="mail" type="email" placeholder="Enter Your Email" >
+                                    <button><img src="jpg/ArrowNewsletter.png"  alt="Arrow News letter" width="48" height="13" ></button>
+                                </form> 
+                            </div>
+                            
+                        </article>
+                        <button type="button" id = "footer-button" onclick="ScrollUp()"><img src="jpg/Arrowbutton.png"> </button>
+                    </section>
+                </div>
+                <small class="footer-copyright">Copyright © 2020 <span style="color: white;">EduPlus</span> All Rights Reserved.</small>
+            </section>    
+        </footer>
+    </div>
+</body>
